@@ -1,0 +1,1431 @@
+[
+  {
+    "type": "basic",
+    "context": "Judgment",
+    "front": "Why does Hudson say judging someone hurts you physically?",
+    "back": "To judge, you have to clench and constrict your muscles.",
+    "text": "",
+    "extra": "He compares the small payoff, feeling better than them, to an addiction.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "How To Stop Being Judgmental - 3 Ways",
+    "source_url": "https://www.youtube.com/watch?v=oqQW8f2UZSc",
+    "tags": [
+      "judgment"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Judgment",
+    "front": "When someone judges you, what does Hudson say they are doing to themselves?",
+    "back": "Judging themselves about ten times harder.",
+    "text": "",
+    "extra": "The more judgmental a person is, the less good they feel about themselves. So the first person to stop judging is you.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "How To Stop Being Judgmental - 3 Ways",
+    "source_url": "https://www.youtube.com/watch?v=oqQW8f2UZSc",
+    "tags": [
+      "judgment"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Judgment",
+    "front": "",
+    "back": "",
+    "text": "Hudson calls judgment an emotional {{c1::eddy}}: the same feeling circles in place, so joy cannot show up.",
+    "extra": "A backwater with no flow. Guilt and shame make the same kind of eddy, he says in another interview.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "How To Stop Being Judgmental - 3 Ways",
+    "source_url": "https://www.youtube.com/watch?v=oqQW8f2UZSc",
+    "tags": [
+      "judgment",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Judgment",
+    "front": "Does keeping a judgment silent hide it from the other person, in Hudson's view?",
+    "back": "No. Your face and body language show it, and people know.",
+    "text": "",
+    "extra": "So judging says, in effect: do not date me, buy from me or work with me.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "How To Stop Being Judgmental - 3 Ways",
+    "source_url": "https://www.youtube.com/watch?v=oqQW8f2UZSc",
+    "tags": [
+      "judgment"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Judgment",
+    "front": "Why does Hudson warn against telling yourself \"I shouldn't judge\"?",
+    "back": "That \"should\" is one more judgment, now aimed at you.",
+    "text": "",
+    "extra": "Instead, notice the pain of judging and what life you want, and let yourself move that way.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "How To Stop Being Judgmental - 3 Ways",
+    "source_url": "https://www.youtube.com/watch?v=oqQW8f2UZSc",
+    "tags": [
+      "judgment",
+      "should"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Judgment",
+    "front": "What feeling does Hudson warn will come in once you stop judging?",
+    "back": "Love, which can be the scariest feeling, because it opens you to heartbreak.",
+    "text": "",
+    "extra": "He says heartbreak only increases your capacity to love. Go slowly and take care of yourself.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "How To Stop Being Judgmental - 3 Ways",
+    "source_url": "https://www.youtube.com/watch?v=oqQW8f2UZSc",
+    "tags": [
+      "judgment",
+      "love"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Decisions",
+    "front": "How does Hudson tell a choice from a decision?",
+    "back": "A choice happens all day with no effort. A decision starts when fear says something could go wrong.",
+    "text": "",
+    "extra": "So if you are deciding, you are already afraid and trying to avoid something.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Every decision you struggle with has one thing in common",
+    "source_url": "https://www.youtube.com/watch?v=pTIAaExpW9c",
+    "tags": [
+      "decisions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Decisions",
+    "front": "In a hard decision, what does Hudson say you are really trying to avoid?",
+    "back": "An emotion, not an outcome.",
+    "text": "",
+    "extra": "If you knew being homeless would make you happier than ever, it would scare you much less.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Every decision you struggle with has one thing in common",
+    "source_url": "https://www.youtube.com/watch?v=pTIAaExpW9c",
+    "tags": [
+      "decisions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Decisions",
+    "front": "Why does living by principles stop needing discipline, in Hudson's account?",
+    "back": "You keep seeing that it works when you follow them and fails when you do not.",
+    "text": "",
+    "extra": "Discipline is needed only at first. Then hard decisions turn back into easy choices.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Every decision you struggle with has one thing in common",
+    "source_url": "https://www.youtube.com/watch?v=pTIAaExpW9c",
+    "tags": [
+      "decisions",
+      "principles"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Embrace intensity",
+    "front": "What does Hudson's principle \"embrace intensity\" mean?",
+    "back": "Do not create intensity, but feel into any discomfort that shows up.",
+    "text": "",
+    "extra": "He keeps it because he decides clearly when he avoids nothing.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Every decision you struggle with has one thing in common",
+    "source_url": "https://www.youtube.com/watch?v=pTIAaExpW9c",
+    "tags": [
+      "decisions",
+      "principles"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Embrace intensity",
+    "front": "His story: over time, which intensity did embracing fear, anger and failure teach him to allow?",
+    "back": "Excitement, joy and pleasure, which he says are far more intense.",
+    "text": "",
+    "extra": "",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "Every decision you struggle with has one thing in common",
+    "source_url": "https://www.youtube.com/watch?v=pTIAaExpW9c",
+    "tags": [
+      "decisions",
+      "joy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Decisions",
+    "front": "What does Hudson say about the principles you live by now?",
+    "back": "You already have some, chosen without thought: stay out of trouble, please people, get angry when you do not get your way.",
+    "text": "",
+    "extra": "Just seeing them starts to change things. Then run experiments to find what works.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Every decision you struggle with has one thing in common",
+    "source_url": "https://www.youtube.com/watch?v=pTIAaExpW9c",
+    "tags": [
+      "decisions",
+      "principles"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Decisions",
+    "front": "What does Hudson call the most efficient way to change your consciousness?",
+    "back": "Change your behaviour: do something different 10 times and see what happens.",
+    "text": "",
+    "extra": "Example: where his old principle said \"get angry\", the new one says \"ask a how or what question\".",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Every decision you struggle with has one thing in common",
+    "source_url": "https://www.youtube.com/watch?v=pTIAaExpW9c",
+    "tags": [
+      "decisions",
+      "experiments"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Happy money game",
+    "front": "How do you play Hudson's happy money game?",
+    "back": "Two people take turns proposing how to work together, payment included.",
+    "text": "",
+    "extra": "He has played it for over a decade.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Happy money game",
+    "front": "",
+    "back": "",
+    "text": "In the happy money game, the winner proposes a deal that both people are {{c1::excited about}}, not just happy with or able to live with.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Happy money game",
+    "front": "His story: what did the game produce with his first famous client, who liked to win but skipped the inner work?",
+    "back": "A high fee that doubled, then tripled, if the client failed to do the work.",
+    "text": "",
+    "extra": "Losing money when he skipped the work helped him understand himself.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Happy money game",
+    "front": "His story: why was his second wealthy client not allowed to pay him?",
+    "back": "Everyone wanted him for his money. Free help was the only way he could believe it was not bought.",
+    "text": "",
+    "extra": "Both clients later repaid him many times over in referrals and support.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Money",
+    "front": "What rule does Hudson live by about work for money?",
+    "back": "He will not do anything for money that he would not do for free.",
+    "text": "",
+    "extra": "He also never coaches anyone for pay before coaching them once for free, so both can see if it fits.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "principles"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Deals",
+    "front": "What does the effort to put a deal together predict, in Hudson's experience?",
+    "back": "The effort it will take to keep the deal going.",
+    "text": "",
+    "extra": "From his venture capital years: a deal that was hard to make was high-maintenance later.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Money",
+    "front": "",
+    "back": "",
+    "text": "Hudson's tennis image: aim at the {{c1::basket}} (money) and you hit it now and then. Aim at a {{c2::quarter}} inside it (your mission) and you hit the basket far more often.",
+    "extra": "A coach put a quarter where the basket had been. The player never hit the quarter but would have hit the basket every time. He tells it in the Ali Abdaal interview too.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "purpose",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Money",
+    "front": "What two relationships to money does Hudson contrast?",
+    "back": "A consumer's: money is using you. An investor's: you use money as a tool to build the life you want.",
+    "text": "",
+    "extra": "You already use money as a tool all day, for a bed, for games, for freedom.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Money",
+    "front": "When money keeps going badly for you, what does Hudson say to look for?",
+    "back": "The frame you hold about it, such as \"there is not enough\" or \"if I get it, you don't\".",
+    "text": "",
+    "extra": "Money and deals are usually framed as zero-sum. He notes there is more money now than 10 years ago.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "frames"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Money",
+    "front": "Why does Hudson call money non-linear?",
+    "back": "Value you give freely can bring far more back later, so insisting on a fair price up front can push people away.",
+    "text": "",
+    "extra": "His example: one deal led to 10 more wealthy clients. A job applicant who sends sample work beats one who names a price.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Happy money game",
+    "front": "What does the happy money game need before you can play it?",
+    "back": "Consent and trust: two people who both want neither to lose.",
+    "text": "",
+    "extra": "It works for any agreement, even who does the dishes.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Happy money game",
+    "front": "Where does Hudson say the happy money game may not fit?",
+    "back": "A salary negotiation with a boss, where everyone expects to negotiate and there are few variables.",
+    "text": "",
+    "extra": "It fits where haggling would destroy trust, as with a coaching client.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Happy money game",
+    "front": "What useful habit does the game force, even if you play it alone?",
+    "back": "Thinking through what could go wrong, not just how great the deal will be.",
+    "text": "",
+    "extra": "Ask yourself what you need to be happy with this over the next two or three years.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Happy money game",
+    "front": "Why does Hudson say to celebrate when someone wins the game?",
+    "back": "It keeps the competitive spirit, aimed at finding the best deal rather than getting the most.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Happy money game",
+    "front": "What is the biggest lesson of the happy money game, in Hudson's view?",
+    "back": "There is always a solution where both of you win.",
+    "text": "",
+    "extra": "Fear makes thinking binary: me or you, plus or minus. That holds in a fight with a partner or a boss too.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "The Game that Changed my Relationship with Money",
+    "source_url": "https://www.youtube.com/watch?v=4EIoEngiBw8",
+    "tags": [
+      "money",
+      "happy-money-game",
+      "fear"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns",
+    "front": "How did Hudson find the seven patterns that hold people back most?",
+    "back": "For about six months he noted the issue after each coaching session, then sorted the notes into categories.",
+    "text": "",
+    "extra": "Each pattern is a pair: people put the first thing over the second. He suggests working on them in order.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: connection",
+    "front": "In \"connection over perfection\", why does Hudson say perfection fails?",
+    "back": "It cannot be reached and is not even defined; the mind always finds a better way.",
+    "text": "",
+    "extra": "We learned it as children to avoid criticism. No one has driven or talked perfectly.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "perfection"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: connection",
+    "front": "In \"connection over perfection\", what does connection become?",
+    "back": "The yardstick: how connected you feel with yourself and others while you do the thing.",
+    "text": "",
+    "extra": "A product made to connect with customers beats a perfect product, he says.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "connection"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: connection",
+    "front": "Try now, 1 minute: pick what you are doing, even riding a bike. Ask how you could do it with a deeper sense of connection with yourself.",
+    "back": "Notice what changes in how it feels, and in how well it goes.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "connection"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: enjoyment",
+    "front": "In \"enjoyment over management\", what are dirty and clean fuel?",
+    "back": "Dirty fuel is \"I am not enough\". Clean fuel is enjoyment.",
+    "text": "",
+    "extra": "He said this to a 45-year-old with a $30 million house who was miserable.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "enjoyment"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: enjoyment",
+    "front": "How does Hudson use a car to explain \"enjoyment is efficiency\"?",
+    "back": "Ending the day exhausted means you burned a lot of energy. Ending it glad, with energy left, means you ran efficiently.",
+    "text": "",
+    "extra": "That is what enjoying yourself looks like.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "enjoyment",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: enjoyment",
+    "front": "Why does managing people work worse than enjoying them, in Hudson's view?",
+    "back": "People resist being managed or manipulated, but they want to be with someone who enjoys them.",
+    "text": "",
+    "extra": "He also points out that people who manipulate to get their way are rarely happy.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "enjoyment"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: enjoyment",
+    "front": "What are the two meanings of enjoyment in \"enjoyment over management\"?",
+    "back": "Doing what you enjoy, and learning to enjoy what you are doing.",
+    "text": "",
+    "extra": "If you enjoy the process, you end up where you want to be, not where you thought you wanted to be.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "enjoyment"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: feeling",
+    "front": "What does Hudson take from the book Descartes' Error?",
+    "back": "Decisions are made in the brain's emotional centre. Without it, IQ stays the same but tiny choices take ages.",
+    "text": "",
+    "extra": "His reading: we use logic only to predict how we will feel. The book is by the neuroscientist Antonio Damasio; Hudson's summary was not checked.",
+    "kind": "evidence",
+    "priority": 3,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "decisions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: want",
+    "front": "His story: what did Hudson find on a list of everything he disliked about himself, months after writing it?",
+    "back": "What had changed came on its own. Nothing he had told himself he \"should\" change had changed.",
+    "text": "",
+    "extra": "He wrote it in a bare room in Mill Valley and forgot about it for six to eight months.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "should"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: want",
+    "front": "Why does Hudson say a \"should\" fails to start change?",
+    "back": "A should is a form of shame, and shame exists to stop things, not to start them.",
+    "text": "",
+    "extra": "Example: a child shamed for farting learns to hold it in. Stagnation follows.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "should",
+      "shame"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: want",
+    "front": "What does Hudson mean, and not mean, by \"want\"?",
+    "back": "The natural pull to your next step, like a branch growing toward light. Not craving or neediness.",
+    "text": "",
+    "extra": "Children aged 0 to 7 follow their wants and develop faster than at any other age.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "want"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: want",
+    "front": "Besides fear of not getting it, why does wanting feel scary, per Hudson?",
+    "back": "Getting what you want will redefine you; you become a different person.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "want"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: authenticity",
+    "front": "His story: what was his chase for enlightenment in his twenties, looking back?",
+    "back": "His perfectionism in another form; he hoped to never have a problem again.",
+    "text": "",
+    "extra": "Teachers told him he was already there. The tension left only when he understood his own nature, not from a perfect routine.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "authenticity"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: empowerment",
+    "front": "In \"empowerment over power\", why does power make you afraid?",
+    "back": "Power rests on other people agreeing that you have it, so it can be taken away.",
+    "text": "",
+    "extra": "By a gun, a loss of money, or an audience that stops liking you.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "empowerment"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: empowerment",
+    "front": "In \"empowerment over power\", what is empowerment?",
+    "back": "Knowing deeply who you are, so you have nothing to defend and cannot have it taken away.",
+    "text": "",
+    "extra": "His example: Nelson Mandela in prison.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "empowerment"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: empowerment",
+    "front": "Try next time someone does something that embarrasses you: instead of making them stop, ask what you need to be fully yourself now, a person you respect.",
+    "back": "Notice that the question needs nothing from the other person.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "empowerment",
+      "relationships"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: love",
+    "front": "In \"love over defense\", what does each act of defending yourself show, per Hudson?",
+    "back": "That you think something is wrong with you, a part of you that you will not accept.",
+    "text": "",
+    "extra": "If you say the sky is blue and someone says purple, you do not defend. Call you a liar and you might.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "defense"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: love",
+    "front": "His story: what happened after a friend called him an asshole and told him to stop defending it?",
+    "back": "He accepted and loved that part, and over three months he acted that way less.",
+    "text": "",
+    "extra": "At Bodega Bay. What we resist persists; loving it changes it.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "defense"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Seven patterns: love",
+    "front": "Does an open heart mean you will be taken advantage of, per Hudson?",
+    "back": "No. That fear mixes love with wanting to be liked. Love can say \"I love you\" and still refuse your deal.",
+    "text": "",
+    "extra": "His examples are Gandhi, Martin Luther King and any great mother.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
+    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
+    "tags": [
+      "seven-patterns",
+      "love"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Goals",
+    "front": "Why does reaching a goal feel good for a moment, in Hudson's view?",
+    "back": "Not because of the goal, but because for a moment there is nothing to want.",
+    "text": "",
+    "extra": "Then a new goal comes. Chasing goals brings pressure, like game point in tennis.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "goals"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Purpose",
+    "front": "What does Hudson say purpose is, besides a career?",
+    "back": "How you do things as much as what you do.",
+    "text": "",
+    "extra": "He says he could find his purpose working at the post office. Searching for it assumes you were not born with it.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "purpose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Money",
+    "front": "His story: what did he find when a peer's billion-dollar win hit him like a kick in the stomach?",
+    "back": "The feeling first came when he tried to win his father's love. Money had taken his father's place.",
+    "text": "",
+    "extra": "He says money is often a projection of something you needed as a child.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "money"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Money",
+    "front": "His story: what changed when he saw that billionaires felt the same lack he did?",
+    "back": "He saw money could never satisfy him, and from then it came to him easily.",
+    "text": "",
+    "extra": "He calls money a carrot on a stick, and says fulfillment brings money rather than the reverse.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "money"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Money",
+    "front": "How does Hudson show that money is not scarce?",
+    "back": "Look out any window: the glass, the road sign, the steel. Someone made money from each.",
+    "text": "",
+    "extra": "Only the thinking is constricted, he says. Making money can be an expression of who you are.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "money",
+      "frames"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Rejection",
+    "front": "His story: what did his daughter's 50-rejection challenge get her, and what does it show?",
+    "back": "A summer job in Panama. Willingness to face rejection matters more than which college she attends.",
+    "text": "",
+    "extra": "When the paperwork stalled, she asked people in suits outside a Sacramento government building until one helped.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "rejection",
+      "parenting"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Overwhelm",
+    "front": "What does Hudson say overwhelm is?",
+    "back": "A stuck emotion: one too intense to feel, so you push it down and compartmentalize it.",
+    "text": "",
+    "extra": "To clear it, slow down enough to take it in, or express it, which he says is faster. Express it alone, never at a person, and stop if you feel flooded.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "overwhelm"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional fluidity",
+    "front": "How does Hudson describe the end point of emotional fluidity?",
+    "back": "You love having every emotion. They move through you with ease, and they do not control you.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "fluidity"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Emotional fluidity",
+    "front": "",
+    "back": "",
+    "text": "Hudson: on the back side of helplessness is {{c1::empowerment}}; of sadness, {{c2::relief}}; of anger, {{c3::clarity}}.",
+    "extra": "This is why he says you can learn to enjoy even hard feelings.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "fluidity",
+      "anger",
+      "sadness",
+      "helplessness"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger",
+    "front": "In Hudson's tube image, what is anger when it is not twisted?",
+    "back": "A clear boundary held with love.",
+    "text": "",
+    "extra": "Twisted one way it becomes \"I'm not angry\", the other way rage. We only get angry about what we care about.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "anger",
+      "image"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Joy",
+    "front": "",
+    "back": "",
+    "text": "Hudson's image: joy is the {{c1::matriarch}} of the family of emotions. She will not come into a house unless all her children are welcome.",
+    "extra": "So holding down anger leaves no room for joy.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "joy",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hard feelings",
+    "front": "When a feeling comes and the mind says \"if I'm sad I'll be sad forever\", what does Hudson suggest you say?",
+    "back": "Tell the mind you have heeded it for years, and will now give the feeling about 20 minutes.",
+    "text": "",
+    "extra": "Then let yourself feel what is happening.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "fluidity"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hard feelings",
+    "front": "Try it with care: how does Hudson suggest someone face painful criticism, such as bad reviews?",
+    "back": "Read them while a loved one holds you, without reassuring you. Keep breathing; watch for a tight jaw or throat.",
+    "text": "",
+    "extra": "Go only to the point where it feels like enough, then come back later. Do not push your nervous system out of regulation.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "criticism",
+      "relationships"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Supporting someone",
+    "front": "Why does Hudson say trying to fix someone's feelings backfires?",
+    "back": "It tells them they are wrong to feel it. Just be with them in loving attention.",
+    "text": "",
+    "extra": "He says men in the West feel a strong urge to fix.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "relationships",
+      "empathy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Supporting someone",
+    "front": "If your partner doubts their own good work, how often should you reassure them, per Hudson?",
+    "back": "Say your view once. Chasing them into feeling better is about your own discomfort.",
+    "text": "",
+    "extra": "A story he tells: a depressed Quaker said the friend who washed his feet each week helped most, by treating him as whole.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "relationships",
+      "empathy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Supporting someone",
+    "front": "What does Hudson say about the roles two people hold, such as worrier and optimist?",
+    "back": "One person holds each side. Drop your role, and the other can drop theirs.",
+    "text": "",
+    "extra": "Once, when an employee called their own work bad and he agreed, they started defending it.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "relationships",
+      "polarity"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Conflict",
+    "front": "When your partner is upset with you, what does Hudson suggest instead of defending?",
+    "back": "Say you want to hear all about it and ask what they want, without promising to agree.",
+    "text": "",
+    "extra": "In most fights both people feel they are only defending, and both feel attacked by the other's defense.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "relationships",
+      "defense"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Triggers",
+    "front": "What does Hudson say we only get triggered by?",
+    "back": "What we secretly think is true about ourselves.",
+    "text": "",
+    "extra": "So taking an attack, even from an internet troll, with an open heart wears down the ego.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "defense",
+      "triggers"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Parents",
+    "front": "When a parent is hurt by your career choice, what kind of \"I'm sorry\" does Hudson suggest?",
+    "back": "\"I'm sorry my choices are hurting you\": sorry they hurt, without taking blame or giving up your choice.",
+    "text": "",
+    "extra": "If they say you would stop if you were sorry, he would answer that he wants them not to hurt but will not act against himself.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "parents",
+      "apology"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Self and time",
+    "front": "",
+    "back": "",
+    "text": "Hudson: as people grow, the sense of self widens from {{c1::me}} to family, tribe, nation, humanity and the ecosystem, until it becomes {{c2::universal}} again.",
+    "extra": "A small child cannot tell their wishes from the world's. The universal sense of self feels like a memory; he says this is what people call awakening.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "head",
+      "awakening"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Self and time",
+    "front": "",
+    "back": "",
+    "text": "Hudson: the sense of time widens from a child's few days, to the average American's {{c1::three and a half years}}, to {{c2::seven generations}}, until infinity becomes the depth of a moment.",
+    "extra": "The seven-generation example is from Native American thinking.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "head",
+      "awakening"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Awakening",
+    "front": "Why does Hudson avoid the word \"enlightenment\"?",
+    "back": "It suggests being finished, and he has never seen growth end.",
+    "text": "",
+    "extra": "After his own awakening his first thought was \"this never ends\". He says people who think they are done get stuck in that identity.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "awakening"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Awakening",
+    "front": "How can inner peace become a way to avoid feeling, per Hudson?",
+    "back": "People escape into the peace and skip their emotions. He asks them: where is the joy?",
+    "text": "",
+    "extra": "Getting back into the emotions can feel like hell at first. Then the joy comes.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "awakening",
+      "joy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Awakening",
+    "front": "His story: what answered the question \"what am I essentially?\" that came to him 10 times a day?",
+    "back": "Nothing did. The question itself was the brilliance, not any answer.",
+    "text": "",
+    "extra": "He chased awakening for about ten years. He says the effort slowed it, as chasing pushes things away.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "awakening"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Awakening",
+    "front": "Why is \"be undefended\" a strange instruction, per Hudson?",
+    "back": "It is an undoing, not a doing. If you try hard to be undefended, you are defended.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "awakening",
+      "defense"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Self-discovery",
+    "front": "Why does Hudson call his work applied self-discovery, not spiritual teaching?",
+    "back": "Tools must be used in the world, where you can see if they work. Meditating alone, he fooled himself for years.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "self-discovery"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Should",
+    "front": "Why does Hudson prefer listening to yourself over following morality?",
+    "back": "Morality turns being good into an obligation, which takes the joy out. Being good to people is joyful anyway.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "should"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Should",
+    "front": "Try now, 2 minutes: list a few ways you changed in the last five years. How many of them needed a \"should\"?",
+    "back": "Notice that, in Hudson's view, real change rarely came from a should.",
+    "text": "",
+    "extra": "Then the reverse: the habit you have told yourself to change for years is still there.",
+    "kind": "practice",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "should"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Parenting",
+    "front": "When a parent asks how to motivate a teen, what does Hudson ask back?",
+    "back": "What are you trying not to feel?",
+    "text": "",
+    "extra": "Telling a child to be different says they are broken, and no one wants to listen to someone who sees them as broken.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "parenting"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hand in Hand Parenting",
+    "front": "In Hand in Hand Parenting (Patty Wipfler), what is a listening partnership?",
+    "back": "A place for the parent to let out feelings about raising kids, where it cannot hurt the kids.",
+    "text": "",
+    "extra": "Hudson raised his children with this method, for about ages 0 to 8. Her book is \"Listen\".",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "parenting",
+      "wipfler"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hand in Hand Parenting",
+    "front": "In Hand in Hand Parenting (Patty Wipfler), what is staylistening?",
+    "back": "Letting a child's emotions be big while you stay with them in loving attention.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "parenting",
+      "wipfler"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hand in Hand Parenting",
+    "front": "In Hand in Hand Parenting (Patty Wipfler), what is playlistening?",
+    "back": "Rough-and-tumble play with a child so that fear can move.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "parenting",
+      "wipfler"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hand in Hand Parenting",
+    "front": "In Hand in Hand Parenting (Patty Wipfler), what kind of limits does a parent set?",
+    "back": "Gentle but firm: stay close and insist, as the adult.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "parenting",
+      "wipfler"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hand in Hand Parenting",
+    "front": "In Hand in Hand Parenting (Patty Wipfler), what is special time?",
+    "back": "Time where you join the child's world fully, rather than pulling them into yours.",
+    "text": "",
+    "extra": "Hudson calls it going down the rabbit hole: if it is a tea party, have tea.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "parenting",
+      "wipfler"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hand in Hand Parenting",
+    "front": "His story: how did Hudson test Hand in Hand Parenting, which his wife chose?",
+    "back": "As a clean experiment: do whatever she said for three months without resisting, then judge.",
+    "text": "",
+    "extra": "He calls the result remarkable, and says it was a big practice in feeling his own emotions.",
+    "kind": "story",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "parenting",
+      "experiments"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Money and children",
+    "front": "What does Hudson watch for when giving his children money?",
+    "back": "That money is not used so they, or he, can avoid a feeling.",
+    "text": "",
+    "extra": "After school he will fund their growth, not throw money at a problem.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "money",
+      "parenting"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Age",
+    "front": "What advice does Hudson give someone turning 30?",
+    "back": "Enjoy the softening: around 30 the sense of knowing everything flips, with less to prove.",
+    "text": "",
+    "extra": "He adds that for many men the prime is around 40.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "age"
+    ]
+  }
+]

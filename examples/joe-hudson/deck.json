@@ -1,0 +1,16 @@
+{
+  "name": "Joe Hudson",
+  "output": "joe-hudson.apkg",
+  "section_url": "https://teoyujie.org/essays/joe-hudson-toolkit/",
+  "section_label": "Essay",
+  "section_tag": "from::essay",
+  "source_tag": "from::interview",
+  "basic_model_id": 1763550001,
+  "cloze_model_id": 1763550002,
+  "subdecks": {
+    "essay-1": "1 Core method",
+    "essay-2": "2 Feelings",
+    "essay-3": "3 More feelings, problems and evidence"
+  },
+  "default_subdeck": "4 From the interviews"
+}

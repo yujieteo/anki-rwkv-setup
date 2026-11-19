@@ -1,0 +1,1932 @@
+[
+  {
+    "type": "basic",
+    "context": "Hudson's method",
+    "front": "In the essay's summary, what is Hudson's core claim about the feeling you avoid?",
+    "back": "It is the feeling that your avoidance creates. So the work is to feel it on purpose.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "core-claim"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Evidence",
+    "front": "On which practice does the essay say research points the other way, above all?",
+    "back": "Venting anger.",
+    "text": "",
+    "extra": "Hudson's method is a coach's method, not a tested treatment.",
+    "kind": "evidence",
+    "priority": 1,
+    "section": "",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "evidence",
+      "anger"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Joe Hudson",
+    "front": "Which company did Joe Hudson found?",
+    "back": "Art of Accomplishment.",
+    "text": "",
+    "extra": "He is an executive coach. He has coached leaders at OpenAI and other large tech firms. His free podcast with Brett Kistler holds most of his method.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "background"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Short version",
+    "front": "",
+    "back": "",
+    "text": "If you cannot love the feeling, love your {{c1::resistance}} to it. Resistance is {{c2::the place to start}}, not a mistake.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-short-version",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "resistance"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "Hudson says not to take his word for it. What does he suggest instead?",
+    "back": "Run small experiments: try one thing for a week and see.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-short-version",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Safety",
+    "front": "Is Hudson's method coaching or treatment?",
+    "back": "Coaching. It is not a tested treatment.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "read-this-first",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "safety"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Safety",
+    "front": "In Hudson's view, what comes first if you get overwhelmed?",
+    "back": "Care for your nervous system: rest, ground yourself and slow down.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "read-this-first",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "safety",
+      "overwhelm"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Safety",
+    "front": "What do you do if you feel flooded during a practice?",
+    "back": "Stop and rest.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "the-short-version",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "safety"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Safety",
+    "front": "Anger: what must you never do without the person's consent?",
+    "back": "Aim your anger at them.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "the-short-version",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "safety",
+      "anger"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Safety",
+    "front": "How many feelings at a time does Hudson advise working with, and how often?",
+    "back": "One feeling at a time, perhaps twice a day.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "read-this-first",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "safety",
+      "dose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Safety",
+    "front": "Hudson says hard early work, such as childhood chaos, should not be done alone. With whom, then?",
+    "back": "With skilled people.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "read-this-first",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "safety"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Safety",
+    "front": "Who should you work with if you have trauma, get lost in a feeling, or feel outside your body?",
+    "back": "A licensed therapist.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "read-this-first",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "safety",
+      "therapy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Safety",
+    "front": "What do you do now if you think about harming yourself or someone else?",
+    "back": "Contact a crisis line or emergency service now.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "read-this-first",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "safety",
+      "crisis"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm",
+    "front": "What is the Golden Algorithm?",
+    "back": "The emotion you avoid comes back through the way you avoid it.",
+    "text": "",
+    "extra": "Example: you skip the gym to dodge guilt, and skipping makes more guilt.",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm",
+    "front": "Which law says: the emotion you avoid comes back through the way you avoid it?",
+    "back": "The Golden Algorithm.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Golden Algorithm: map one problem that repeats",
+    "front": "",
+    "back": "",
+    "text": "1. {{c1::Name the problem and what happens in it.}}<br>2. {{c2::Name one emotion you may be avoiding.}}<br>3. {{c3::Name what you do to avoid it.}}<br>4. {{c4::Trace how that brings the same emotion back.}}<br>5. {{c5::Look for more emotions.}}<br>6. {{c6::Welcome the emotion.}}",
+    "extra": "Step 5: there is often more than one emotion.",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm",
+    "front": "Gym example: how does skipping the gym show the loop?",
+    "back": "You skip the gym to dodge guilt, and skipping makes more guilt.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "example"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm",
+    "front": "Why does it not work to welcome an emotion only to make it leave?",
+    "back": "Because then you are still resisting it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "welcoming"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm",
+    "front": "Loop: you dodge conflict by pleasing people. What do you end up with?",
+    "back": "Conflict inside yourself.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "example"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm",
+    "front": "Loop: you dodge feeling weak by dominating people. What happens?",
+    "back": "They leave.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "example"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Ten decisions",
+    "front": "How do you find your loop in ten decisions?",
+    "back": "List ten decisions from today. Beside each, write the feeling it was meant to bring or avoid.",
+    "text": "",
+    "extra": "Then see which feeling you avoid most and which you chase.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "ten-decisions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "\"I can't\"",
+    "front": "In Hudson's view, what does each \"I can't\" or \"that's too hard\" mark?",
+    "back": "A feeling.",
+    "text": "",
+    "extra": "Example: \"I can't ask for a raise\" may be a way to avoid rejection.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "i-cant"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "\"I can't\"",
+    "front": "Try now, 1 minute: name one \"I can't\" from today. Which feeling does it keep you from?",
+    "back": "Notice the feeling under it. You do not need to act on it.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "i-cant",
+      "practice"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional Inquiry",
+    "front": "What does Hudson call his main tool?",
+    "back": "Emotional Inquiry.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "emotional-inquiry"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional Inquiry",
+    "front": "How do you start Emotional Inquiry if the feeling is not present?",
+    "back": "Call it up from a memory.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "emotional-inquiry"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional Inquiry",
+    "front": "After you call up the feeling, where do you look for it?",
+    "back": "In your body.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "emotional-inquiry"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional Inquiry",
+    "front": "Which four questions do you ask about the feeling in your body?",
+    "back": "Where is its centre? What colour is it? How dense is it? Does it move?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "emotional-inquiry"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Emotional Inquiry",
+    "front": "",
+    "back": "",
+    "text": "Keep coming back to the feeling, as {{c1::a small child looks at a frog}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "emotional-inquiry",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional Inquiry",
+    "front": "What two things do you not do with the feeling?",
+    "back": "Analyse it, or try to shift it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "emotional-inquiry"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional Inquiry",
+    "front": "How often does Hudson suggest it, and how long is the guided version?",
+    "back": "One to three times a day. The guided version is about 8 minutes.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "emotional-inquiry",
+      "dose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional Inquiry",
+    "front": "Try now, 2 minutes: call up a mild feeling. Find it in your body. Where is its centre? Does it move?",
+    "back": "Notice what happens when you look with wonder and do not try to change it.",
+    "text": "",
+    "extra": "Safety: if you feel flooded, stop and rest.",
+    "kind": "practice",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "emotional-inquiry",
+      "practice"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Serious, not literal",
+    "front": "\"Serious, not literal\": what do you do with the reaction, and what with the story?",
+    "back": "Respect the reaction. Do not believe the story.",
+    "text": "",
+    "extra": "Your body reacts as if the story in a feeling were true.",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "serious-not-literal"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Serious, not literal",
+    "front": "Which image does Hudson use for \"serious, not literal\"?",
+    "back": "An actor who plays rage in full and still knows it is a part.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "serious-not-literal",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Resistance",
+    "front": "What do you do if you cannot welcome a feeling?",
+    "back": "Welcome the resistance instead.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "resistance"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Resistance",
+    "front": "Why not fight your resistance?",
+    "back": "Fighting your resistance is more resistance.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "resistance"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Resistance",
+    "front": "How do you welcome resistance?",
+    "back": "Put your attention on the part that resists. Be curious. Let it say what it wants.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "resistance"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Resistance",
+    "front": "",
+    "back": "",
+    "text": "Stay with the resisting part as you would with {{c1::a scared child}}, with no hurry for it to change.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "resistance",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Triggered",
+    "front": "When you are triggered, what do you ask after you pause?",
+    "back": "When did I first feel this way?",
+    "text": "",
+    "extra": "Then do Emotional Inquiry on what comes.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "triggers"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Judgment audit",
+    "front": "Audit your judgments: what do you ask about each judgment from the last 24 hours?",
+    "back": "What would I have to feel if I could not judge?",
+    "text": "",
+    "extra": "Then write what is good in that person that the judgment hid.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "judgment"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Judgment audit",
+    "front": "Try now, 2 minutes: pick one person you judged today. What would you feel if you could not judge them?",
+    "back": "Notice the feeling the judgment kept away. Then notice one good thing in them.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "judgment",
+      "practice"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "VIEW",
+    "front": "What is VIEW for?",
+    "back": "It is the state you bring to any feeling or talk.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "view"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "VIEW",
+    "front": "V in VIEW: which word, and what does it mean?",
+    "back": "Vulnerability: let it touch you.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "view"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "VIEW",
+    "front": "I in VIEW: which word, and what does it mean?",
+    "back": "Impartiality: do not try to change it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "view"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "VIEW",
+    "front": "E in VIEW: which word, and what does it mean?",
+    "back": "Empathy: keep yourself company, and stay out of the story.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "view"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "VIEW",
+    "front": "W in VIEW: which word, and what does it mean?",
+    "back": "Wonder: stay in the question with no need for an answer.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "view"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "VIEW",
+    "front": "Which VIEW letter means \"do not try to change it\"?",
+    "back": "I: Impartiality.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "view"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "VIEW",
+    "front": "Which VIEW letter means \"stay in the question with no need for an answer\"?",
+    "back": "W: Wonder.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "view"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Quick test: resist, then release",
+    "front": "What do you do in \"Resist, then release\"?",
+    "back": "Resist your strongest feeling fully for a moment. Then drop the resistance and welcome it. Compare the two.",
+    "text": "",
+    "extra": "Safety: if you feel flooded, stop and rest.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "quick-tests"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Quick test: bracing or embracing",
+    "front": "What do you ask in \"Bracing or embracing\"?",
+    "back": "Eyes closed, breathing: am I bracing against this feeling or embracing it?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "quick-tests"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Quick test: go and feel",
+    "front": "What do you do in \"Go and feel\"?",
+    "back": "Sit 10 to 15 minutes with something you avoid. Then ask what was so bad, and what kept you from being destroyed.",
+    "text": "",
+    "extra": "Safety: if you feel flooded, stop and rest.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "quick-tests"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Quick test: feel and not-feel",
+    "front": "What do you do in \"Feel and not-feel\"?",
+    "back": "Clamp down on every emotion. Then release and allow all of it.",
+    "text": "",
+    "extra": "Repeat at least once a day for a week, and make the feeling phases longer. Safety: if you feel flooded, stop and rest.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "quick-tests"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Quick test: bracing or embracing",
+    "front": "His story: how often did Hudson once ask himself \"bracing or embracing\"?",
+    "back": "About 10 times a day.",
+    "text": "",
+    "extra": "",
+    "kind": "story",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "quick-tests",
+      "story"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Quick test: resist, then release",
+    "front": "Try now, 1 minute: resist a feeling you have now. Then drop the resistance and welcome it.",
+    "back": "Notice the difference between the two.",
+    "text": "",
+    "extra": "Safety: if you feel flooded, stop and rest.",
+    "kind": "practice",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "quick-tests",
+      "practice"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Unfelt feeling",
+    "front": "In Hudson's view, what can this be a sign of? \"Your thoughts loop.\"",
+    "back": "A feeling you have not felt.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Unfelt feeling",
+    "front": "In Hudson's view, what can this be a sign of? \"A decision stays unclear.\"",
+    "back": "A feeling you have not felt.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Unfelt feeling",
+    "front": "In Hudson's view, what can this be a sign of? \"You think in either/or terms.\"",
+    "back": "A feeling you have not felt.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Unfelt feeling",
+    "front": "In Hudson's view, what can this be a sign of? \"You judge someone.\"",
+    "back": "A feeling you have not felt.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Unfelt feeling",
+    "front": "In Hudson's view, what can this be a sign of? \"You get defensive.\"",
+    "back": "A feeling you have not felt.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Unfelt feeling",
+    "front": "In Hudson's view, what can this be a sign of? \"You rush.\"",
+    "back": "A feeling you have not felt.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Unfelt feeling",
+    "front": "In Hudson's view, what can this be a sign of? \"You try to control everything.\"",
+    "back": "A feeling you have not felt.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Childhood",
+    "front": "In Hudson's view, what can this be a sign of? \"You overthink when a hard feeling comes.\"",
+    "back": "You learned as a child to hide feelings.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs",
+      "childhood"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Childhood",
+    "front": "In Hudson's view, what can this be a sign of? \"You get distracted or confused when you try to feel.\"",
+    "back": "You learned as a child to hide feelings.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs",
+      "childhood"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Childhood",
+    "front": "In Hudson's view, what can this be a sign of? \"You judge other people's big feelings, even their joy.\"",
+    "back": "You learned as a child to hide feelings.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "signs",
+      "childhood"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "How long should an experiment be?",
+    "back": "Short, often a week. Stop early if the answer is clear.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "Where do you start an experiment?",
+    "back": "Where you feel curious or in pain.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "What kind of thing is worth testing?",
+    "back": "Something that goes against what you believe.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "Do you set a goal for an experiment?",
+    "back": "No. Ask what will happen.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "How many experiments at a time, and what if one is too big?",
+    "back": "One at a time. If it is too big, shrink it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "What do you do if an experiment turns into a \"should\"?",
+    "back": "Change it.",
+    "text": "",
+    "extra": "If you use it to control yourself, it stops working.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments",
+      "should"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "His story: how did Hudson shrink a breathwork experiment that was too big?",
+    "back": "He cut 30 minutes a day to one 3-minute session.",
+    "text": "",
+    "extra": "",
+    "kind": "story",
+    "priority": 3,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments",
+      "story"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Experiments",
+    "front": "Try: pick one practice from this deck as a one-week experiment. What will happen?",
+    "back": "Notice: you ask a question, you do not set a goal. Change it if it becomes a \"should\".",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "experiments",
+      "practice"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Company principle",
+    "front": "\"Open the drawer\": what does it mean?",
+    "back": "Raise the frightening issue early and with care.",
+    "text": "",
+    "extra": "It is no licence for cruelty or for drama.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "company"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Company principle",
+    "front": "\"Everything is an iteration\": what does it mean?",
+    "back": "Treat work as tests, and ask for advice instead of permission.",
+    "text": "",
+    "extra": "Sloppy work is not a test. Every test needs a clear aim.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "company"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Company principle",
+    "front": "\"Enjoyment is efficiency\": what does it mean?",
+    "back": "Work slowly enough to work well, and learn to like the dull parts.",
+    "text": "",
+    "extra": "It is no excuse to dodge stress or hard jobs.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "company"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Company principle",
+    "front": "\"Empower everyone\": what does it mean?",
+    "back": "Whoever owns a decision owns its result.",
+    "text": "",
+    "extra": "Do not take people's problems from them, or hand them yours.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "company"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Company principle",
+    "front": "\"Act from connection\": what does it mean?",
+    "back": "Work from care for yourself and others.",
+    "text": "",
+    "extra": "Niceness that avoids conflict does not count. Nor does giving until you resent it.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "company"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Head, heart and gut",
+    "front": "Head level: what changes?",
+    "back": "Your sense of time and of self grow wider. It gets harder to take things personally.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "head-heart-gut"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Head, heart and gut",
+    "front": "Heart level: what changes, and what is the measure?",
+    "back": "You can feel everything without shutting down or collapsing. The measure is joy.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "head-heart-gut"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Head, heart and gut",
+    "front": "Gut level: what teaches your nervous system that you are safe?",
+    "back": "Pleasure.",
+    "text": "",
+    "extra": "So you stop bracing. The measure is how much you can enjoy simply being alive.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "head-heart-gut"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Horseshoe of emotional growth",
+    "front": "",
+    "back": "",
+    "text": "1. Infants {{c1::feel freely}}.<br>2. Then we {{c2::repress}}.<br>3. Then we {{c3::manage feelings}}.<br>4. Last, we {{c4::return to feeling freely, without taking it all personally}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "horseshoe",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Beliefs",
+    "front": "Self-improvement vs self-discovery: what does each assume, and which does Hudson prefer?",
+    "back": "Improvement assumes you are broken. Discovery assumes something is hidden. He prefers discovery.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "beliefs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Beliefs",
+    "front": "In Hudson's view, if feelings are not problems to solve, what are they?",
+    "back": "They ask to be heard.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "beliefs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Beliefs",
+    "front": "Is thinking, talking or writing about a feeling the same as feeling it?",
+    "back": "No, Hudson says.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "beliefs"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Beliefs",
+    "front": "",
+    "back": "",
+    "text": "What you {{c1::shame}}, you {{c2::repeat}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "beliefs",
+      "shame"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Beliefs",
+    "front": "In Hudson's view, what usually hurts: the feeling or something else?",
+    "back": "Resisting the feeling. The feeling itself rarely hurts.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "beliefs",
+      "resistance"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Beliefs",
+    "front": "To change a habit, what do you change? Give his image.",
+    "back": "What holds it. Like water: you cannot grip it, but you can pour it into a new container.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "beliefs",
+      "habits",
+      "image"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Beliefs",
+    "front": "Can you make letting go happen by telling yourself to?",
+    "back": "No. Letting go comes when it is ready.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "beliefs"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "What each feeling is telling you",
+    "front": "In Hudson's guide, what should you do before you read a feeling's signal?",
+    "back": "Do the feeling first.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Sadness",
+    "front": "According to Hudson, what does sadness signal?",
+    "back": "Something is ending or no longer works.",
+    "text": "",
+    "extra": "Ask or do: Stay with the ache. Say goodbye to what is over.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "sadness"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger",
+    "front": "According to Hudson, what does anger signal?",
+    "back": "What you care about, and where a line is.",
+    "text": "",
+    "extra": "Ask or do: What boundary do I want? What is not working? Safety: never aim anger at a person without their consent.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "anger"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear",
+    "front": "According to Hudson, what does fear signal?",
+    "back": "Excitement without breath, or something that needs care.",
+    "text": "",
+    "extra": "Ask or do: Breathe. How do I look after this?",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "fear"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Disgust",
+    "front": "According to Hudson, what does disgust signal?",
+    "back": "You were made to take in something you did not want.",
+    "text": "",
+    "extra": "Ask or do: What was forced on me? How do I get clear of it?",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "disgust"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety",
+    "front": "According to Hudson, what does anxiety signal?",
+    "back": "Something you know needs doing and have not done. The task may be to feel something.",
+    "text": "",
+    "extra": "Ask or do: What one step would settle this?",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "anxiety"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt",
+    "front": "According to Hudson, what does guilt signal?",
+    "back": "You have stopped listening to what you most want.",
+    "text": "",
+    "extra": "Ask or do: How do I want to do this next time?",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "guilt"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Jealousy",
+    "front": "According to Hudson, what does jealousy signal?",
+    "back": "You want something and push the want away.",
+    "text": "",
+    "extra": "Ask or do: Let yourself want it. What do I want here?",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "jealousy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame",
+    "front": "According to Hudson, what does shame signal?",
+    "back": "You feel cut off and have left part of yourself behind.",
+    "text": "",
+    "extra": "Ask or do: What can I connect to right now?",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "shame"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Contempt",
+    "front": "According to Hudson, what does contempt signal?",
+    "back": "A trait you have not seen in yourself.",
+    "text": "",
+    "extra": "Ask or do: Where do I have this too?",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "contempt"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Love",
+    "front": "According to Hudson, what does love signal?",
+    "back": "You feel safe enough for old patterns to surface.",
+    "text": "",
+    "extra": "Ask or do: Stay when old wounds flare. Do not read them as proof it is wrong.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "love"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Joy",
+    "front": "According to Hudson, what does joy signal?",
+    "back": "It arrives once the other feelings are let in.",
+    "text": "",
+    "extra": "Ask or do: Welcome them all. Do not chase it.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "what-each-feeling-is-telling-you",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "feelings",
+      "joy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid fear, which practice does the essay suggest to start with?",
+    "back": "The tiger.",
+    "text": "",
+    "extra": "Dose: Once, then as needed.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid anxiety and worry, which practice does the essay suggest to start with?",
+    "back": "Five seconds at the worst part.",
+    "text": "",
+    "extra": "Dose: Each time.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid shame, which practice does the essay suggest to start with?",
+    "back": "Stop, invite, love.",
+    "text": "",
+    "extra": "Dose: Each time.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid guilt, which practice does the essay suggest to start with?",
+    "back": "The upright apology.",
+    "text": "",
+    "extra": "Dose: About 20 in all.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid anger, which practice does the essay suggest to start with?",
+    "back": "Listen to it, alone.",
+    "text": "",
+    "extra": "Dose: 15 to 20 minutes.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid grief and sadness, which practice does the essay suggest to start with?",
+    "back": "Mourn before you decide.",
+    "text": "",
+    "extra": "Dose: Until it eases.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid disgust and contempt, which practice does the essay suggest to start with?",
+    "back": "Ask: what was I made to take in?.",
+    "text": "",
+    "extra": "Dose: Each time.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid helplessness, which practice does the essay suggest to start with?",
+    "back": "Find where you control most.",
+    "text": "",
+    "extra": "Dose: Now.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid hurt and rejection, which practice does the essay suggest to start with?",
+    "back": "Say \"ouch\".",
+    "text": "",
+    "extra": "Dose: Each time.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid failure, which practice does the essay suggest to start with?",
+    "back": "A list of 50 tries.",
+    "text": "",
+    "extra": "Dose: Months.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid not being enough, which practice does the essay suggest to start with?",
+    "back": "Island of saints.",
+    "text": "",
+    "extra": "Dose: One minute.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid overwhelm, which practice does the essay suggest to start with?",
+    "back": "Five minutes every two hours.",
+    "text": "",
+    "extra": "Dose: One day.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid uncertainty, which practice does the essay suggest to start with?",
+    "back": "The next obvious step.",
+    "text": "",
+    "extra": "Dose: Each time.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid numbness and low mood, which practice does the essay suggest to start with?",
+    "back": "Attention in the body.",
+    "text": "",
+    "extra": "Dose: Two to three weeks.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid loneliness and boredom, which practice does the essay suggest to start with?",
+    "back": "Do nothing, on purpose.",
+    "text": "",
+    "extra": "Dose: One day.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid joy and pleasure, which practice does the essay suggest to start with?",
+    "back": "Ask: where is the pleasure now?.",
+    "text": "",
+    "extra": "Dose: 10 minutes a day.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid being loved and seen, which practice does the essay suggest to start with?",
+    "back": "Thank you, three seconds.",
+    "text": "",
+    "extra": "Dose: Each time.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid wanting, which practice does the essay suggest to start with?",
+    "back": "Sit with the want.",
+    "text": "",
+    "extra": "Dose: Daily.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Find your feeling",
+    "front": "If you avoid success, which practice does the essay suggest to start with?",
+    "back": "See full failure, then full success.",
+    "text": "",
+    "extra": "Dose: 2 to 10 sessions.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "find-your-feeling",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "find-your-feeling"
+    ]
+  }
+]

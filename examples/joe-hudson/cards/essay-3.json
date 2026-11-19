@@ -1,0 +1,2257 @@
+[
+ {
+  "type": "basic",
+  "context": "Uncertainty",
+  "front": "When you feel lost, what one question does Hudson suggest you ask, again and again?",
+  "back": "What is the next most obvious thing? Do it, then ask again.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "uncertainty"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Uncertainty",
+  "front": "Confusion: what two questions does Hudson suggest you ask it?",
+  "back": "What is my confusion protecting me from?<br>What am I pretending not to know?",
+  "text": "",
+  "extra": "The two questions treat confusion as a way to avoid something you already sense.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "uncertainty"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Uncertainty",
+  "front": "When you cannot rebuild the story of your life, what does Hudson suggest?",
+  "back": "Rest in not knowing. Stop forcing an answer for a while.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "uncertainty"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Uncertainty",
+  "front": "",
+  "back": "",
+  "text": "To practise wonder, ask what you are in wonder about right now, about {{c1::10}} times a day.",
+  "extra": "Wonder is the W in VIEW.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "uncertainty",
+   "wonder"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Uncertainty",
+  "front": "How does Hudson open up a yes-or-no question such as \"Should I stay?\"",
+  "back": "Ask what would have to happen for you to feel good staying.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "uncertainty",
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Uncertainty",
+  "front": "Uncertainty: what is Hudson's 10-year test for a choice?",
+  "back": "Would you be happy with this choice in 10 years, whatever the result?",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "uncertainty",
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Uncertainty",
+  "front": "Try now, 1 minute: ask yourself \"What am I pretending not to know?\" and wait for an answer.",
+  "back": "Notice if an answer comes fast, and if your body tightens or relaxes when it comes.",
+  "text": "",
+  "extra": "",
+  "kind": "practice",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "uncertainty"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Safety: depression",
+  "front": "How should you use Hudson's practices for depression?",
+  "back": "As an addition to medical care, not a swap for it. Depression is a medical condition, and treatment can help.",
+  "text": "",
+  "extra": "",
+  "kind": "safety",
+  "priority": 1,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "safety"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Numbness and low mood",
+  "front": "",
+  "back": "",
+  "text": "Hudson maps low mood on four levels: {{c1::harsh self-talk}}, {{c2::held-in anger or sadness}}, {{c3::a body always on watch}}, and {{c4::being cut off from people}}.",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Numbness and low mood",
+  "front": "How much of your attention does Hudson suggest keeping in your body, and for how long?",
+  "back": "About 10%, as much as you can, for two to three weeks.",
+  "text": "",
+  "extra": "He warns that it can be intense.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Numbness and low mood",
+  "front": "",
+  "back": "",
+  "text": "Brett's sequence for numbness: treat {{c1::distraction}} as a fear signal, then {{c2::feel the numbness itself}}, then {{c3::wait for anxiety}}, then {{c4::name the fears}}.",
+  "extra": "Brett is Hudson's co-host.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Numbness and low mood",
+  "front": "Low mood: what does Hudson suggest you do with your 20 most persistent harsh thoughts?",
+  "back": "Write them down and argue with them.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "inner-voice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Numbness and low mood",
+  "front": "Low mood: what word swap does Hudson suggest?",
+  "back": "Notice each \"should\" and try \"want\" in its place.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "should"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Numbness and low mood",
+  "front": "Low mood: what kind of simple pleasure does Hudson suggest you rest in?",
+  "back": "Pleasure with no guilt: your breath, your walk, or your voice in your chest.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "pleasure"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Numbness and low mood",
+  "front": "Low mood: how does Hudson treat building a social life?",
+  "back": "As part of the work, not an extra.",
+  "text": "",
+  "extra": "Being cut off from people is one of his four levels of low mood.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Loneliness",
+  "front": "How does Hudson tell aloneness from loneliness?",
+  "back": "Aloneness is the fact that no one can share your whole experience. Loneliness is a feeling you can meet.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "loneliness-and-boredom",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "loneliness"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Loneliness",
+  "front": "According to Hudson, what belief is loneliness?",
+  "back": "The belief that something is wrong with you. Look for the shame in it.",
+  "text": "",
+  "extra": "He says solitude without that belief can feel strong.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "loneliness-and-boredom",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "loneliness",
+   "shame"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Boredom",
+  "front": "According to Hudson, what does boredom assume?",
+  "back": "That you already understand everything in front of you.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "loneliness-and-boredom",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "boredom"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Loneliness",
+  "front": "What question does Hudson have partners ask each other again and again?",
+  "back": "\"What are you?\" Watch each answer run out.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "loneliness-and-boredom",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "loneliness"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Loneliness",
+  "front": "Loneliness: when does Hudson say to ask for help?",
+  "back": "Before you have it handled. Then let people help without checking their work.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "loneliness-and-boredom",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "loneliness",
+   "self-reliance"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Boredom",
+  "front": "How does Hudson suggest you do nothing on purpose?",
+  "back": "Use five minutes every two hours. Do not fill the gap.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "loneliness-and-boredom",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "boredom"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Boredom",
+  "front": "What is Hudson's one- or two-week experiment with discomfort?",
+  "back": "Do nothing you do not enjoy. When it gets uneasy, stay in the discomfort.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "loneliness-and-boredom",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "boredom"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "Why does Hudson say people avoid joy and pleasure too?",
+  "back": "Feeling good can scare us.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "What question does Hudson suggest you ask during a breath, the dishes or a walk?",
+  "back": "\"Where is the pleasure now?\"",
+  "text": "",
+  "extra": "He did this for several weeks and suggests about 10 minutes a day.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "Pleasure: what is Hudson's five-minute breath practice?",
+  "back": "Enjoy your breath for five minutes straight.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "What is Hudson's \"10% more\" question?",
+  "back": "How could I enjoy this 10% more? Set a reminder so you keep asking.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "Gratitude with a partner: how long, and how do you sit?",
+  "back": "Sit facing someone for 7 to 10 minutes a day, and take turns.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure",
+   "gratitude"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "Gratitude with a partner: what does the speaker do, and what does the listener do?",
+  "back": "The speaker feels it first, then says it in less than a sentence. The listener savours it.",
+  "text": "",
+  "extra": "Later, try gratitude for something hard.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure",
+   "gratitude"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "When you practise pleasure, what does Hudson say to notice?",
+  "back": "What comes up to block it. Feel that, then return to the pleasure.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "What does hunger in a pleasure mean, according to Hudson?",
+  "back": "It may be pulling you away from another feeling. Do not chase the pleasure; stay with that feeling.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Joy and pleasure",
+  "front": "Try now, 1 minute: enjoy your breath. Ask \"Where is the pleasure now?\"",
+  "back": "Notice where the pleasure is, and what comes up to stop it.",
+  "text": "",
+  "extra": "",
+  "kind": "practice",
+  "priority": 2,
+  "section": "joy-and-pleasure",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "pleasure"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being loved and seen",
+  "front": "When someone praises you, what does Hudson suggest?",
+  "back": "Do not deflect. Breathe, say thanks, and let it land for three seconds.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "love"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being loved and seen",
+  "front": "What does Hudson mean by finding what you \"wired to love\"?",
+  "back": "List what you have tied to love, such as criticism, duty or anger.",
+  "text": "",
+  "extra": "Then do Emotional Inquiry on it daily for two weeks.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "love"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being loved and seen",
+  "front": "Being loved: what does Hudson suggest you find each day?",
+  "back": "One way someone cared for you. Let it in.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "love"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being loved and seen",
+  "front": "What question does Hudson suggest you ask several times a day about your heart?",
+  "back": "How can I open my heart a bit more?",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "love"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being loved and seen",
+  "front": "Being seen: what is Hudson's daily practice?",
+  "back": "Be seen in small ways. Look for the evidence of it that you discount.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "love"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Being loved and seen",
+  "front": "",
+  "back": "",
+  "text": "Hudson calls {{c1::chasing}} love another way of pushing it away.",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "love"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being loved and seen",
+  "front": "How does Hudson suggest you love your younger self?",
+  "back": "Imagine yourself at about three. Ask how you want to be loved, and give that.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "love"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being loved and seen",
+  "front": "Try now, 1 minute: recall one recent time someone cared for you. Let it in.",
+  "back": "Notice if you push it away or explain it away, and what that feels like.",
+  "text": "",
+  "extra": "",
+  "kind": "practice",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "love"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wanting",
+  "front": "What does Hudson call the key step with a want?",
+  "back": "Sit with the wanting itself before you attach it to a thing or plan how to get it.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wanting",
+  "front": "What is Hudson's \"drop the object\" practice?",
+  "back": "Feel a strong want fill your body. Then take away the thing itself and savour what is left.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Wanting",
+  "front": "",
+  "back": "",
+  "text": "Hudson says wanting with no object is close to {{c1::love}}.",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wanting",
+  "front": "If you cannot name a want, where does Hudson say this often comes from?",
+  "back": "A childhood spent looking after a parent. You may have learned not to feel wanting at all.",
+  "text": "",
+  "extra": "Start with the feeling, and leave the object for later.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting",
+   "self-reliance"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wanting",
+  "front": "What does Hudson mean by \"climb the want\"?",
+  "back": "Write what you want, ask what need is behind it, and repeat.",
+  "text": "",
+  "extra": "His example: $10 million, then security, then feeling empowered.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Wanting",
+  "front": "",
+  "back": "",
+  "text": "Say a goal four ways: \"I {{c1::should}}\", \"I {{c2::want}}\", \"I {{c3::will}}\" and \"I {{c4::can't wait}}\". Notice the energy in each.",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting",
+   "should"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Jealousy",
+  "front": "How does Hudson suggest you use jealousy?",
+  "back": "As a pointer to a want. Ask if you can let yourself want it completely.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting",
+   "jealousy"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Success",
+  "front": "What is Hudson's full failure and full success visualisation?",
+  "back": "Picture each slowly, through to how people respond, and feel each. Repeat 2 to 10 times.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "success",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "success"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Success",
+  "front": "",
+  "back": "",
+  "text": "In any arousal, breathe to {{c1::enjoy}} it, not to {{c2::calm}} it. Stay longer.",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "success",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "success"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Success",
+  "front": "What is Hudson's \"name your idols\" practice?",
+  "back": "List three people you admire and what you admire most. Ask how you keep that quality out of your picture of yourself.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "success",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "success"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Every other feeling",
+  "front": "For a feeling that has no section of its own, what does the essay suggest?",
+  "back": "Use the core method.",
+  "text": "",
+  "extra": "For example: embarrassment, despair or restlessness. He discusses these but gives no specific practice.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "every-other-feeling",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "other-feelings"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Inner voice",
+  "front": "",
+  "back": "",
+  "text": "The 5x5x5: for {{c1::five days}}, write out the voice for {{c2::5 minutes}} a day. For the next five days, try {{c3::5 different replies}} each day. Then look in your journal for where it was {{c4::false or contradicted itself}}.",
+  "extra": "Example replies: ask it to treat you with more respect, or tell it you see it is scared and you are here.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "inner-voice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Inner voice",
+  "front": "What playful ways does Hudson suggest for meeting the inner voice?",
+  "back": "Sing its lines, give it a silly name, or hold it like a child in a tantrum.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "inner-voice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Inner voice",
+  "front": "What is Hudson's \"boss test\" for the inner voice?",
+  "back": "Say each harsh line out loud. Then picture a boss talking to you that way.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "inner-voice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Inner voice",
+  "front": "What does Hudson mean by \"look at the other 97\"?",
+  "back": "You do 100 things a day and pick three that make you bad. Notice the good in the rest.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "inner-voice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Inner voice",
+  "front": "What is Hudson's \"ouch\" experiment?",
+  "back": "Listen to the voice for 20 minutes a day for a week. Each time it is mean, say \"ouch\" out loud.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "inner-voice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Inner voice",
+  "front": "Try now, 1 minute: say one harsh line from your inner voice out loud. Picture a boss saying it to you.",
+  "back": "Notice how you would feel about that boss.",
+  "text": "",
+  "extra": "",
+  "kind": "practice",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "inner-voice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Procrastination",
+  "front": "The Double Blind: each time you put off a task, which two feelings do you name?",
+  "back": "What you feel now, and what you fear you would feel if you did the task. Do Emotional Inquiry on both.",
+  "text": "",
+  "extra": "Run it for 7 days. The published steps jump from 2 to 4, so one step may be missing.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "procrastination"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Procrastination",
+  "front": "Hudson's \"enjoy first\" week: what are your two aims when you sit down to work?",
+  "back": "Enjoy it first. Finish it second.",
+  "text": "",
+  "extra": "If you are not enjoying it, stop and find a way that you do.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "procrastination"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Procrastination",
+  "front": "What one question does Hudson ask about procrastination and shame?",
+  "back": "How much would you procrastinate if you could not shame yourself?",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "procrastination",
+   "shame"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Procrastination",
+  "front": "What is Hudson's \"double the enjoyment\" practice?",
+  "back": "Ask how you could enjoy the task twice as much. List 10 experiments and run them.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "procrastination"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Procrastination",
+  "front": "What does Hudson suggest for a to-do list?",
+  "back": "Keep three items that matter. Ask what would make the list easier or not needed.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "procrastination"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Forcing yourself",
+  "front": "What are the signs that you force yourself, according to Hudson?",
+  "back": "Constant shoulds, leaning on willpower, a life that needs managing, and resisting goals you chose.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "forcing",
+   "should"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Forcing yourself",
+  "front": "What is Hudson's two-column practice?",
+  "back": "Left: what you forced yourself to do today. Hand on heart, ask what your heart wants for each, and write it on the right.",
+  "text": "",
+  "extra": "Wait for the answer before you write it.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "forcing",
+   "should"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Forcing yourself",
+  "front": "How does Hudson suggest you catch yourself forcing?",
+  "back": "Notice the word \"should\", and any tightness in your body.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "forcing",
+   "should"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Forcing yourself",
+  "front": "When you catch yourself forcing, what questions bring you back?",
+  "back": "What do I want here? What do my head, heart and gut each want? What would I do with no shoulds?",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "forcing",
+   "should"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Forcing yourself",
+  "front": "What does Hudson mean by \"slow the reach\" before a habit such as coffee?",
+  "back": "Find the feeling just before you reach and the one you get after. See what you avoid or chase.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "forcing",
+   "should"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Doing everything yourself",
+  "front": "Where does Hudson trace the habit of doing everything yourself?",
+  "back": "To a child who had to look after the adults.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "self-reliance"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Doing everything yourself",
+  "front": "Hudson likes agency. What does too much self-reliance bring?",
+  "back": "Burnout and broken relationships.",
+  "text": "",
+  "extra": "It can pass for high agency.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "self-reliance"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Doing everything yourself",
+  "front": "What are Hudson's signs of too much self-reliance?",
+  "back": "You carry other people's feelings, rarely say what you want, ask for help in ways that put people off, and distrust authority.",
+  "text": "",
+  "extra": "You are also uneasy holding authority yourself.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "self-reliance"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Money",
+  "front": "According to Hudson, what are people usually chasing when they chase money?",
+  "back": "Safety, approval or freedom. Money cannot fully give these.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "money"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Money",
+  "front": "What signs show that money runs the show, according to Hudson?",
+  "back": "Shame at having too little, a belief that more will make you better or safe, and judging people with more or less.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "money"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Money",
+  "front": "Hudson's story: what did he do with money in his twenties, and what does he call it now?",
+  "back": "He lived on under $12,000 a year to prove he could. He calls it the same obsession: hating money still gives it power.",
+  "text": "",
+  "extra": "",
+  "kind": "story",
+  "priority": 3,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "money"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Money",
+  "front": "When money stirs you up, how does Hudson suggest you trace the charge?",
+  "back": "Find the feeling in your body. Ask when you first felt it, and what you called it before you knew about money.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "money"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Money",
+  "front": "What is Hudson's money gratitude practice?",
+  "back": "For two weeks, take 10 minutes a day to name gratitude for what you already have, best with a partner.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "money",
+   "gratitude"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Money",
+  "front": "Hudson's story: what does he say happened when he and his wife practised gratitude while in debt?",
+  "back": "He says they were out of debt within a year.",
+  "text": "",
+  "extra": "This is his story, not a tested result.",
+  "kind": "story",
+  "priority": 3,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "money",
+   "gratitude"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Purpose",
+  "front": "What does Hudson say about asking \"What is my purpose?\"",
+  "back": "It is mostly self-abuse. Purpose is not found in the future.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "purpose"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Purpose",
+  "front": "Before you quit a job for lack of purpose, what 30-day experiment does Hudson suggest?",
+  "back": "Act fully as yourself at work. In each meeting, ask how you would listen and speak if you were on purpose.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "purpose"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Purpose",
+  "front": "What is Hudson's purpose chime?",
+  "back": "A timer rings seven to nine times a day. At each ring, take 20 seconds to live on purpose now.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "purpose"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "According to Hudson, how does fear show up in decisions?",
+  "back": "As either/or thinking, and as treating this choice as your last.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "How does Hudson suggest you see past the false end of a decision?",
+  "back": "Keep imagining past the moment you dread: and then, and then.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "What does Hudson mean by thinking in portfolios?",
+  "back": "Judge a year of decisions the way a fund judges its holdings. No single one has to be right.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "How does Hudson read resentment?",
+  "back": "As a sign that you abandoned yourself.",
+  "text": "",
+  "extra": "Audit: over the last week or two months, where did you sense it was wrong and do it anyway?",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions",
+   "self-abandonment"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "How does Hudson treat each need for reassurance?",
+  "back": "As a small self-abandonment.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions",
+   "self-abandonment"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "In \"head, heart, gut\", what do you do with a choice?",
+  "back": "Say what each of the three says about it.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "What is Hudson's \"fortune or peace\" exercise?",
+  "back": "Imagine having the outcome and being miserable. Then losing all of it and being joyful. See which you would choose.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "What are Hudson's three \"know what you know\" questions?",
+  "back": "What do I know? What do I not know? What do I need to know next?",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "Personal principles: how many does Hudson suggest, and how do you test each?",
+  "back": "About five. Test each for five days, and define it by what it is not as well as what it is.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions",
+   "principles"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Decisions",
+  "front": "",
+  "back": "",
+  "text": "A good set of personal principles gets you where you want to go about {{c1::80%}} of the time.",
+  "extra": "He says it also solves about 80% of your problems. Run hard decisions through each one.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "decisions",
+   "principles"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "In a hard talk, which question words does Hudson prefer, and why?",
+  "back": "How and what, not why. \"Why\" sounds like a charge.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "What small daily practice does Hudson suggest for honesty?",
+  "back": "Say what you held back, maybe one thing a day.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "What does Hudson suggest you book each month?",
+  "back": "A block of about three hours. Ask which talks you are not having, then call those people.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Boundaries",
+  "front": "According to Hudson, how is a boundary different from a demand?",
+  "back": "A boundary says what you will do, not what they must do.",
+  "text": "",
+  "extra": "Example: if the yelling goes on, you will leave, and you say when you will check back.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks",
+   "boundaries"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Boundaries",
+  "front": "How do you test a boundary first, according to Hudson?",
+  "back": "Picture saying it. A good boundary keeps your heart open whatever they answer.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks",
+   "boundaries"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "When you notice you are trying to fix someone, what does Hudson suggest you say?",
+  "back": "\"I notice I am trying to fix you.\" Then ask how that is for them.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "People-pleasing",
+  "front": "How does Hudson define people-pleasing?",
+  "back": "The fear of someone's reaction, more than a wish to be liked.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks",
+   "people-pleasing"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "People-pleasing",
+  "front": "",
+  "back": "",
+  "text": "Hudson says care ends where their {{c1::mood}} starts to decide your happiness.",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks",
+   "people-pleasing"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "People-pleasing",
+  "front": "What does Hudson mean by \"start absurdly small\"?",
+  "back": "Own your truth in tiny ways: when asked where to eat, say \"pizza\", not \"anything\".",
+  "text": "",
+  "extra": "List where you did not own your truth today, and practise on the smallest ones.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks",
+   "people-pleasing"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "How does Hudson suggest you replace a hedged request?",
+  "back": "Tell the whole story: what you want, what it costs, and that you are scared to ask.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "What does Hudson suggest you admit to your partner?",
+  "back": "That you were scared of them and were not really loving them, and that you are sorry.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "When you cringe or freeze, what does Hudson suggest?",
+  "back": "Go into it a little more on purpose. He and his co-host say the resistance loosens.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "People-pleasing",
+  "front": "What is Hudson's \"I disagree\" week?",
+  "back": "Say \"I disagree\" each time you do not agree. Keep going until it comes out clean, not defensive or superior.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks",
+   "people-pleasing"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "What is Hudson's \"no advice for a day\" experiment?",
+  "back": "Fix no one. Listen, and ask only how or what questions. When it is uncomfortable, note the feeling you avoid.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Hard talks",
+  "front": "Before you leave a relationship, what does Hudson suggest for a few weeks?",
+  "back": "Be fully yourself and speak your truth without defending.",
+  "text": "",
+  "extra": "He says this often turns things around. If it does not, your next relationship is better for it.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "hard-talks",
+   "relationships"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Choosing a partner",
+  "front": "What question does Hudson ask about a partner, more than whether they suit you today?",
+  "back": "Will this person grow alongside you? You will both change.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "relationships"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Choosing a partner",
+  "front": "What three qualities does Hudson look for in a partner?",
+  "back": "They can have hard talks, are curious about their own growth, and solve problems with you without keeping score.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "relationships"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Raising children",
+  "front": "Why did Hudson and his wife not punish their children?",
+  "back": "He says punishment teaches children to punish themselves and to doubt their own goodness.",
+  "text": "",
+  "extra": "They used no timeouts and did not take things away. This is his account of his own family.",
+  "kind": "story",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "parenting"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Raising children",
+  "front": "How does Hudson tell punishing anger from owned anger with a child?",
+  "back": "Anger aimed at a small child is punishment. Anger you own, with a child who knows they are safe, is different.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "parenting",
+   "anger"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Raising children",
+  "front": "Where does Hudson say consequences for children should come from?",
+  "back": "From life and from limits. Do not shield them from what follows. State what you will do, not what you will do to them.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "parenting"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Raising children",
+  "front": "Hudson's story: what repair did he make with a teenage daughter?",
+  "back": "He apologised for a pattern she had learned from him.",
+  "text": "",
+  "extra": "",
+  "kind": "story",
+  "priority": 3,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "parenting"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "What are Hudson's five-star meetings?",
+  "back": "Rate each meeting 1 to 5 by the energy it gives. Aim for a week of only five-star meetings within a month or two.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "What two questions does Hudson suggest you ask the room?",
+  "back": "What are we not talking about? What are you scared to say?",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "What \"doubling\" questions does Hudson ask a team?",
+  "back": "What would double our results? What would double our enjoyment?",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "How does Hudson suggest you open meetings?",
+  "back": "With a round of gratitude.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams",
+   "gratitude"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "Why does Hudson set conditions, not orders?",
+  "back": "He says control kills creativity. Describe what success needs and leave the how to them.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "Who does Hudson call the most dangerous person in a company?",
+  "back": "The one who never points out problems.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "Why should a team hold itself to account, not answer only to the boss?",
+  "back": "If people answer only to the boss, old family dynamics land on the boss.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "What does Hudson say CEOs overrate and underrate?",
+  "back": "They overrate the quality of each decision. They underrate how fast they make and delegate decisions.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams",
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "What is Hudson's \"no doctrine\"?",
+  "back": "Do not sell your idea. Ask people for everything broken about it, and mine each objection for a better answer.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "When you blame someone, what does Hudson suggest you look for?",
+  "back": "How you do the same thing. He says you almost always do.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams",
+   "projection"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "Why does Hudson have executive teams trigger each other on purpose?",
+  "back": "So they practise working through it, and hard talks get easier.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Teams",
+  "front": "",
+  "back": "",
+  "text": "At Hudson's company, each person runs {{c1::three to five}} experiments a quarter on how they do their job.",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "What does Hudson say avoiding conflict with staff ends in?",
+  "back": "Revolt, or people leaving. Tell a hard truth early.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Teams",
+  "front": "When a task does not get done, what does Hudson blame?",
+  "back": "The cause, not the person. Ask what made it not get done, what changes, and how the team can help.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "teams"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Where his advice differs",
+  "front": "Hudson's numbers (doses, minutes, days) shift between sources. How should you treat them?",
+  "back": "As a place to start. He teaches by experiment.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 2,
+  "section": "where-his-advice-differs",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "differs"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Safety: big feelings alone",
+  "front": "Hudson says both to practise anger alone first and not to do this alone. What is a careful reading?",
+  "back": "Start small alone. Do deep release with a grounded person.",
+  "text": "",
+  "extra": "",
+  "kind": "safety",
+  "priority": 1,
+  "section": "where-his-advice-differs",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "differs",
+   "anger",
+   "safety"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Where his advice differs",
+  "front": "Shame: what two different things do his episodes say to do?",
+  "back": "One says to love the shame itself. Others say to feel what is under it. Try each.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 2,
+  "section": "where-his-advice-differs",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "differs",
+   "shame"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Where his advice differs",
+  "front": "Naming feelings: what tension is in Hudson's advice, and how do you resolve it?",
+  "back": "A label can become a way not to feel. Name the emotion, then drop into the body.",
+  "text": "",
+  "extra": "He suggests naming your emotion 5 to 10 times a day, and also warns about labels.",
+  "kind": "evidence",
+  "priority": 2,
+  "section": "where-his-advice-differs",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "differs"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Where his advice differs",
+  "front": "Writing: what tension is in Hudson's advice, and how do you resolve it?",
+  "back": "He says writing about a feeling is not feeling it, yet he assigns journals. Use writing to find a feeling, then go to the body.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 2,
+  "section": "where-his-advice-differs",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "differs",
+   "writing"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Where his advice differs",
+  "front": "\"Why\" questions: where does Hudson contradict himself?",
+  "back": "He says to avoid \"why\", and sometimes asks it himself.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 3,
+  "section": "where-his-advice-differs",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "differs"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Evidence",
+  "front": "What does most of Hudson's method rest on?",
+  "back": "His coaching and reports from students. A web search found no trial or peer-reviewed test of it.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 1,
+  "section": "what-the-evidence-says",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Evidence",
+  "front": "What did one Master Class student, Andrew Conner, later add to his review?",
+  "back": "That a sincere testimonial is not evidence, and that the gains had mellowed.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 2,
+  "section": "what-the-evidence-says",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Evidence: venting anger",
+  "front": "What did a 2024 review of 154 studies find about reducing anger?",
+  "back": "Activities that lower arousal, such as slow breathing and meditation, reduce anger. Activities that raise arousal did not help overall.",
+  "text": "",
+  "extra": "About 10,000 people took part.",
+  "kind": "evidence",
+  "priority": 1,
+  "section": "what-the-evidence-says",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence",
+   "anger"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Evidence: venting anger",
+  "front": "What did an earlier experiment find about venting while thinking about the offender?",
+  "back": "It raised anger and aggression.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 1,
+  "section": "what-the-evidence-says",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence",
+   "anger"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Safety: moving anger",
+  "front": "If your anger grows after you move it, or you act on it more, what should you do?",
+  "back": "Stop, and try the calming route. His own test: you should end with relief and clarity.",
+  "text": "",
+  "extra": "The studies test anger reduction, not Hudson's protocol with its rules.",
+  "kind": "safety",
+  "priority": 1,
+  "section": "what-the-evidence-says",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence",
+   "anger",
+   "safety"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Evidence",
+  "front": "What does the research say about writing about hard experiences?",
+  "back": "A meta-analysis of 146 randomised studies found a small positive effect.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 2,
+  "section": "what-the-evidence-says",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence",
+   "writing"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Evidence",
+  "front": "Hudson says CBT works mainly on the head. What is the difference in evidence?",
+  "back": "CBT has been tested in many trials. His method has not.",
+  "text": "",
+  "extra": "",
+  "kind": "evidence",
+  "priority": 1,
+  "section": "what-the-evidence-says",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Evidence",
+  "front": "What is wrong with the transplant paper in one of Hudson's posts on the heart?",
+  "back": "It is a set of interviews with 10 recipients. It cannot show cause.",
+  "text": "",
+  "extra": "The research claims in his X posts were not checked, for example that people who go into their depression rarely relapse.",
+  "kind": "evidence",
+  "priority": 2,
+  "section": "what-the-evidence-says",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "About this deck",
+  "front": "How complete is the essay this deck is built on?",
+  "back": "Partial. His paid courses and guided audio were not covered, many episodes were only scanned, and steps come from machine transcripts.",
+  "text": "",
+  "extra": "So a step on a card may lose some detail from what he actually said.",
+  "kind": "evidence",
+  "priority": 3,
+  "section": "what-this-post-leaves-out",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "evidence",
+   "limits"
+  ]
+ }
+]

@@ -1,0 +1,2224 @@
+[
+  {
+    "type": "basic",
+    "context": "Fear: the tiger",
+    "front": "Try now, 1 minute: close your eyes. Imagine a tiger closing in, with no way out. Hear its feet and its breath. Then ask: how much does it weigh?",
+    "back": "Notice what happens to the fear when wonder comes in. Hudson says wonder and fear are hard to hold together.",
+    "text": "",
+    "extra": "Use it for lesser fears, such as being fired. Not for real danger.",
+    "kind": "practice",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "wonder",
+      "tiger"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear: the tiger",
+    "front": "For which fears does Hudson suggest the tiger exercise, and for which not?",
+    "back": "For lesser fears, such as being fired. Not for real danger.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "tiger",
+      "safety"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear",
+    "front": "How do you \"walk through the outcome\" of a fear?",
+    "back": "Picture the steps before, during and after it, again and again. Feel what it would bring.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear",
+    "front": "What is the \"say the scary truth\" practice?",
+    "back": "Ask what scary thing is true for you right now. Then say it out loud.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear",
+    "front": "What does Hudson suggest the body does with fear, and with whom?",
+    "back": "Let it shake and let sounds out. He recommends doing this with others.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "body"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear: check the story",
+    "front": "How can you tell that fear is really moving?",
+    "back": "The story changes, and relief follows.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear: check the story",
+    "front": "If you feel the fear but the story stays the same, what may be going on?",
+    "back": "You may be feeling it only to get rid of it.",
+    "text": "",
+    "extra": "This links to the Golden Algorithm: welcoming a feeling only to make it leave is still resisting it.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "golden-algorithm",
+      "resistance"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear Triangle",
+    "front": "In Hudson's Fear Triangle, feeling stuck means you are in which role?",
+    "back": "The victim.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "fear-triangle"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear Triangle",
+    "front": "In Hudson's Fear Triangle, feeling angry and alone means you are in which role?",
+    "back": "The bully.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "fear-triangle"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear Triangle",
+    "front": "In Hudson's Fear Triangle, feeling obligated means you are in which role?",
+    "back": "The savior.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "fear-triangle"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Fear: ask what you defend",
+    "front": "",
+    "back": "",
+    "text": "What are you {{c1::defending}}? What is the {{c2::you that you are defending}}? What makes you think it {{c3::can be destroyed}}?",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety",
+    "front": "Try, the next time anxiety comes: go to its most intense part. Ask what the really scary thing is. Stay 5 seconds.",
+    "back": "Then go on with your day. Notice how the anxiety feels after those 5 seconds.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "five-seconds"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety: five seconds",
+    "front": "How long does Hudson say to stay at the most intense part of anxiety?",
+    "back": "Five seconds. Then go on with your day.",
+    "text": "",
+    "extra": "First ask what the really scary thing is.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "five-seconds"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety",
+    "front": "What odd question does Hudson suggest asking about anxiety?",
+    "back": "\"How is my anxiety right now?\" Then feel the answer.",
+    "text": "",
+    "extra": "The odd wording keeps the head out of it.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "questions"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Anxiety: two steps down",
+    "front": "",
+    "back": "",
+    "text": "Ask what you are scared {{c1::will happen}}. Then ask what you would have to {{c2::feel}} if it did.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety: \"I'm excited\"",
+    "front": "What is the \"I'm excited\" experiment?",
+    "back": "Jump up and down and say \"I'm excited\" 10 times in a row.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "excitement"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety: \"I'm excited\"",
+    "front": "His guide says fear can be excitement without what?",
+    "back": "Breath. So breathe.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "excitement",
+      "breath"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety",
+    "front": "What question finds the step that anxiety points to?",
+    "back": "What one step would settle this?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety",
+    "front": "Besides a step to take, what else does Hudson check for in anxiety?",
+    "back": "Anger, grief or fear under it. And whether you are refusing to feel calm.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Anxiety: the win log",
+    "front": "",
+    "back": "",
+    "text": "For {{c1::one week}}, write down {{c2::each thing that goes right}}. Write {{c3::the first anxious thought that comes after it}}. Look for {{c4::themes}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "journaling"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Shame: stop, invite, love",
+    "front": "",
+    "back": "",
+    "text": "Each time shame comes: {{c1::stop}}. {{c2::Invite}} it. {{c3::Love}} it. Tell it that {{c4::it can come back at any time}}. Move when you are ready.",
+    "extra": "Hudson calls this the fastest way through shame.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame: stop, invite, love",
+    "front": "Try now, 1 minute: recall a small moment of shame. Stop. Invite it. Love it. Tell it that it can come back at any time.",
+    "back": "Notice what changes when you stop pushing it away. Move on when you are ready.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame",
+    "front": "What question looks under shame?",
+    "back": "What would I have to feel if I could not feel ashamed right now? Then feel that.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame",
+    "front": "The question \"what would I feel if I could not feel ashamed?\" is also the tool for which problem?",
+    "back": "Regret that replays.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame",
+      "regret"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame",
+    "front": "You keep doing something you hate. Where does Hudson say to look?",
+    "back": "For the shame around the habit.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame",
+      "habits"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame",
+    "front": "How do you \"find the want\" in shame?",
+    "back": "Describe what you truly want, and feel the desire inside the shame.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame",
+      "desire"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame: double bind",
+    "front": "How do you find a double bind?",
+    "back": "Name a want. Ask if you also want its opposite, and if neither feels okay.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame",
+      "double-bind"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame",
+    "front": "What does Hudson call the best route through shame?",
+    "back": "Saying the shameful thing to people who care for you.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame",
+      "connection"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame hot potato",
+    "front": "In a fight where shame passes back and forth, how many people have to stop?",
+    "back": "Only one.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame",
+      "conflict",
+      "hot-potato"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame hot potato",
+    "front": "To drop the hot potato, what do you say, face to face?",
+    "back": "That nothing in you wants the other person to feel ashamed or bad right now.",
+    "text": "",
+    "extra": "Then notice any wish to shame them.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "shame",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "shame",
+      "conflict",
+      "hot-potato"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Guilt: the upright apology",
+    "front": "",
+    "back": "",
+    "text": "Sit or stand with your {{c1::back straight}}. Say {{c2::what happened}} and {{c3::which part you are responsible for}}. Say that {{c4::it is not how you want to be}}, and that you apologise.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "apology"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt: the upright apology",
+    "front": "Which word do you avoid in an upright apology?",
+    "back": "\"You\".",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "apology"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt: the upright apology",
+    "front": "In an upright apology, what do you not try to do?",
+    "back": "Change how the other person feels.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "apology"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt: the upright apology",
+    "front": "Try: pick one small thing you did. Sit upright and say the apology out loud: what happened, your part, that it is not how you want to be. Leave out \"you\".",
+    "back": "Notice how it feels to own your part without trying to change their feelings.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "apology"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt: twenty apologies",
+    "front": "What is the \"twenty apologies\" exercise?",
+    "back": "List the times you were passive-aggressive. Make about 20 upright apologies.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "apology",
+      "passive-aggression"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt: twenty apologies",
+    "front": "How much does Hudson say twenty apologies cut passive aggression, and how sure is it?",
+    "back": "By a third or so. It is his guess. He did not measure it.",
+    "text": "",
+    "extra": "",
+    "kind": "evidence",
+    "priority": 3,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "apology",
+      "passive-aggression"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt",
+    "front": "For a bad habit, what daily apology does Hudson suggest?",
+    "back": "Apologise to yourself each day for the harm the habit does.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "habits",
+      "apology"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt",
+    "front": "What question uses guilt as a door back to your wants?",
+    "back": "If I could not feel guilty, what else would I notice or want?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "desire",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt",
+    "front": "You feel guilty or \"dirty\" after a talk. What does Hudson say this probably means?",
+    "back": "You were trying to control the talk.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "control"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt trip",
+    "front": "What can you say plainly to refuse a guilt trip?",
+    "back": "That you are not interested in being guilt-tripped.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "guilt-trip"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt trip",
+    "front": "Instead of refusing a guilt trip outright, what can you ask?",
+    "back": "Name the guilt trip, and ask what makes them do it right now.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "guilt-trip"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: evidence",
+    "front": "Which part of Hudson's method does research dispute most?",
+    "back": "His anger work. The essay says to read the evidence section before you start.",
+    "text": "",
+    "extra": "",
+    "kind": "evidence",
+    "priority": 1,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "evidence"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: held in",
+    "front": "Held-in anger: where can it turn when it does not go out?",
+    "back": "On yourself. You attack yourself.",
+    "text": "",
+    "extra": "One of his four signs that anger is held in.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "held-in"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: held in",
+    "front": "Held-in anger: how can it leak sideways?",
+    "back": "As sarcasm, lateness or guilt trips.",
+    "text": "",
+    "extra": "One of his four signs that anger is held in.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "held-in",
+      "passive-aggression"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: held in",
+    "front": "Held-in anger: what pattern does it show over time?",
+    "back": "It builds and then blows up.",
+    "text": "",
+    "extra": "One of his four signs that anger is held in.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "held-in"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: held in",
+    "front": "Held-in anger: what can it collapse into?",
+    "back": "Feeling stuck and low.",
+    "text": "",
+    "extra": "One of his four signs that anger is held in.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "held-in"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: safety",
+    "front": "May you aim your anger at a person?",
+    "back": "Never without their permission.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "safety",
+      "consent"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: safety",
+    "front": "What must anger release never do to bodies or things?",
+    "back": "Never hurt yourself or others. Never break things.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "safety"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: safety",
+    "front": "In Hudson's view, what is it when you use anger to scare or control someone?",
+    "back": "Manipulation.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "safety",
+      "control"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Anger: release steps",
+    "front": "",
+    "back": "",
+    "text": "1. {{c1::Find a safe place}}.<br>2. {{c2::Set a time}}.<br>3. {{c3::Keep part of you outside it}}.<br>4. {{c4::Use the body and voice}}.<br>5. {{c5::Tell your body it is safe}}.<br>6. {{c6::Check that it is done}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: release steps",
+    "front": "Anger release, step 1: what counts as a safe place?",
+    "back": "A pillow, a car, a beach, or a room with loud music.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: release steps",
+    "front": "Anger release, step 2: how long do you tell yourself you will listen to the anger?",
+    "back": "15 to 20 minutes. He suggests 40 for people who are low.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release",
+      "dose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: release steps",
+    "front": "Anger release, step 3: how do you keep part of you outside the anger?",
+    "back": "Treat it as a role you perform well, like an actor who plays rage.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release",
+      "role"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: release steps",
+    "front": "Anger release, step 3: if you tend to shut down, what do you do first?",
+    "back": "Lean into the story a little.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: release steps",
+    "front": "Anger release, step 4: how do you use the body and voice?",
+    "back": "Yell, open the chest and make sounds. Heavy music can help.",
+    "text": "",
+    "extra": "Keep his rules: aim it at no one without permission, hurt no one, break nothing.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release",
+      "body"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: release steps",
+    "front": "Anger release, step 5: what do you tell your body?",
+    "back": "That it is safe: no one is attacking you, and you are not hurting anyone.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release",
+      "body"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: release steps",
+    "front": "Anger release, step 6: what does real completion bring?",
+    "back": "Relief and clarity about you, not a verdict on them.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: clean anger",
+    "front": "Clean anger test: what is it not trying to do to anyone?",
+    "back": "Control, target or blame them.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "clean-anger"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: clean anger",
+    "front": "Clean anger test: how does it leave you?",
+    "back": "Clearer and more open.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "clean-anger"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger",
+    "front": "Why may you feel more anger for a while after you stop holding it in?",
+    "back": "As when a kink comes out of a hose: what was held back comes through. Expect it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "held-in"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: if it goes wrong",
+    "front": "During anger release you start to collapse. What does Hudson suggest?",
+    "back": "Use your will. Repeat a short line such as \"No. I won't collapse.\"",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "safety",
+      "collapse"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: if it goes wrong",
+    "front": "During anger release you leave your body or lose track of time. What do you do?",
+    "back": "Return to the role, or to the timed listening.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "safety",
+      "dissociation"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: if it goes wrong",
+    "front": "Anger keeps coming back fast. Where does Hudson say to look?",
+    "back": "For fear, hurt or grief under it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: commute anger",
+    "front": "What is \"commute anger\"?",
+    "back": "Get angry alone in the car each night, with no one there.",
+    "text": "",
+    "extra": "He reports change in two or three weeks for one client.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: announce and leave",
+    "front": "What do you tell your family in \"announce and leave\"?",
+    "back": "That you are angry, that you do not want to take it out on them, and that you will drive for 20 minutes.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "family",
+      "safety"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger",
+    "front": "Which comes first: releasing the anger, or the talk with the other person?",
+    "back": "Release first. Have the talk after.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "conflict"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Anger: ask what it cares about",
+    "front": "",
+    "back": "",
+    "text": "What do I {{c1::care about}} here? What {{c2::line was crossed}}? What {{c3::clarity}} is it looking for?",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anger: release",
+    "front": "Try, alone in a safe place, aimed at no one: set a timer for 15 minutes. Let the anger out through body and voice, as a role you play well.",
+    "back": "At the end, notice: do you have relief and clarity about you, or a verdict on them?",
+    "text": "",
+    "extra": "Do not hurt yourself or others, and do not break things. The essay says to read the evidence section first.",
+    "kind": "practice",
+    "priority": 2,
+    "section": "anger",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anger",
+      "release"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: mourn before you decide",
+    "front": "What does \"mourn before you decide\" ask you to do?",
+    "back": "Assume the outcome you dread, such as a marriage ending. Mourn it fully. Then decide what to do.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "decisions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: mourn before you decide",
+    "front": "Try, 5 minutes: pick a decision you fear. Assume the dreaded outcome has happened, and let yourself mourn it.",
+    "back": "Notice whether the decision looks different once the grief has had room.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "decisions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief",
+    "front": "How much crying does Hudson say some built-up feeling needs?",
+    "back": "About 10 minutes.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "crying",
+      "dose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: give it a place",
+    "front": "Hudson's story: how did a friend of his give grief a place?",
+    "back": "He drove a long road each week and wailed and raged in the car.",
+    "text": "",
+    "extra": "The idea is easy to borrow: give grief a set time and place.",
+    "kind": "story",
+    "priority": 3,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "story"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: practise crying",
+    "front": "Hudson's story: what did he do when he could not cry for years?",
+    "back": "He went off alone and faked crying for about three months, until real crying came.",
+    "text": "",
+    "extra": "",
+    "kind": "story",
+    "priority": 3,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "crying",
+      "story"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: practise crying",
+    "front": "When you practise crying, how does Hudson say to watch it?",
+    "back": "As you would watch the Grand Canyon.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 3,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "crying",
+      "wonder"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief",
+    "front": "What does guest Alexa Anderson do to move through grief?",
+    "back": "She spends about a minute on each feeling in turn, in the body.",
+    "text": "",
+    "extra": "The feelings: sadness, fear, anger, shock, denial, acceptance and gratitude.",
+    "kind": "idea",
+    "priority": 3,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "body"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Grief: breakup",
+    "front": "",
+    "back": "",
+    "text": "After a breakup, grieve {{c1::the person}}, {{c2::the patterns}} and {{c3::the future you pictured}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "breakup"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Grief: four phases of a breakup",
+    "front": "",
+    "back": "",
+    "text": "1. You mourn {{c1::the person}}.<br>2. You mourn {{c2::what taught you to chase or earn love}}.<br>3. {{c3::The body still cries, with little story left}}.<br>4. You {{c4::miss the heartbreak a little}}.",
+    "extra": "They come in waves.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "breakup"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: four phases of a breakup",
+    "front": "What does Hudson say speeds up the phases of a breakup?",
+    "back": "Sound and movement.",
+    "text": "",
+    "extra": "He says most people do not get through all four phases without them.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "breakup",
+      "body"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: heartbreak",
+    "front": "What does Hudson say each heartbreak does to you?",
+    "back": "It widens your capacity to love.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "heartbreak"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: heartbreak",
+    "front": "In Hudson's view, are people who shut down after heartbreak broken by the pain?",
+    "back": "No. They are avoiding the pain.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "heartbreak",
+      "avoidance"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Helplessness",
+    "front": "Where does Hudson say to look for helplessness?",
+    "back": "Where you control the most. Helplessness is often under it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "helplessness-and-loss-of-control",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "helplessness",
+      "control"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Helplessness: worst case",
+    "front": "How do you play out the worst case?",
+    "back": "Name one thing you cannot let go of. Picture the worst in detail. Do Emotional Inquiry on what comes.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "helplessness-and-loss-of-control",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "helplessness",
+      "emotional-inquiry"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Helplessness",
+    "front": "Why also picture the thing going perfectly?",
+    "back": "The good version can be the scarier one.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "helplessness-and-loss-of-control",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "helplessness"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Helplessness: letting go",
+    "front": "",
+    "back": "",
+    "text": "Letting go cannot be {{c1::forced}}. Feel how much {{c2::holding on hurts}}, as with a hot pan, and letting go follows.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "helplessness-and-loss-of-control",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "helplessness",
+      "letting-go"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Helplessness: pinky pull",
+    "front": "Try now, 30 seconds: press your palms together and try to pull your little fingers apart. Notice the trying. Then feel its opposite.",
+    "back": "Notice what trying feels like in the body, and what its opposite feels like.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "helplessness-and-loss-of-control",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "helplessness",
+      "trying"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Helplessness: how do I want to be?",
+    "front": "How do you answer the question \"how do I want to be right now?\"",
+    "back": "By being that way, not in words.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "helplessness-and-loss-of-control",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "helplessness",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Helplessness: how do I want to be?",
+    "front": "How often, and for how long, does Hudson suggest asking \"how do I want to be right now?\"",
+    "back": "20 times a day for a couple of weeks. He says this makes a clear difference.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "helplessness-and-loss-of-control",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "helplessness",
+      "dose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Helplessness: safety",
+    "front": "For deep release, such as shaking or old pain, who should be with you?",
+    "back": "A grounded person: someone who is not in fear.",
+    "text": "",
+    "extra": "",
+    "kind": "safety",
+    "priority": 1,
+    "section": "helplessness-and-loss-of-control",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "helplessness",
+      "safety"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hurt: say \"ouch\"",
+    "front": "What does Hudson suggest you say when someone criticises you?",
+    "back": "\"Ouch\" or \"that hurt\".",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "hurt",
+      "criticism"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hurt: say \"ouch\"",
+    "front": "Where must the \"ouch\" come from?",
+    "back": "From choice, not from blame.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "hurt",
+      "criticism",
+      "blame"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hurt: say \"ouch\"",
+    "front": "Try, the next time a remark stings: say \"ouch\" out loud, by choice and without blame.",
+    "back": "Notice what happens in you, and in the other person.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "hurt",
+      "criticism"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Rejection",
+    "front": "What question does Hudson ask about a no?",
+    "back": "What happens when I open my heart to it?",
+    "text": "",
+    "extra": "Do not treat the no as proof that you are bad.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "rejection"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Rejection: collect rejections",
+    "front": "What does \"collect rejections\" mean?",
+    "back": "Make rejection the goal.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "rejection"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Rejection: the artist story",
+    "front": "Hudson's story: in one telling, when did galleries say yes to the artist who collected rejections?",
+    "back": "Once the artist stopped trying to convince them.",
+    "text": "",
+    "extra": "The number of rejections varies between tellings, from 25 to 50.",
+    "kind": "story",
+    "priority": 3,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "rejection",
+      "story"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Rejection: the barber story",
+    "front": "Hudson's story (2026 interview): what did he offer his barber?",
+    "back": "$1,000 or $2,000 to collect 50 rejections in 60 days.",
+    "text": "",
+    "extra": "",
+    "kind": "story",
+    "priority": 3,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "rejection",
+      "story"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Rejection: the barber story",
+    "front": "Hudson's story: how did the barber's 50 rejections turn out?",
+    "back": "He got two acceptances. He now sells his paintings for a living.",
+    "text": "",
+    "extra": "",
+    "kind": "story",
+    "priority": 3,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "rejection",
+      "story"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hurt: blame list",
+    "front": "What do you write in the blame list?",
+    "back": "Who you subtly blame, and for what. Next to each name, how you are aggressive toward them.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "hurt",
+      "blame",
+      "journaling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hurt: resentment",
+    "front": "How do you turn resentment into a want?",
+    "back": "Find what you wanted and never said. Say it as a request.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "hurt",
+      "resentment",
+      "desire"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Hurt: forgiveness in three steps",
+    "front": "",
+    "back": "",
+    "text": "Tara Howley's method:<br>1. {{c1::Be with the anger, hurt and fear}}.<br>2. {{c2::Get curious about what wounded them}}.<br>3. {{c3::Find the boundary you need}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "hurt",
+      "forgiveness",
+      "boundaries"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Failure: 50 tries",
+    "front": "",
+    "back": "",
+    "text": "For a goal you keep dodging, write {{c1::50}} ways to try it. Run them {{c2::in order}}. Tick each as {{c3::a win}} and ask {{c4::what you learned}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "goals"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure: 50 tries",
+    "front": "What is the shorter form of the 50-tries list?",
+    "back": "15 tries, each with what would make it fun.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "goals",
+      "play"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure: 50 tries",
+    "front": "Try, 5 minutes: pick a goal you keep dodging. Write 15 ways to try it, each with what would make it fun.",
+    "back": "Notice which try you want to run first.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "goals"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure",
+    "front": "After a setback, does a reframe remove the sadness and fear?",
+    "back": "No. Feel them first, then go back to the list.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "setback"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure: \"I can't wait\"",
+    "front": "What do you say out loud about the criticism or failure you dread?",
+    "back": "\"I can't wait.\" You say you look forward to it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "criticism"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure: perfectionism",
+    "front": "What question does Hudson ask about perfectionism?",
+    "back": "Whose standard is it? Is my perfection an effort to please a critical parent?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "perfectionism"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure: draft twice",
+    "front": "How does \"draft twice\" work?",
+    "back": "The first pass is playful and unjudged. Bring the harsh editor only on later passes.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "perfectionism",
+      "play"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure: applaud mistakes",
+    "front": "What is \"applaud mistakes\" at a team meeting?",
+    "back": "Each person names a failure, and the group claps.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "teams"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough: island of saints",
+    "front": "Try now, 1 minute, eyes closed: you are stuck on an island with your needs met, among people who love you without condition. Who are you after 10 years?",
+    "back": "Notice that self-attack is not what grows you.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "self-attack"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough: island of saints",
+    "front": "What does the island of saints exercise show?",
+    "back": "That self-attack is not what grows you.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "self-attack"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough",
+    "front": "You hear \"you are enough\" and notice your reaction. What do you ask next?",
+    "back": "What would I lose if I stopped believing I must be more?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough: journal question",
+    "front": "What journal question does Hudson give for not feeling enough?",
+    "back": "What would it take to feel enough after I had fixed everything?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "questions",
+      "journaling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough: imposter feelings",
+    "front": "What does Hudson say eases imposter feelings faster than building more skill?",
+    "back": "Telling someone a thing you judge yourself for, and seeing how they respond.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "imposter",
+      "connection"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough: change the question",
+    "front": "Which question does Hudson swap in for \"how do I protect myself?\"",
+    "back": "\"How do I serve here?\"",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "questions",
+      "service"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough: arrogance and self-doubt",
+    "front": "What does Hudson say arrogance and self-doubt have in common?",
+    "back": "They are the same habit: thinking about yourself all the time.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "arrogance",
+      "self-doubt"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Not enough: change the question",
+    "front": "",
+    "back": "",
+    "text": "You cannot ask how to do this job {{c1::with an open heart}} and ask {{c2::if you are good enough}} at once.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "questions"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough: imposter feelings",
+    "front": "In \"say what you do not know\", what do you tell the group?",
+    "back": "What you know and what you do not know. Then ask what they know.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "imposter"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Not enough: judging others",
+    "front": "Each time you judge someone, what does Hudson suggest you do?",
+    "back": "Ask what emotion you are avoiding, and feel it for 20 seconds.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "not-being-enough",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "not-enough",
+      "judgment",
+      "dose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Overwhelm: five minutes every two hours",
+    "front": "What is the \"five minutes every two hours\" experiment?",
+    "back": "Sit and do nothing for 5 minutes every 2 hours. Try it for one day.",
+    "text": "",
+    "extra": "You may cry, scream or simply enjoy it.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "overwhelm",
+      "rest",
+      "dose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Overwhelm: even breath",
+    "front": "When there is no room to process a feeling, how do you breathe?",
+    "back": "Slowly, with the in-breath and out-breath equal.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "overwhelm",
+      "breath"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Overwhelm: even breath",
+    "front": "What must you not use even breath for?",
+    "back": "To push the feeling down. Feel it later.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "overwhelm",
+      "breath",
+      "avoidance"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Overwhelm: clear it between meetings",
+    "front": "",
+    "back": "",
+    "text": "Between meetings, shake for {{c1::2 to 3 minutes}}, yawn {{c2::10 to 20 times}}, or cry for {{c3::a minute or two}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "overwhelm",
+      "body",
+      "dose"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Overwhelm: clear it between meetings",
+    "front": "Try now, 2 minutes: stand and let your body shake. Then yawn a few times.",
+    "back": "Notice whether your head feels clearer for the next task.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "overwhelm",
+      "body"
+    ]
+  },
+  {
+    "type": "cloze",
+    "context": "Burnout: adrenaline audit",
+    "front": "",
+    "back": "",
+    "text": "1. Notice {{c1::when you run on adrenaline}}.<br>2. Name {{c2::the trigger}}.<br>3. Find a way to {{c3::do the task without it}}.",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "adrenaline"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Burnout: drain list",
+    "front": "How do you list what drains you?",
+    "back": "For one week, after each task, ask if it gave or took energy.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "energy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Burnout: drain list",
+    "front": "What do you do with each task that drains you?",
+    "back": "Find a way to enjoy it, or hand it off.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "energy"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Burnout: rest by type",
+    "front": "When you rest, what comes first?",
+    "back": "Sleep and food.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "rest"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Burnout: rest by type",
+    "front": "After sleep and food, what do you ask to choose your rest?",
+    "back": "Which way you are worn out: emotionally, socially, mentally or sensorily. Then match the rest to it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "rest"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Burnout: rest by type",
+    "front": "How can you tell that something was not real rest?",
+    "back": "You are still drained after it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "rest"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Burnout: rest",
+    "front": "When rest starts to feel good, what does Hudson suggest?",
+    "back": "Stay in it. Do not rush back when you start to feel fine.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "rest"
+    ]
+  }
+]

@@ -1,0 +1,852 @@
+[
+ {
+  "type": "basic",
+  "context": "Fear of feeling",
+  "front": "Hudson: what does it mean if you are scared to feel an emotion?",
+  "back": "You are already in that emotion. The fear is the feeling arriving.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "50 lessons on how to be more emotionally intelligent (without trying so hard)",
+  "source_url": "https://blog.artofaccomplishment.com/p/50-lessons-on-how-to-be-more-emotionally",
+  "tags": [
+   "fear",
+   "resistance"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Joy",
+  "front": "",
+  "back": "",
+  "text": "Hudson's image: joy is the {{c1::matriarch}} of a family of emotions. She will not come into your house if {{c2::her children}} are not welcome.",
+  "extra": "The same idea as \"joy arrives once the other feelings are let in\".",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "50 lessons on how to be more emotionally intelligent (without trying so hard)",
+  "source_url": "https://blog.artofaccomplishment.com/p/50-lessons-on-how-to-be-more-emotionally",
+  "tags": [
+   "joy"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Caretaking",
+  "front": "Hudson: how can you tell caretaking from love?",
+  "back": "Caretaking has no buzz. He calls it a watered-down version of love.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "50 lessons on how to be more emotionally intelligent (without trying so hard)",
+  "source_url": "https://blog.artofaccomplishment.com/p/50-lessons-on-how-to-be-more-emotionally",
+  "tags": [
+   "love",
+   "caretaking"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Tension",
+  "front": "What do a balloon and a guitar string show about relationships, in Hudson's view?",
+  "back": "Some tension is needed for life. Without it a balloon goes flat and a string loses its tune. A relationship is the same.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "50 lessons on how to be more emotionally intelligent (without trying so hard)",
+  "source_url": "https://blog.artofaccomplishment.com/p/50-lessons-on-how-to-be-more-emotionally",
+  "tags": [
+   "relationships",
+   "conflict"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Meditation",
+  "front": "Why does Hudson call meditation alone an inefficient tool for self-discovery?",
+  "back": "It is like building a house with only a saw. It can be done, but it takes a very long time.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "50 lessons on how to be more emotionally intelligent (without trying so hard)",
+  "source_url": "https://blog.artofaccomplishment.com/p/50-lessons-on-how-to-be-more-emotionally",
+  "tags": [
+   "meditation",
+   "self-discovery"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Connection",
+  "front": "Try now, 30 seconds: how could you become 10% more connected, to yourself or the person with you?",
+  "back": "Notice that you can answer at once, for example eye contact or feeling your body. Hudson says everyone has this access at any time.",
+  "text": "",
+  "extra": "He asks this instead of answering \"how do I get more connected?\". If connecting with others feels hard, connect 10% more with yourself.",
+  "kind": "practice",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "connection",
+   "experiment"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Nervous system",
+  "front": "Hudson: when you feel unsettled before a decision, where do you put your attention to calm down?",
+  "back": "Outward, on your senses: what you see and hear, from the skin out. Going inward can unsettle you more.",
+  "text": "",
+  "extra": "His image: a veteran hears a car backfire in Ohio and is back in Fallujah. The senses bring you to the present. The inner experience may still be in the past.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "nervous-system",
+   "safety"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Choice vs decision",
+  "front": "Hudson: what is the difference between a choice and a decision?",
+  "back": "A choice just happens, with no deliberation. If you are deliberating over a decision, you are already in fear.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "decisions",
+   "fear"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "Hudson's thought experiment: what if you were sure that being homeless would be the happiest time of your life?",
+  "back": "Then homelessness would not scare you. What you fear is the emotional experience you project into the future, not the event.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "decisions",
+   "fear",
+   "golden-algorithm"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Abandonment",
+  "front": "Hudson's story from his 20s: what did he do when he started to feel abandoned, and what happened?",
+  "back": "He got either hard (\"fine then\") or needy. Both made people leave, so he created the abandonment he tried to avoid.",
+  "text": "",
+  "extra": "This is the Golden Algorithm in his own life.",
+  "kind": "story",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "golden-algorithm",
+   "abandonment"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Principles",
+  "front": "Hudson: how is a principle different from a value?",
+  "back": "You can act on a principle. A value, such as \"be honest\", rarely helps you choose a car, an advisor, or whether to fire someone.",
+  "text": "",
+  "extra": "He applies a principle all the way down. With \"connection\": how do I connect with my audience in marketing, with an unhappy employee, at the start of a meeting?",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "principles",
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Principles",
+  "front": "Interviewer Andrew Horn's exercise: how can you find your own principles without theory?",
+  "back": "Recall a time you were at your peak. See which principles you were living then. In your worst moments, they were often held back.",
+  "text": "",
+  "extra": "This is the interviewer's exercise. Hudson tried it and said it fit: he was connected, embracing intensity, and treating everything as an iteration.",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "principles",
+   "experiment"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Welcoming emotions",
+  "front": "",
+  "back": "",
+  "text": "Hudson's steps to welcome an emotion: 1. {{c1::See that it cannot oppress you}}. 2. {{c2::Get deeply curious about it in the body}}. 3. {{c3::Play experiments with it and see how it reacts}}. 4. {{c4::Its wisdom then shows itself}}.",
+  "extra": "Jumping straight to loving every emotion usually fails. For step 1 with anger, he suggests dominating it once, alone. Never aim anger at a person without their consent.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "welcoming",
+   "resistance"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Resistance",
+  "front": "What does Hudson's bathroom comparison say about the discomfort of an emotion?",
+  "back": "Needing the bathroom is not painful; holding it in is. Most of an emotion's discomfort is the resistance to it.",
+  "text": "",
+  "extra": "He found this by experiment: tell the emotion to go away, sing show tunes to it, distract it, hug it. It changes when you meet it with welcome.",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "resistance"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Emotional Inquiry",
+  "front": "Two extra Emotional Inquiry questions Hudson likes: what are they?",
+  "back": "Where does the sensation end and you begin? What is it like to step into its centre and look out?",
+  "text": "",
+  "extra": "Also: how does the movement at the centre differ from the movement at the edge? He says these give space and closer contact at once.",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "emotional-inquiry"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wonder",
+  "front": "Try with a partner, 5 minutes: put a problem you wrestle with as a \"how\" or \"what\" question. Then trade only how/what questions back.",
+  "back": "Do not answer. Notice the blank, open feeling when your mind has no reply. Hudson calls this wonder, and says fear cannot exist in it.",
+  "text": "",
+  "extra": "Closed yes/no questions do not work. Example from the talk: \"How could a third child make me more free?\"",
+  "kind": "practice",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "wonder",
+   "decisions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wonder",
+  "front": "Hudson: why does wonder help with a problem?",
+  "back": "Most problems are context problems: you believe a set of assumptions. Wonder lets you question them.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "wonder"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Dirty fuel",
+  "front": "Hudson: what is \"dirty fuel\" for success?",
+  "back": "Success driven by stress or a sense of not being enough, without self-understanding. It needs more fuel and never satisfies.",
+  "text": "",
+  "extra": "He says the question is not whether you can succeed without inner work (you can). It is whether you can have the life you want.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "success",
+   "enjoyment"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Ambition",
+  "front": "Hudson could retire. What does he say drives him to keep working long days?",
+  "back": "\"I'm just playing with Legos\": he follows his enjoyment, as a child builds for fun, not because it is never enough.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "enjoyment",
+   "purpose"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Children's emotions",
+  "front": "What idea from Hand in Hand Parenting taught Hudson to love his own emotions?",
+  "back": "A young child who feels disconnected needs a big emotional experience to reconnect. He sat with his children in loving attention through it.",
+  "text": "",
+  "extra": "He calls this way of parenting the most profound spiritual practice he has had.",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "parenting",
+   "emotions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Children's emotions",
+  "front": "Hudson's Whole Foods story: what happened when his daughter screamed for chips he would not buy?",
+  "back": "He sat on the floor and said he understood. When a woman asked if she was okay, his daughter said she was just having her emotions.",
+  "text": "",
+  "extra": "It lasted about seven minutes. He says he knew then that he had learned to stay present with a big emotion.",
+  "kind": "story",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "parenting",
+   "story"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Decisions",
+  "front": "Hudson: how are we built to make big decisions?",
+  "back": "In groups, not alone. A community of practice lets others reflect your decisions back to you.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "decisions",
+   "community"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Stress",
+  "front": "Hudson: why is holding back emotions a cause of stress?",
+  "back": "To stop feeling, you must tighten your muscles. That held tightness is tension.",
+  "text": "",
+  "extra": "He names two other causes: harsh self-talk, and a lack of connection with people.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "stress",
+   "emotions"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Stress",
+  "front": "Hudson: what happens when stressed people treat others as a threat for long enough?",
+  "back": "The others start to act like a threat. He sees this in politics, marriages and parenting.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "stress",
+   "relationships"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Discipline",
+  "front": "Hudson's friend who kept overeating: what did he do instead of telling himself to eat less?",
+  "back": "Each time he overate, he sat still for 10 minutes and felt the bloating. Over time he stopped overeating.",
+  "text": "",
+  "extra": "Hudson's point: feel the pain of a habit fully, as with a hot frying pan, and you let go without willpower.",
+  "kind": "story",
+  "priority": 3,
+  "section": "",
+  "source_title": "How To Be Disciplined Without Having Discipline (3 Tips)",
+  "source_url": "https://www.youtube.com/watch?v=OHsYO5qkLmY",
+  "tags": [
+   "discipline",
+   "habits"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Discipline",
+  "front": "Hudson: how do you avoid decision fatigue with a habit you want to cut?",
+  "back": "Set up your life so there is no choice to make. Example: give the game controller to someone else, or hide it far away.",
+  "text": "",
+  "extra": "Each time you see the temptation, you make a decision. Sooner or later you say yes, then beat yourself up.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "How To Be Disciplined Without Having Discipline (3 Tips)",
+  "source_url": "https://www.youtube.com/watch?v=OHsYO5qkLmY",
+  "tags": [
+   "discipline",
+   "habits"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Discipline",
+  "front": "Hudson's replacement tip: what is the first step to replacing a habit?",
+  "back": "Look honestly at what the habit gives you, such as a break, energy or forgetting your problems.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "How To Be Disciplined Without Having Discipline (3 Tips)",
+  "source_url": "https://www.youtube.com/watch?v=OHsYO5qkLmY",
+  "tags": [
+   "discipline",
+   "habits"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Discipline",
+  "front": "Hudson's replacement tip: what must the substitute be, so it needs no discipline?",
+  "back": "Something you enjoy that gives you the same thing in a healthier way. Example: riding horses or pickleball in place of video games.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "How To Be Disciplined Without Having Discipline (3 Tips)",
+  "source_url": "https://www.youtube.com/watch?v=OHsYO5qkLmY",
+  "tags": [
+   "discipline",
+   "habits",
+   "enjoyment"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Stuck",
+  "front": "Hudson: when do you feel stuck?",
+  "back": "When you see a few ways to get what you want and dislike the possible consequences of all of them. Stuck is a feeling, not a fact.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The More Stuck You Feel, The Closer You Are To Freedom",
+  "source_url": "https://www.youtube.com/watch?v=tDDztBVQ6pA",
+  "tags": [
+   "stuck",
+   "fear"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Stuck",
+  "front": "Hudson: how does fear shrink your options when you feel stuck?",
+  "back": "It makes you see each option as one fixed way. \"Ask for a promotion\" can be said many ways, such as asking what it would take.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The More Stuck You Feel, The Closer You Are To Freedom",
+  "source_url": "https://www.youtube.com/watch?v=tDDztBVQ6pA",
+  "tags": [
+   "stuck",
+   "fear"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Stuck",
+  "front": "Hudson: when you hold back from a change, what do you think you trade, and what do you really trade?",
+  "back": "You think you trade safety for risk. You really trade the known for an adventure.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The More Stuck You Feel, The Closer You Are To Freedom",
+  "source_url": "https://www.youtube.com/watch?v=tDDztBVQ6pA",
+  "tags": [
+   "stuck",
+   "fear",
+   "excitement"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Stuck",
+  "front": "Hudson's story of a vice president afraid to start a company: what did his questions show her?",
+  "back": "If she failed, she would be more hirable. Her VP role likely lasted only a few years anyway, so staying was the bigger risk.",
+  "text": "",
+  "extra": "",
+  "kind": "story",
+  "priority": 3,
+  "section": "",
+  "source_title": "The More Stuck You Feel, The Closer You Are To Freedom",
+  "source_url": "https://www.youtube.com/watch?v=tDDztBVQ6pA",
+  "tags": [
+   "stuck",
+   "risk"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Stuck",
+  "front": "",
+  "back": "",
+  "text": "Hudson: what you call safety is often {{c1::stagnation}}, and what you call risk is often {{c2::iteration}}.",
+  "extra": "He says the brain is built to avoid failing at the same thing again. So if you see a step as a possible failure, you resist it. If you see it as an iteration, it is just practice.",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The More Stuck You Feel, The Closer You Are To Freedom",
+  "source_url": "https://www.youtube.com/watch?v=tDDztBVQ6pA",
+  "tags": [
+   "stuck",
+   "iteration"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being yourself",
+  "front": "Hudson: does being yourself mean giving in to every impulse, like games or drinking all day?",
+  "back": "No. You dislike those habits, and that shows they are not you. Who you want to be points to what you are.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Be Yourself and Watch Your Life Rearrange",
+  "source_url": "https://www.youtube.com/watch?v=a90rfmUKKsY",
+  "tags": [
+   "being-yourself"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being yourself",
+  "front": "Try now, 1 minute: ask \"What have I always been? What has not changed about me?\" Live in the question; do not look for an answer.",
+  "back": "Notice a quieting. Hudson says the inner fight eases when you touch what you essentially are.",
+  "text": "",
+  "extra": "",
+  "kind": "practice",
+  "priority": 2,
+  "section": "",
+  "source_title": "Be Yourself and Watch Your Life Rearrange",
+  "source_url": "https://www.youtube.com/watch?v=a90rfmUKKsY",
+  "tags": [
+   "being-yourself",
+   "wonder"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being yourself",
+  "front": "Hudson: what body signal shows you are not being yourself?",
+  "back": "A strong constriction after an action, an \"ugh, I shouldn't be doing this\". Fear or anger can still be there when you are yourself.",
+  "text": "",
+  "extra": "Another sign: a constant fight with yourself. If you fight yourself, which one is you?",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Be Yourself and Watch Your Life Rearrange",
+  "source_url": "https://www.youtube.com/watch?v=a90rfmUKKsY",
+  "tags": [
+   "being-yourself",
+   "body"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being yourself",
+  "front": "Hudson: if you are not yourself, whom do your friends and your job suit?",
+  "back": "The person you pretend to be. That causes friction everywhere. Being yourself builds a life that fits you, though some people may leave.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Be Yourself and Watch Your Life Rearrange",
+  "source_url": "https://www.youtube.com/watch?v=a90rfmUKKsY",
+  "tags": [
+   "being-yourself"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being yourself",
+  "front": "Hudson: how does being yourself change how much you care what others think?",
+  "back": "The more you act from what is true for you, the less others' opinions matter. The less you are yourself, the more they matter.",
+  "text": "",
+  "extra": "His story: a businessman turned politician used to make unpopular calls with ease. Once he held back his truth in politics, he began to care far more what people thought.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Be Yourself and Watch Your Life Rearrange",
+  "source_url": "https://www.youtube.com/watch?v=a90rfmUKKsY",
+  "tags": [
+   "being-yourself",
+   "people-pleasing"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being yourself",
+  "front": "Hudson's story of a woman unsure about her job who started to speak her truth there: what happened?",
+  "back": "The job changed to support who she is. He says this happens about 80% of the time; sometimes people quit or are fired.",
+  "text": "",
+  "extra": "She used vulnerability from his course: say what is true even when it is a little scary.",
+  "kind": "story",
+  "priority": 3,
+  "section": "",
+  "source_title": "Be Yourself and Watch Your Life Rearrange",
+  "source_url": "https://www.youtube.com/watch?v=a90rfmUKKsY",
+  "tags": [
+   "being-yourself",
+   "vulnerability"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Love",
+  "front": "Hudson: why do so many people chase love like hungry ghosts?",
+  "back": "They are not being themselves. Love for a pretend self never feeds you, because someone else is being loved.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Be Yourself and Watch Your Life Rearrange",
+  "source_url": "https://www.youtube.com/watch?v=a90rfmUKKsY",
+  "tags": [
+   "love",
+   "being-yourself"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "Hudson: what is the feeling of having no time usually about?",
+  "back": "Emotional overwhelm and not being present, more than the real amount of time.",
+  "text": "",
+  "extra": "Example: overwhelmed at night, you scroll to avoid it, sleep late, then rush again in the morning.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "overwhelm"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "Hudson and his co-host: how does the urgency of a fast pickleball rally differ from time scarcity?",
+  "back": "In the rally you are present and outside time. Time scarcity puts you in the future, thinking about the next task.",
+  "text": "",
+  "extra": "So feeling time-starved can be a sign that you are not present with what is going on in you.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "presence"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "Hudson and his co-host: what is \"emotional debt\"?",
+  "back": "Avoided feeling that grows. The more you avoid it, the more you need to avoid, so it compounds like a credit card.",
+  "text": "",
+  "extra": "Paying it off can take less than you think, sometimes just a short cry.",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "overwhelm"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "Hudson: which feeling drives looking-ahead time pressure, and which drives looking-back time pressure?",
+  "back": "Ahead (\"I don't have enough time\") is mostly fear. Back (\"I didn't have enough time for my kids\") is mostly grief.",
+  "text": "",
+  "extra": "Move the fear and the grief, and your attention can come back to now.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "fear",
+   "grief"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "Hudson: what question lets time work for you instead of you working for time?",
+  "back": "What can I do today that will save me a lot of time next month? Plant a seed instead of foraging all day.",
+  "text": "",
+  "extra": "Examples: up-front work with a child or a dog, or time spent connecting with someone.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "work"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "Hudson: why does he not book back-to-back meetings?",
+  "back": "Each activity needs a period of rest and integration after it. Without it, loops stay open and meeting actions do not get done.",
+  "text": "",
+  "extra": "One person he works with ends each meeting with five minutes in which everyone takes the first actions.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "rest",
+   "work"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "Hudson's five minutes every two hours: what does he say to \"I don't have time\"?",
+  "back": "It is about 40 minutes a day. If you lack that, you lack time for 40 minutes of social media too. Try it for one day.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "overwhelm",
+   "rest"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "His co-host Brett Kistler: what may you notice in your first five minutes of doing nothing?",
+  "back": "You rush through them, thinking of what comes next, to tick the box. That same stance creates your time scarcity.",
+  "text": "",
+  "extra": "In those five minutes you could also cry, scream, feel fear, or just enjoy yourself.",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "rest"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Time scarcity",
+  "front": "Hudson's story of the executives who adopted five-star meetings: what did one of them say soon after?",
+  "back": "That they had no time for a new effort, minutes after saying they saved about 7 hours a week. The sense of no time stayed.",
+  "text": "",
+  "extra": "",
+  "kind": "story",
+  "priority": 3,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "time",
+   "work"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Rest",
+  "front": "How does Hudson say he rests, and what does he notice after?",
+  "back": "He takes August off and short silent retreats each quarter. After them he feels he has plenty of time, and it is hard to rush.",
+  "text": "",
+  "extra": "As of 2025. The further he gets from a break, the more the urgency returns.",
+  "kind": "story",
+  "priority": 3,
+  "section": "",
+  "source_title": "Your Emotions Control Your Time (Why We Always Feel So Busy)",
+  "source_url": "https://www.youtube.com/watch?v=WsCdqTZ1zXA",
+  "tags": [
+   "rest",
+   "time"
+  ]
+ }
+]
