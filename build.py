@@ -115,7 +115,7 @@ def main(folder):
             cards.append(c)
 
     seen, decks = set(), {}
-    # Anki shows new cards in the order they were added: priority 1 first.
+    # Sort inputs for export; Anki determines the study order.
     for c in sorted(cards, key=lambda c: c["_order"]):
         key = (c.get("front") or c.get("text")).strip().lower()
         if key in seen:

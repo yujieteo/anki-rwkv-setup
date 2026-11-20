@@ -104,8 +104,16 @@ and double-click it, or use **File → Import** in Anki. Then do step 2 for
 the **Joe Hudson** deck.
 
 The deck has four subdecks: the core method, the feelings, problems and
-evidence, and extra cards from interviews. Priority-1 cards (the core
-method and the safety cards) come first.
+evidence, and extra cards from interviews. The tag `priority::1` marks
+core method and safety cards across the subdecks. Anki's new-card order
+depends on your deck settings; importing the deck does not make these
+cards appear first.
+
+To find the unstudied priority cards, open **Browse** and search for
+`deck:"Joe Hudson" tag:priority::1 is:new`. To study just those cards,
+open the **Joe Hudson** parent deck and choose **Custom Study → Study by
+card state or tag → New cards only**, then **Choose Tags** and select
+`priority::1`. See the [Anki manual on filtered decks](https://docs.ankiweb.net/manual/filtered-decks#custom-study).
 
 ## Phone
 
