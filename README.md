@@ -168,9 +168,12 @@ deck options.
 7. **Import** the `.apkg`, and turn on RWKV-P (step 2).
 
 To change cards later, edit the card files, build again and import again.
-Each note's id comes from its question, so Anki updates the notes you
-already have and keeps their review history. If you change a question's
-wording, Anki treats it as a new note; delete the old one in the browser.
+By default, the note's ID is based on the deck name and the question
+(or cloze text). To reword a question without changing its ID, put the
+original question in the card's [`key` field](docs/card-format.md) before
+rebuilding. If the card already has a `key`, leave it unchanged on
+later edits. With the same deck name and note type, Anki can update the
+existing note on import without starting its review history over.
 
 ## The example deck
 
