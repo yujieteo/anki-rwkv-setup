@@ -80,26 +80,37 @@ Get updates from the build's releases page or by running the script again.
 
 ## 2. Turn on RWKV-P
 
+To try RWKV-P on the example deck, import it in step 3 first. Then open
+Options on the **Joe Hudson** parent deck.
+
 1. Open Anki. On a new install, pick a language, then sign in to AnkiWeb
    with **Sync** if you use it.
-2. Click a deck, then **Options** (or press `o`).
-3. Scroll to **Scheduler**. Under **Review scheduler**, click
+2. Click the deck you want to change, then **Options** (or press `o`).
+3. Open the drop-down beside **Save** and choose **Clone**. Give the
+   new [preset](https://docs.ankiweb.net/manual/deck-options#presets) a
+   name such as **Joe Hudson RWKV**. Edit this preset rather than
+   **Default** or one shared with unrelated decks.
+4. Scroll to **Scheduler**. Under **Review scheduler**, click
    **RWKV-Instant**. This is RWKV-P.
-4. Under **Fallback**, keep **FSRS-7** (the build's recommendation). It
+5. Under **Fallback**, keep **FSRS-7** (the build's recommendation). It
    writes the due dates that phones use, and phones schedule their own
    answers with FSRS, so the two stay consistent.
-5. Under **RWKV → Advanced → Model size**, pick a size. **Big** is the
+6. Under **RWKV → Advanced → Model size**, pick a size. **Big** is the
    most accurate and needs more memory and a slower first build. For a few
    thousand cards it is small (about 13 MB for 716 cards). **Small** is the
    default.
-6. Click **Save**. When Anki asks to build the RWKV state, click
-   **Build State Only**. It shows "RWKV state cache ready" when done.
 7. Under **Display Order**, set **New card gather order** to **Ascending
    position**. The default gathers one subdeck at a time, so the deck's
    priority order would be lost across subdecks.
+8. For the Joe Hudson example, choose **Save to All Subdecks** in the Save
+   drop-down to assign the new preset to the parent and its subdecks. If
+   you only want to change the selected deck, use **Save** instead. When
+   Anki asks to build the RWKV state, click **Build State Only**. It shows
+   "RWKV state cache ready" when done.
 
-The settings belong to the deck's preset, so every deck that uses that
-preset now uses RWKV-P.
+To verify the setup, reopen Options on the parent and its subdecks. They
+should use the dedicated preset if you applied it to all of them. An
+unrelated deck should still show its original preset and scheduler.
 
 ## 3. Import the example deck
 
