@@ -125,7 +125,9 @@ def main(folder):
         seen.add(key)
         tags = [slug(t) for t in c.get("tags", []) if t]
         tags += [f"kind::{c.get('kind', 'idea')}", f"priority::{c.get('priority', 2)}"]
-        tags.append(cfg.get("section_tag", "from::section") if c.get("section")
+        own_source = cfg.get("section_url")
+        is_section_source = c.get("section") or (own_source and c.get("source_url") == own_source)
+        tags.append(cfg.get("section_tag", "from::section") if is_section_source
                     else cfg.get("source_tag", "from::source"))
         kind = KIND_LABEL.get(c.get("kind"), "")
         guid = genanki.guid_for(root, key)
