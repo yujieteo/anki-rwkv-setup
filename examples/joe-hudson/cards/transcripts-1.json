@@ -186,9 +186,9 @@
     "type": "basic",
     "context": "Enjoyment is efficiency",
     "front": "What is Hudson's car image for efficiency?",
-    "back": "A car that burns a gallon of gas to go one mile is not efficient, however fast it goes. Efficiency is how little energy the work takes.",
+    "back": "A car that burns a gallon of gas to go one mile is not efficient, however fast it goes.",
     "text": "",
-    "extra": "So the measure of an efficient day is whether you still have energy, and how much you enjoyed it.",
+    "extra": "Efficiency is how little energy the work takes. So the measure of an efficient day is whether you still have energy, and how much you enjoyed it.",
     "kind": "idea",
     "priority": 2,
     "section": "",
@@ -452,8 +452,8 @@
   {
     "type": "basic",
     "context": "Feeling trapped",
-    "front": "In Hudson's view, what two feelings sit under feeling trapped, and which does he move first?",
-    "back": "Anger (the natural reaction to oppression) and fear. He moves the anger first.",
+    "front": "In Hudson's view, which feeling under feeling trapped does he move first?",
+    "back": "Anger, the natural reaction to oppression.",
     "text": "",
     "extra": "He says moving anger is the quickest way out of stuck for most people. Fear comes second, sometimes grief. Safety: move anger alone or with consent, never at a person, and stop if you feel flooded.",
     "kind": "idea",
@@ -465,7 +465,8 @@
       "stuck",
       "anger",
       "fear"
-    ]
+    ],
+    "key": "In Hudson's view, what two feelings sit under feeling trapped, and which does he move first?"
   },
   {
     "type": "basic",
@@ -675,11 +676,11 @@
   },
   {
     "type": "basic",
-    "context": "Self-reliance",
-    "front": "A grinder asks \"What do I tell myself every day?\". Why does Hudson say the question is part of the pattern?",
-    "back": "\"Every day\" and \"what do I do\" are the grind: it is all up to me, with no grace and no help from others.",
+    "context": "Grinding",
+    "front": "Hudson: besides \"every day\", what belief makes people grind?",
+    "back": "It is all up to me: no grace, and no help from others.",
     "text": "",
-    "extra": "",
+    "extra": "He says the question \"What do I tell myself every day?\" is part of the grinding pattern.",
     "kind": "idea",
     "priority": 3,
     "section": "",
@@ -688,7 +689,8 @@
     "tags": [
       "self-reliance",
       "grind"
-    ]
+    ],
+    "key": "A grinder asks \"What do I tell myself every day?\". Why does Hudson say the question is part of the pattern?"
   },
   {
     "type": "basic",
@@ -1112,9 +1114,9 @@
     "type": "basic",
     "context": "Hudson's path",
     "front": "His story: what happened on day three of Hudson's first silent Vipassana retreat?",
-    "back": "An 8-second experience that he was one with everything and all was good. He became obsessed with finding it again.",
+    "back": "An 8-second experience that he was one with everything and all was good.",
     "text": "",
-    "extra": "He later called his search for enlightenment \"porn for perfectionism\". When awakening came, it was no finish line.",
+    "extra": "He became obsessed with finding it again. He later called his search for enlightenment \"porn for perfectionism\". When awakening came, it was no finish line.",
     "kind": "story",
     "priority": 3,
     "section": "",

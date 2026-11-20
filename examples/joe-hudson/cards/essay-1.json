@@ -376,7 +376,8 @@
     "source_url": "",
     "tags": [
       "i-cant",
-      "practice"
+      "practice",
+      "target-practice"
     ]
   },
   {
@@ -507,7 +508,8 @@
     "source_url": "",
     "tags": [
       "emotional-inquiry",
-      "practice"
+      "practice",
+      "target-practice"
     ]
   },
   {
@@ -654,7 +656,8 @@
     "source_url": "",
     "tags": [
       "judgment",
-      "practice"
+      "practice",
+      "target-practice"
     ]
   },
   {
@@ -1081,8 +1084,8 @@
   {
     "type": "basic",
     "context": "Experiments",
-    "front": "Do you set a goal for an experiment?",
-    "back": "No. Ask what will happen.",
+    "front": "In Hudson's experiments, what do you ask instead of setting a goal?",
+    "back": "What will happen?",
     "text": "",
     "extra": "",
     "kind": "idea",
@@ -1092,7 +1095,8 @@
     "source_url": "",
     "tags": [
       "experiments"
-    ]
+    ],
+    "key": "Do you set a goal for an experiment?"
   },
   {
     "type": "basic",
@@ -1276,7 +1280,7 @@
   {
     "type": "basic",
     "context": "Head, heart and gut",
-    "front": "Gut level: what teaches your nervous system that you are safe?",
+    "front": "Gut level: what does Hudson say teaches your nervous system that you are safe?",
     "back": "Pleasure.",
     "text": "",
     "extra": "So you stop bracing. The measure is how much you can enjoy simply being alive.",
@@ -1287,7 +1291,8 @@
     "source_url": "",
     "tags": [
       "head-heart-gut"
-    ]
+    ],
+    "key": "Gut level: what teaches your nervous system that you are safe?"
   },
   {
     "type": "cloze",
@@ -1927,6 +1932,23 @@
     "source_url": "",
     "tags": [
       "find-your-feeling"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "When you are triggered",
+    "front": "Try, the next time you react hard: pause. Ask \"When did I first feel this way?\" Then stay with what comes, in your body.",
+    "back": "Notice what comes up, without trying to change it.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "triggers",
+      "target-practice"
     ]
   }
 ]

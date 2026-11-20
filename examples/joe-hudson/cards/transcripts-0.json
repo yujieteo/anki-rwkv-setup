@@ -471,22 +471,6 @@
   },
   {
     "type": "basic",
-    "context": "Seven patterns",
-    "front": "How did Hudson find the seven patterns that hold people back most?",
-    "back": "For about six months he noted the issue after each coaching session, then sorted the notes into categories.",
-    "text": "",
-    "extra": "Each pattern is a pair: people put the first thing over the second. He suggests working on them in order.",
-    "kind": "idea",
-    "priority": 3,
-    "section": "",
-    "source_title": "After 14 Years of Coaching, This Is What I See Hold Most People Back",
-    "source_url": "https://www.youtube.com/watch?v=qCv38-wOwUs",
-    "tags": [
-      "seven-patterns"
-    ]
-  },
-  {
-    "type": "basic",
     "context": "Seven patterns: connection",
     "front": "In \"connection over perfection\", why does Hudson say perfection fails?",
     "back": "It cannot be reached and is not even defined; the mind always finds a better way.",
@@ -1031,9 +1015,9 @@
     "type": "basic",
     "context": "Supporting someone",
     "front": "Why does Hudson say trying to fix someone's feelings backfires?",
-    "back": "It tells them they are wrong to feel it. Just be with them in loving attention.",
+    "back": "It tells them they are wrong to feel it.",
     "text": "",
-    "extra": "He says men in the West feel a strong urge to fix.",
+    "extra": "Instead, just be with them in loving attention. He says men in the West feel a strong urge to fix.",
     "kind": "idea",
     "priority": 2,
     "section": "",

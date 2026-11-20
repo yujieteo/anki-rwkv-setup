@@ -238,22 +238,6 @@
  },
  {
   "type": "basic",
-  "context": "Emotional Inquiry",
-  "front": "Two extra Emotional Inquiry questions Hudson likes: what are they?",
-  "back": "Where does the sensation end and you begin? What is it like to step into its centre and look out?",
-  "text": "",
-  "extra": "Also: how does the movement at the centre differ from the movement at the edge? He says these give space and closer contact at once.",
-  "kind": "idea",
-  "priority": 3,
-  "section": "",
-  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
-  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
-  "tags": [
-   "emotional-inquiry"
-  ]
- },
- {
-  "type": "basic",
   "context": "Wonder",
   "front": "Try with a partner, 5 minutes: put a problem you wrestle with as a \"how\" or \"what\" question. Then trade only how/what questions back.",
   "back": "Do not answer. Notice the blank, open feeling when your mind has no reply. Hudson calls this wonder, and says fear cannot exist in it.",
@@ -323,9 +307,9 @@
   "type": "basic",
   "context": "Children's emotions",
   "front": "What idea from Hand in Hand Parenting taught Hudson to love his own emotions?",
-  "back": "A young child who feels disconnected needs a big emotional experience to reconnect. He sat with his children in loving attention through it.",
+  "back": "A young child who feels disconnected needs a big emotional experience to reconnect.",
   "text": "",
-  "extra": "He calls this way of parenting the most profound spiritual practice he has had.",
+  "extra": "He sat with his children in loving attention through it. He calls this way of parenting the most profound spiritual practice he has had.",
   "kind": "idea",
   "priority": 3,
   "section": "",
@@ -477,9 +461,9 @@
   "type": "basic",
   "context": "Stuck",
   "front": "Hudson: when do you feel stuck?",
-  "back": "When you see a few ways to get what you want and dislike the possible consequences of all of them. Stuck is a feeling, not a fact.",
+  "back": "When you see a few ways to get what you want and dislike the consequences of all of them.",
   "text": "",
-  "extra": "",
+  "extra": "Stuck is a feeling, not a fact.",
   "kind": "idea",
   "priority": 2,
   "section": "",
@@ -563,9 +547,9 @@
   "type": "basic",
   "context": "Being yourself",
   "front": "Hudson: does being yourself mean giving in to every impulse, like games or drinking all day?",
-  "back": "No. You dislike those habits, and that shows they are not you. Who you want to be points to what you are.",
+  "back": "No. You dislike those habits, which shows they are not you.",
   "text": "",
-  "extra": "",
+  "extra": "Who you want to be points to what you are.",
   "kind": "idea",
   "priority": 2,
   "section": "",
@@ -847,6 +831,22 @@
   "tags": [
    "rest",
    "time"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Emotional Inquiry",
+  "front": "",
+  "back": "",
+  "text": "Two Emotional Inquiry questions Hudson likes: {{c1::Where does the sensation end and you begin?}} {{c2::What is it like to step into its centre and look out?}}",
+  "extra": "Also: how does the movement at the centre differ from the movement at the edge? He says these give space and closer contact at once.",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "emotional-inquiry"
   ]
  }
 ]

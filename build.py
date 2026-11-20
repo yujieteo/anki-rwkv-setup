@@ -115,9 +115,11 @@ def main(folder):
             cards.append(c)
 
     seen, decks = set(), {}
-    # Anki shows new cards in the order they were added: priority 1 first.
+    # Each new card gets its own queue position (due), priority 1 first.
+    # Without it every new card has position 0 and the order is lost.
     for c in sorted(cards, key=lambda c: c["_order"]):
-        key = (c.get("front") or c.get("text")).strip().lower()
+        # "key", if set, keeps a reworded card's old id, so re-import updates it.
+        key = (c.get("key") or c.get("front") or c.get("text")).strip().lower()
         if key in seen:
             continue
         seen.add(key)
@@ -130,11 +132,13 @@ def main(folder):
         if c["type"] == "basic":
             fields = [c.get("context", ""), c["front"], c["back"], c.get("extra", ""),
                       source_html(c, cfg), kind]
-            note = genanki.Note(model=basic, fields=fields, tags=tags, guid=guid)
+            note = genanki.Note(model=basic, fields=fields, tags=tags, guid=guid,
+                                 due=len(seen))
         else:
             fields = [c.get("context", ""), c["text"], c.get("extra", ""),
                       source_html(c, cfg), kind]
-            note = genanki.Note(model=cloze, fields=fields, tags=tags, guid=guid)
+            note = genanki.Note(model=cloze, fields=fields, tags=tags, guid=guid,
+                                 due=len(seen))
         name = c["_deck"]
         decks.setdefault(name, genanki.Deck(deck_id(name), name)).add_note(note)
 

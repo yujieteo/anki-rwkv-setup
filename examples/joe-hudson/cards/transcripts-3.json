@@ -241,10 +241,10 @@
  {
   "type": "basic",
   "context": "Celebrating",
-  "front": "What question did Hudson ask about Ali Abdaal's bestseller win, and what came of it?",
-  "back": "What would it look like to celebrate in the most connected way? Ali saw thank-you gifts and a month of rest, and felt gratitude.",
+  "front": "What question did Hudson ask Ali Abdaal about his bestseller win?",
+  "back": "What would it look like to celebrate it in the most connected way?",
   "text": "",
-  "extra": "Hudson asked if, after two years, he would be ahead or behind. Ali said ahead. Hudson: that is how much emotions matter to productivity.",
+  "extra": "Ali saw thank-you gifts and a month of rest, and felt gratitude. Hudson asked if, after two years, he would be ahead or behind. Ali said ahead. Hudson: that is how much emotions matter to productivity.",
   "kind": "idea",
   "priority": 3,
   "section": "",
@@ -254,7 +254,8 @@
    "success",
    "connection",
    "gratitude"
-  ]
+  ],
+  "key": "What question did Hudson ask about Ali Abdaal's bestseller win, and what came of it?"
  },
  {
   "type": "basic",

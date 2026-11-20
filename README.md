@@ -3,7 +3,7 @@
 This repository sets up Anki with **RWKV-P**, the spaced-repetition model
 that leads the [open-spaced-repetition benchmark](https://github.com/open-spaced-repetition/srs-benchmark),
 and shows how to build a deck for it from your own notes. The example is a
-deck of 636 notes (716 cards) on the coaching advice of Joe Hudson.
+deck of 641 notes (723 cards) on the coaching advice of Joe Hudson.
 
 It contains:
 
@@ -27,8 +27,9 @@ The benchmark has two RWKV models. **RWKV-P** predicts whether you will
 recall a card right now. Its newer name is **RWKV-Instant**, and the Anki
 build uses that name. **RWKV-Curve** predicts how recall falls over time.
 On the benchmark's main table, RWKV-Instant has a log loss of 0.277 and an
-AUC of 0.833. FSRS-7 has 0.337 and 0.722. Lower log loss is better, and
-higher AUC is better. Compared collection by collection, RWKV-P does better
+AUC of 0.833. FSRS-7 has 0.340 and 0.717 (its "recency" variant has 0.337
+and 0.722). These figures are from the table without same-day reviews.
+Lower log loss is better, and higher AUC is better. Compared collection by collection, RWKV-P does better
 than every other model on 99.6 to 100% of collections.
 
 Two limits:
@@ -93,6 +94,9 @@ Get updates from the build's releases page or by running the script again.
    default.
 6. Click **Save**. When Anki asks to build the RWKV state, click
    **Build State Only**. It shows "RWKV state cache ready" when done.
+7. Under **Display Order**, set **New card gather order** to **Ascending
+   position**. The default gathers one subdeck at a time, so the deck's
+   priority order would be lost across subdecks.
 
 The settings belong to the deck's preset, so every deck that uses that
 preset now uses RWKV-P.

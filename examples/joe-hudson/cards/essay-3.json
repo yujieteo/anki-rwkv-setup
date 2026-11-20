@@ -18,22 +18,6 @@
  {
   "type": "basic",
   "context": "Uncertainty",
-  "front": "Confusion: what two questions does Hudson suggest you ask it?",
-  "back": "What is my confusion protecting me from?<br>What am I pretending not to know?",
-  "text": "",
-  "extra": "The two questions treat confusion as a way to avoid something you already sense.",
-  "kind": "idea",
-  "priority": 2,
-  "section": "uncertainty-and-confusion",
-  "source_title": "",
-  "source_url": "",
-  "tags": [
-   "uncertainty"
-  ]
- },
- {
-  "type": "basic",
-  "context": "Uncertainty",
   "front": "When you cannot rebuild the story of your life, what does Hudson suggest?",
   "back": "Rest in not knowing. Stop forcing an answer for a while.",
   "text": "",
@@ -118,9 +102,9 @@
   "type": "basic",
   "context": "Safety: depression",
   "front": "How should you use Hudson's practices for depression?",
-  "back": "As an addition to medical care, not a swap for it. Depression is a medical condition, and treatment can help.",
+  "back": "As an addition to medical care, not a swap for it.",
   "text": "",
-  "extra": "",
+  "extra": "Depression is a medical condition, and treatment can help.",
   "kind": "safety",
   "priority": 1,
   "section": "numbness-and-low-mood",
@@ -906,7 +890,8 @@
   "source_title": "",
   "source_url": "",
   "tags": [
-   "inner-voice"
+   "inner-voice",
+   "target-practice"
   ]
  },
  {
@@ -962,9 +947,9 @@
   "type": "basic",
   "context": "Procrastination",
   "front": "What is Hudson's \"double the enjoyment\" practice?",
-  "back": "Ask how you could enjoy the task twice as much. List 10 experiments and run them.",
+  "back": "Ask how you could enjoy the task twice as much.",
   "text": "",
-  "extra": "",
+  "extra": "Then list 10 experiments and run them.",
   "kind": "idea",
   "priority": 2,
   "section": "problems-these-feelings-cause",
@@ -1241,9 +1226,9 @@
   "type": "basic",
   "context": "Purpose",
   "front": "Before you quit a job for lack of purpose, what 30-day experiment does Hudson suggest?",
-  "back": "Act fully as yourself at work. In each meeting, ask how you would listen and speak if you were on purpose.",
+  "back": "For 30 days, act fully as yourself at work.",
   "text": "",
-  "extra": "",
+  "extra": "In each meeting, ask how you would listen and speak if you were on purpose.",
   "kind": "idea",
   "priority": 2,
   "section": "problems-these-feelings-cause",
@@ -2252,6 +2237,73 @@
   "tags": [
    "evidence",
    "limits"
+  ]
+ },
+ {
+  "type": "cloze",
+  "context": "Confusion",
+  "front": "",
+  "back": "",
+  "text": "Hudson's two questions for confusion: {{c1::What is my confusion protecting me from?}} {{c2::What am I pretending not to know?}}",
+  "extra": "The two questions treat confusion as a way to avoid something you already sense.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "confusion"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Being loved: thank you, three seconds",
+  "front": "Try, the next time someone praises you: do not deflect. Breathe, say \"thank you\", and let it land for three seconds.",
+  "back": "Notice the urge to brush it off, and what happens when you do not.",
+  "text": "",
+  "extra": "",
+  "kind": "practice",
+  "priority": 2,
+  "section": "being-loved-and-seen",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "praise",
+   "target-practice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Putting things off",
+  "front": "Try, the next time you put off a task: name what you feel right now, and what you fear you would feel if you did it. Feel both for a minute.",
+  "back": "Notice which feeling the putting-off keeps away.",
+  "text": "",
+  "extra": "",
+  "kind": "practice",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "procrastination",
+   "target-practice"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Uncertainty: the next obvious step",
+  "front": "Try, the next time you feel stuck or confused: ask \"What is the next most obvious thing?\" Do it. Then ask again.",
+  "back": "Notice whether you need the whole answer to move.",
+  "text": "",
+  "extra": "",
+  "kind": "practice",
+  "priority": 2,
+  "section": "uncertainty-and-confusion",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "uncertainty",
+   "target-practice"
   ]
  }
 ]

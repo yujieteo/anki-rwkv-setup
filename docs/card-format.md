@@ -44,10 +44,11 @@ card file is a JSON array of card objects. `build.py` reads every file in
 | `text` | For `cloze`: a sentence with `{{c1::hidden part}}`. Use `c2`, `c3`, ... for overlapping clozes on an ordered list. |
 | `extra` | More detail, shown under the answer. |
 | `kind` | `idea`, `practice`, `story`, `safety` or `evidence`. The last four show a small label on the card. |
-| `priority` | 1, 2 or 3. New cards are shown in this order. |
+| `priority` | 1, 2 or 3. `build.py` numbers new cards in this order. For Anki to follow it across subdecks, set **New card gather order** to "Ascending position" in Deck Options. |
 | `section` | An anchor id on the page at `section_url`. |
 | `source_title`, `source_url` | Used when there is no `section`: the link shown on the card. |
 | `tags` | Extra Anki tags. `kind::` and `priority::` tags are added for you. |
+| `key` | Optional. When you reword a card's question, put the old question here. The card keeps its id, so re-importing updates it and keeps its review history. |
 
 Two cards with the same question (or the same cloze text) are merged, and
 only the first is kept.

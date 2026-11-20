@@ -1120,8 +1120,8 @@
   {
     "type": "basic",
     "context": "Anger",
-    "front": "Which comes first: releasing the anger, or the talk with the other person?",
-    "back": "Release first. Have the talk after.",
+    "front": "Anger: what do you do before the talk with the other person?",
+    "back": "Release the anger first.",
     "text": "",
     "extra": "",
     "kind": "idea",
@@ -1132,7 +1132,8 @@
     "tags": [
       "anger",
       "conflict"
-    ]
+    ],
+    "key": "Which comes first: releasing the anger, or the talk with the other person?"
   },
   {
     "type": "cloze",
@@ -1199,7 +1200,8 @@
     "source_url": "",
     "tags": [
       "grief",
-      "decisions"
+      "decisions",
+      "target-practice"
     ]
   },
   {
@@ -1561,7 +1563,8 @@
     "source_url": "",
     "tags": [
       "hurt",
-      "criticism"
+      "criticism",
+      "target-practice"
     ]
   },
   {
@@ -2219,6 +2222,40 @@
     "tags": [
       "burnout",
       "rest"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety: two steps down",
+    "front": "Try, the next time you worry: ask \"What am I scared will happen?\" Then ask \"What would I have to feel if it did?\" Feel that for a minute.",
+    "back": "Notice whether the worry changes once you feel what is under it.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "target-practice"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Resentment: turn it into a want",
+    "front": "Try, 2 minutes: pick one person you resent a little. What did you want from them and never say? Write it as a request.",
+    "back": "Notice how the resentment changes when it becomes a want.",
+    "text": "",
+    "extra": "",
+    "kind": "practice",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "resentment",
+      "target-practice"
     ]
   }
 ]
