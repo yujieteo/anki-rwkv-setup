@@ -8,7 +8,7 @@
     "extra": "",
     "kind": "idea",
     "priority": 1,
-    "section": "",
+    "section": "the-short-version",
     "source_title": "",
     "source_url": "",
     "tags": [
@@ -24,7 +24,7 @@
     "extra": "Hudson's method is a coach's method, not a tested treatment.",
     "kind": "evidence",
     "priority": 1,
-    "section": "",
+    "section": "what-the-evidence-says",
     "source_title": "",
     "source_url": "",
     "tags": [
@@ -42,8 +42,8 @@
     "kind": "idea",
     "priority": 3,
     "section": "",
-    "source_title": "",
-    "source_url": "",
+    "source_title": "Essay: The Joe Hudson toolkit for the feelings you avoid",
+    "source_url": "https://teoyujie.org/essays/joe-hudson-toolkit/",
     "tags": [
       "background"
     ]

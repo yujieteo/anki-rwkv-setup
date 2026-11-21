@@ -13,7 +13,7 @@ card file is a JSON array of card objects. `build.py` reads every file in
 | `basic_model_id`, `cloze_model_id` | Fixed numbers for the note types. Pick any two large numbers once and never change them, so that a rebuilt deck updates the old notes. |
 | `section_url` | Optional. A card with a `section` links to `section_url#section`. |
 | `section_label` | Text before the section name in that link, for example `Essay`. |
-| `section_tag`, `source_tag` | Optional tags for cards with and without a `section`. |
+| `section_tag`, `source_tag` | Optional tags. A card with a `section` or a `source_url` matching `section_url` gets `section_tag`; other cards get `source_tag`. |
 | `subdecks` | Optional map from a card file's name (without `.json`) to a subdeck name. |
 | `default_subdeck` | Subdeck for card files not named in `subdecks`. Leave it out to put them in the top deck. |
 
