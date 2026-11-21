@@ -119,8 +119,44 @@ and double-click it, or use **File → Import** in Anki. Then do step 2 for
 the **Joe Hudson** deck.
 
 The deck has four subdecks: the core method, the feelings, problems and
-evidence, and extra cards from interviews. Priority-1 cards (the core
-method and the safety cards) come first.
+evidence, and extra cards from interviews. Each new card has a queue
+position, and priority-1 cards (the core method and the safety cards)
+have the lowest positions. When you import the deck for the first time
+and set the gather order in item 7 of step 2, the priority-1 cards come
+first.
+
+### If you imported an earlier version
+
+The first version of the package gave every new card position 0. An
+import never changes the position of a card that is already in your
+collection. Only cards that are new to your collection get their
+position from the package. So if you imported the first version,
+importing the new one does not restore the order. Your existing cards
+stay at position 0, and priority-1 cards can come after other cards. To
+check, open **Browse**, search for `deck:"Joe Hudson" is:new`, and look
+at the **Due** column. If most cards show "New #0", you have this
+problem.
+
+To put the priority-1 cards first again, keep your cards and do this
+once:
+
+1. Click **Browse** and search for
+   `deck:"Joe Hudson" tag:priority::1 is:new`.
+2. Select all cards (**Edit → Select All**).
+3. Choose **Cards → Reposition**. Set **Start position** to 0 and
+   **Step** to 1. Turn off **Randomize order**, and turn on **Shift
+   position of existing cards**. Without the shift, the other new cards
+   stay at position 0 and mix with the priority-1 cards.
+4. Click **OK**.
+
+This keeps your notes and your review history. It puts the priority-1
+cards first, but it does not restore the order of the other cards among
+themselves. Most of those cards share one position.
+
+To study only the priority-1 cards without changing positions, use
+**Custom Study** on the **Joe Hudson** deck. Choose **Study by card
+state or tag**, then **New cards only**, and select the tag
+`priority::1`. Anki makes a temporary deck with those cards.
 
 ## Phone
 
