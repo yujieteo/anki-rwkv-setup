@@ -86,7 +86,7 @@ Options on the **Joe Hudson** parent deck.
 1. Open Anki. On a new install, pick a language, then sign in to AnkiWeb
    with **Sync** if you use it.
 2. Click the deck you want to change, then **Options** (or press `o`).
-3. Open the drop-down beside **Save** and choose **Clone**. Give the
+3. Open the drop-down beside **Save** and choose **Clone Preset**. Give the
    new [preset](https://docs.ankiweb.net/manual/deck-options#presets) a
    name such as **Joe Hudson RWKV**. Edit this preset rather than
    **Default** or one shared with unrelated decks.
