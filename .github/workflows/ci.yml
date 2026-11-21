@@ -1,0 +1,47 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+# The job only reads the repository.
+permissions:
+  contents: read
+# A new push to a pull request cancels the run for the older push.
+# Runs on main are never cancelled, so each commit there gets a result.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+# The bash shell of Actions stops at the first failing command, also inside a pipe.
+defaults:
+  run:
+    shell: bash
+jobs:
+  build-check:
+    # The desktop runner is NixOS. It has nix, git and a few basic tools, and
+    # each step gets the other tools from nixpkgs with "nix shell".
+    runs-on: [self-hosted, desktop]
+    timeout-minutes: 20
+    steps:
+      # Each job runs as a new user with no home folder. Nix and Python want one.
+      - name: Make a home folder
+        run: |
+          mkdir -p "$RUNNER_TEMP/home"
+          echo "HOME=$RUNNER_TEMP/home" >> "$GITHUB_ENV"
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Shellcheck the installer
+        run: nix shell nixpkgs#shellcheck -c shellcheck install-macos.sh
+      # The build writes over the committed deck, so keep a copy of it first.
+      # genanki comes from nixpkgs (0.13.1, the newest release, which is also
+      # what "uv run --with genanki" in the README gets).
+      - name: Build the example deck
+        run: |
+          git show HEAD:examples/joe-hudson/joe-hudson.apkg > "$RUNNER_TEMP/committed.apkg"
+          nix shell --impure --expr \
+            '(builtins.getFlake "nixpkgs").legacyPackages.x86_64-linux.python3.withPackages (ps: [ ps.genanki ])' \
+            -c python3 build.py examples/joe-hudson
+      # genanki takes note ids and modification times from the clock, so two
+      # builds never have the same bytes. The script compares all the rest:
+      # note types, decks, each note's fields and tags, and each card's deck,
+      # template and queue position.
+      - name: Committed deck matches the card files
+        run: nix shell nixpkgs#python3 -c python3 -I .github/same-deck.py "$RUNNER_TEMP/committed.apkg" examples/joe-hudson/joe-hudson.apkg
