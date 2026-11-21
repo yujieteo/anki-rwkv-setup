@@ -22,12 +22,12 @@ jobs:
     runs-on: [self-hosted, desktop]
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       # Each job runs as a new user with no home folder. Nix and Python want one.
       - name: Make a home folder
         run: |
           mkdir -p "$RUNNER_TEMP/home"
           echo "HOME=$RUNNER_TEMP/home" >> "$GITHUB_ENV"
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Shellcheck the installer
         run: nix shell nixpkgs#shellcheck -c shellcheck install-macos.sh
       # The build writes over the committed deck, so keep a copy of it first.
