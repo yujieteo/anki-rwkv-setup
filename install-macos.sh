@@ -32,6 +32,15 @@ else
   API="https://api.github.com/repos/$REPO/releases/tags/$(python3 -c 'import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1]))' "$TAG")"
 fi
 
+anki_running() { pgrep -xq anki || pgrep -xq Anki; }
+
+# Check before the download, so you do not wait for it in vain. The check
+# runs again just before the swap, in case Anki was opened meanwhile.
+if anki_running; then
+  echo "Anki is running. Quit it, then run this script again." >&2
+  exit 1
+fi
+
 WORK="$(mktemp -d)"
 trap 'hdiutil detach "$WORK/mnt" -quiet 2>/dev/null || true; rm -rf "$WORK"' EXIT
 
@@ -63,7 +72,7 @@ elif [ "$ACTUAL" != "$DIGEST" ]; then
 fi
 echo "Hash OK: $ACTUAL"
 
-if pgrep -xq anki || pgrep -xq Anki; then
+if anki_running; then
   echo "Anki is running. Quit it, then run this script again." >&2
   exit 1
 fi

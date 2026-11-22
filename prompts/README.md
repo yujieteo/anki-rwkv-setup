@@ -18,5 +18,7 @@ cards.
 - [`from-sources.md`](from-sources.md): extra cards from raw sources, skipping
   what the summary already covers.
 
-After the agents finish, run `build.py` and read a random sample of cards
-before you import the deck.
+After the agents finish, run `build.py`. Agents that work in parallel
+sometimes write the same question twice. The build then lists each pair
+and writes no deck, so reword or delete one card of each pair and build
+again. Read a random sample of cards before you import the deck.

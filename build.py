@@ -9,6 +9,11 @@ The folder holds:
 
 Each note's id comes from its own text, so importing a rebuilt file
 updates the notes you already have instead of adding copies.
+
+The build checks every card before it writes anything. If a card is
+malformed, or two cards have the same question, it prints one line per
+problem as "file[index]: reason" and stops with exit code 1. The old
+.apkg is then left as it was.
 """
 
 import hashlib
@@ -40,8 +45,15 @@ HEAD = '<div class="context">{{Context}}{{#Kind}}<span class="kind">{{Kind}}</sp
 TAIL = ('{{#Extra}}<div class="extra">{{Extra}}</div>{{/Extra}}'
         '{{#Source}}<div class="source">{{Source}}</div>{{/Source}}')
 
-KIND_LABEL = {"practice": "try it", "story": "his story", "safety": "safety",
-              "evidence": "evidence"}
+# Each card type and the fields it uses. The first field is the question:
+# it gives the note its id, unless the card has a "key".
+TYPES = {"basic": ("front", "back"), "cloze": ("text",)}
+UNUSED = {"basic": ("text",), "cloze": ("front", "back")}
+
+# Each kind and the label it shows on the card. "idea" shows no label.
+KIND_LABEL = {"idea": "", "practice": "try it", "story": "his story",
+              "safety": "safety", "evidence": "evidence"}
+PRIORITIES = (1, 2, 3)
 
 
 def models(cfg):
@@ -76,24 +88,66 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
-def source_html(c, cfg):
-    if c.get("section") and cfg.get("section_url"):
+def source(c, cfg):
+    """Return the card's source link (HTML) and its source tag.
+
+    The link points to the essay section if the card has a "section",
+    else to "source_url", else there is no link. The tag says whether the
+    card comes from the section page (a "section", or a "source_url" equal
+    to "section_url") or from another source.
+    """
+    section_url = cfg.get("section_url")
+    if c.get("section") and section_url:
         label = c["section"].replace("-", " ").capitalize()
         prefix = cfg.get("section_label", "Source")
-        return (f'<a href="{cfg["section_url"]}#{c["section"]}">'
+        link = (f'<a href="{section_url}#{c["section"]}">'
                 f'{html.escape(prefix)}: {html.escape(label)}</a>')
-    if c.get("source_url"):
+    elif c.get("source_url"):
         title = html.escape(c.get("source_title") or "Source")
-        return f'<a href="{html.escape(c["source_url"])}">{title}</a>'
-    return ""
+        link = f'<a href="{html.escape(c["source_url"])}">{title}</a>'
+    else:
+        link = ""
+    from_section = c.get("section") or (section_url and c.get("source_url") == section_url)
+    tag = (cfg.get("section_tag", "from::section") if from_section
+           else cfg.get("source_tag", "from::source"))
+    return link, tag
 
 
-def valid(c):
-    if c.get("type") == "basic":
-        return bool(c.get("front")) and bool(c.get("back"))
-    if c.get("type") == "cloze":
-        return "{{c1::" in c.get("text", "")
-    return False
+def problems(c, cfg):
+    """Return the reasons the card cannot be built (empty if it is fine)."""
+    if not isinstance(c, dict):
+        return ["a card must be a JSON object"]
+    card_type = c.get("type")
+    if card_type not in TYPES:
+        return [f"type is {card_type!r}; it must be one of {sorted(TYPES)}"]
+    out = []
+    for f in TYPES[card_type]:
+        if not isinstance(c.get(f), str) or not c[f].strip():
+            out.append(f"a {card_type} card needs a non-empty {f!r}")
+    for f in UNUSED[card_type]:
+        if c.get(f):
+            out.append(f"a {card_type} card must leave {f!r} empty")
+    text = c.get("text")
+    if card_type == "cloze" and isinstance(text, str) and text.strip() and "{{c1::" not in text:
+        out.append("a cloze card's text needs {{c1::...}}")
+    if c.get("kind", "idea") not in KIND_LABEL:
+        out.append(f"kind is {c['kind']!r}; it must be one of {list(KIND_LABEL)}")
+    p = c.get("priority", 2)
+    if type(p) is not int or p not in PRIORITIES:
+        out.append(f"priority is {p!r}; it must be one of {list(PRIORITIES)}")
+    if not isinstance(c.get("tags", []), list):
+        out.append("tags must be a list")
+    key = c.get("key", "")
+    if not isinstance(key, str) or (key and not key.strip()):
+        out.append("key must be text: the old question, or empty")
+    if c.get("section") and not cfg.get("section_url"):
+        out.append("the card has a section, but deck.json has no section_url")
+    return out
+
+
+def identity(c):
+    """The text that gives the note its id: "key", else the question."""
+    return (c.get("key") or c[TYPES[c["type"]][0]]).strip().lower()
 
 
 def main(folder):
@@ -102,47 +156,54 @@ def main(folder):
     basic, cloze = models(cfg)
     root = cfg["name"]
 
-    cards = []
+    # Read and check every card. Nothing is written if any card fails.
+    cards, errors, first = [], [], {}
     for path in sorted((folder / "cards").glob("*.json")):
         sub = cfg.get("subdecks", {}).get(path.stem, cfg.get("default_subdeck"))
         deck = f"{root}::{sub}" if sub else root
-        for i, c in enumerate(json.loads(path.read_text())):
-            if not valid(c):
-                print("skip (malformed):", c.get("front") or c.get("text"), file=sys.stderr)
-                continue
-            c["_deck"] = deck
-            c["_order"] = (int(c.get("priority", 2)), path.stem, i)
-            cards.append(c)
+        try:
+            content = json.loads(path.read_text())
+        except json.JSONDecodeError as e:
+            errors.append(f"{path}: not valid JSON: {e}")
+            continue
+        if not isinstance(content, list):
+            errors.append(f"{path}: the file must hold a JSON array of cards")
+            continue
+        for i, c in enumerate(content):
+            where = f"{path}[{i}]"
+            bad = problems(c, cfg)
+            if not bad:
+                key = identity(c)
+                if key in first:
+                    bad = [f"same question (or key) as {first[key]}; "
+                           "reword one of them or delete one"]
+                else:
+                    first[key] = where
+            errors += [f"{where}: {reason}" for reason in bad]
+            if not bad:
+                cards.append((int(c.get("priority", 2)), path.stem, i, deck, c))
+    if errors:
+        print("\n".join(errors), file=sys.stderr)
+        sys.exit(f"{len(errors)} problem(s) in the card files. No deck was written.")
 
-    seen, decks = set(), {}
+    decks = {}
     # Each new card gets its own queue position (due), priority 1 first.
     # Without it every new card has position 0 and the order is lost.
-    for c in sorted(cards, key=lambda c: c["_order"]):
-        # "key", if set, keeps a reworded card's old id, so re-import updates it.
-        key = (c.get("key") or c.get("front") or c.get("text")).strip().lower()
-        if key in seen:
-            continue
-        seen.add(key)
+    for due, (*_, deck, c) in enumerate(sorted(cards, key=lambda x: x[:3]), start=1):
         tags = [slug(t) for t in c.get("tags", []) if t]
         tags += [f"kind::{c.get('kind', 'idea')}", f"priority::{c.get('priority', 2)}"]
-        own_source = cfg.get("section_url")
-        is_section_source = c.get("section") or (own_source and c.get("source_url") == own_source)
-        tags.append(cfg.get("section_tag", "from::section") if is_section_source
-                    else cfg.get("source_tag", "from::source"))
-        kind = KIND_LABEL.get(c.get("kind"), "")
-        guid = genanki.guid_for(root, key)
+        link, source_tag = source(c, cfg)
+        tags.append(source_tag)
+        kind = KIND_LABEL[c.get("kind", "idea")]
+        guid = genanki.guid_for(root, identity(c))
         if c["type"] == "basic":
-            fields = [c.get("context", ""), c["front"], c["back"], c.get("extra", ""),
-                      source_html(c, cfg), kind]
-            note = genanki.Note(model=basic, fields=fields, tags=tags, guid=guid,
-                                 due=len(seen))
+            model = basic
+            fields = [c.get("context", ""), c["front"], c["back"], c.get("extra", ""), link, kind]
         else:
-            fields = [c.get("context", ""), c["text"], c.get("extra", ""),
-                      source_html(c, cfg), kind]
-            note = genanki.Note(model=cloze, fields=fields, tags=tags, guid=guid,
-                                 due=len(seen))
-        name = c["_deck"]
-        decks.setdefault(name, genanki.Deck(deck_id(name), name)).add_note(note)
+            model = cloze
+            fields = [c.get("context", ""), c["text"], c.get("extra", ""), link, kind]
+        note = genanki.Note(model=model, fields=fields, tags=tags, guid=guid, due=due)
+        decks.setdefault(deck, genanki.Deck(deck_id(deck), deck)).add_note(note)
 
     out = folder / cfg.get("output", "deck.apkg")
     genanki.Package(list(decks.values())).write_to_file(out)
