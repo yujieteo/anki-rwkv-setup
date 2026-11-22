@@ -30,6 +30,13 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Shellcheck the installer
         run: nix shell nixpkgs#shellcheck -c shellcheck install-macos.sh
+      - name: Test the card checks in build.py
+        run: |
+          nix shell --impure --expr \
+            '(builtins.getFlake "nixpkgs").legacyPackages.x86_64-linux.python3.withPackages (ps: [ ps.genanki ])' \
+            -c python3 -I .github/test-build.py
+      - name: Test the deck comparison
+        run: nix shell nixpkgs#python3 -c python3 -I .github/test-same-deck.py
       # The build writes over the committed deck, so keep a copy of it first.
       # genanki comes from nixpkgs (0.13.1, the newest release, which is also
       # what "uv run --with genanki" in the README gets).

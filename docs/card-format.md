@@ -50,5 +50,25 @@ card file is a JSON array of card objects. `build.py` reads every file in
 | `tags` | Extra Anki tags. `kind::` and `priority::` tags are added for you. |
 | `key` | Optional. When you reword a card's question, put the old question here. The card keeps its id, so re-importing updates it and keeps its review history. |
 
-Two cards with the same question (or the same cloze text) are merged, and
-only the first is kept.
+## Checks
+
+`build.py` checks every card before it writes the `.apkg`. If any card
+fails a check, it prints one line per problem, such as
+`cards/essay-1.json[12]: a basic card needs a non-empty 'back'`, and stops
+with exit code 1. It does not write a deck, so the old `.apkg` stays as it
+was. The number after the file name is the card's position in the file,
+counting from 0.
+
+A card fails if:
+
+- `type` is not `basic` or `cloze`.
+- A `basic` card has no `front` or no `back`, or has `text`.
+- A `cloze` card has no `{{c1::...}}` in `text`, or has `front` or `back`.
+- `kind` or `priority` has a value that is not in the table above.
+  Leave them out to get `idea` and 2.
+- `tags` is not a list, or `key` is not text.
+- A card file is not valid JSON, or does not hold a JSON array.
+- The card has a `section`, but `deck.json` has no `section_url`.
+- Two cards have the same question (or the same cloze text, or the same
+  `key`). Case and spaces at the ends do not count. Reword one of the two
+  cards, or delete one.
