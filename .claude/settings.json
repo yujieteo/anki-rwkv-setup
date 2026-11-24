@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(./install-macos.sh)",
+      "Bash(./install-macos.sh *)",
+      "Bash(bash install-macos.sh)",
+      "Bash(bash install-macos.sh *)",
+      "Bash(sh install-macos.sh)",
+      "Bash(sh install-macos.sh *)",
+      "Bash(*install-macos.sh*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd=$(jq -r \".tool_input.command // empty\") || { echo \"Blocked: the hook could not read the command. Is jq installed?\" >&2; exit 2; }; case \"$cmd\" in *install-macos.sh*) echo \"Blocked: the command contains install-macos.sh. That script moves /Applications/Anki.app to the Trash. Run it yourself in a terminal if you mean to.\" >&2; exit 2;; esac",
+            "onFailure": "block"
+          }
+        ]
+      }
+    ]
+  }
+}
