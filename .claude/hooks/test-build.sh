@@ -1,17 +1,19 @@
 #!/bin/sh
 # Claude Code runs this after each Write or Edit. If the file is a card
-# file (<deck>/cards/*.json), it builds that deck into a temporary copy.
-# The committed .apkg is not changed. If the build fails, the script
-# prints the problems and exits with code 2, so Claude sees them.
+# file (<deck>/cards/*.json) or a deck file (<deck>/deck.json), it builds
+# that deck into a temporary copy. The committed .apkg is not changed.
+# If the build fails, the script prints the problems and exits with
+# code 2, so Claude sees them.
 set -u
 
 file=$(jq -r '.tool_input.file_path // .tool_response.filePath // empty') || exit 0
 case "$file" in
-  */cards/*.json) ;;
+  */cards/*.json) deck=$(dirname "$(dirname "$file")") ;;
+  */deck.json) deck=$(dirname "$file") ;;
   *) exit 0 ;;
 esac
-deck=$(dirname "$(dirname "$file")")
-[ -f "$deck/deck.json" ] || exit 0
+# Only a folder with both deck.json and cards/ is a deck.
+[ -f "$deck/deck.json" ] && [ -d "$deck/cards" ] || exit 0
 
 root=$(cd "$(dirname "$0")/../.." && pwd)
 work=$(mktemp -d)
