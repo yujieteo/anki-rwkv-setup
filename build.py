@@ -10,10 +10,11 @@ The folder holds:
 Each note's id comes from its own text, so importing a rebuilt file
 updates the notes you already have instead of adding copies.
 
-The build checks every card before it writes anything. If a card is
-malformed, or two cards have the same question, it prints one line per
-problem as "file[index]: reason" and stops with exit code 1. The old
-.apkg is then left as it was.
+The build checks deck.json and every card before it writes anything.
+If deck.json or a card is malformed, or two cards have the same
+question, it prints one line per problem as "file: reason" or
+"file[index]: reason" and stops with exit code 1. The old .apkg is then
+left as it was.
 """
 
 import hashlib
@@ -56,6 +57,11 @@ UNUSED = {t: tuple(f for other in TYPES if other != t for f in TYPES[other])
 KIND_LABEL = {"idea": "", "practice": "try it", "story": "his story",
               "safety": "safety", "evidence": "evidence"}
 PRIORITIES = (1, 2, 3)
+
+# The keys of deck.json. The two ids are required; the rest are optional.
+DECK_IDS = ("basic_model_id", "cloze_model_id")
+DECK_TEXT = ("output", "section_url", "section_label", "section_tag",
+             "source_tag", "default_subdeck")
 
 
 def models(cfg):
@@ -115,6 +121,38 @@ def source(c, cfg):
     return link, tag
 
 
+def deck_problems(cfg):
+    """Return the reasons deck.json cannot be used (empty if it is fine)."""
+    if not isinstance(cfg, dict):
+        return ["must hold a JSON object"]
+    out = []
+    unknown = sorted(set(cfg) - {"name", "subdecks", *DECK_IDS, *DECK_TEXT})
+    if unknown:
+        out.append(f"unknown key(s) {unknown}; check the spelling in docs/card-format.md")
+    if not isinstance(cfg.get("name"), str) or not cfg["name"].strip():
+        out.append("needs a non-empty 'name'")
+    for key in DECK_IDS:
+        v = cfg.get(key)
+        if key not in cfg:
+            out.append(f"needs {key!r}, a large whole number that never changes")
+        elif type(v) is not int or not 0 < v < 2**63:
+            out.append(f"{key} is {v!r}; it must be a whole number above 0")
+    if cfg.get(DECK_IDS[0]) == cfg.get(DECK_IDS[1]) and DECK_IDS[0] in cfg:
+        out.append("basic_model_id and cloze_model_id must be different")
+    for key in DECK_TEXT:
+        if key in cfg and (not isinstance(cfg[key], str) or not cfg[key].strip()):
+            out.append(f"{key} must be non-empty text, or left out")
+    output = cfg.get("output")
+    if isinstance(output, str) and output.strip() and (
+            "/" in output or "\\" in output or not output.endswith(".apkg")):
+        out.append(f"output is {output!r}; it must be a file name that ends in .apkg")
+    subdecks = cfg.get("subdecks", {})
+    if not isinstance(subdecks, dict) or not all(
+            isinstance(v, str) and v.strip() for v in subdecks.values()):
+        out.append("subdecks must map card file names to non-empty subdeck names")
+    return out
+
+
 def problems(c, cfg):
     """Return the reasons the card cannot be built (empty if it is fine).
 
@@ -157,7 +195,17 @@ def identity(c):
 
 def main(folder):
     folder = Path(folder)
-    cfg = json.loads((folder / "deck.json").read_text())
+    deck_file = folder / "deck.json"
+    try:
+        cfg = json.loads(deck_file.read_text())
+    except FileNotFoundError:
+        sys.exit(f"{deck_file}: not found. No deck was written.")
+    except json.JSONDecodeError as e:
+        sys.exit(f"{deck_file}: not valid JSON: {e}. No deck was written.")
+    bad = deck_problems(cfg)
+    if bad:
+        print("\n".join(f"{deck_file}: {reason}" for reason in bad), file=sys.stderr)
+        sys.exit(f"{len(bad)} problem(s) in deck.json. No deck was written.")
     basic, cloze = models(cfg)
     root = cfg["name"]
 

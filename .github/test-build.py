@@ -79,6 +79,46 @@ class BuildTest(unittest.TestCase):
         self.assertIn("b.json: the file must hold a JSON array", result.stderr)
         self.assertIn("c.json: not valid JSON", result.stderr)
 
+    def test_each_deck_json_problem_is_reported(self):
+        bad = {"name": " ", "output": "sub/test.apkg", "basic_model_id": "1",
+               "cloze_model_id": 0, "section_url": "", "subdecks": {"a": 1},
+               "subdeck": "typo"}
+        result, out = self.build({"a": [BASIC]}, deck=bad)
+        self.assertEqual(result.returncode, 1)
+        self.assertFalse((out.parent / "sub").exists())
+        for reason in ["unknown key(s) ['subdeck']", "needs a non-empty 'name'",
+                       "basic_model_id is '1'", "cloze_model_id is 0",
+                       "section_url must be non-empty text",
+                       "output is 'sub/test.apkg'", "subdecks must map"]:
+            self.assertIn(f"deck.json: {reason}", result.stderr)
+        self.assertIn("7 problem(s) in deck.json", result.stderr)
+        self.assertNotIn("Traceback", result.stderr)
+
+    def test_missing_ids_and_same_ids(self):
+        result, _ = self.build({"a": [BASIC]}, deck={"name": "T", "output": "t.apkg"})
+        self.assertIn("deck.json: needs 'basic_model_id'", result.stderr)
+        self.assertIn("deck.json: needs 'cloze_model_id'", result.stderr)
+        same = {**DECK, "cloze_model_id": DECK["basic_model_id"]}
+        result, out = self.build({"a": [BASIC]}, deck=same)
+        self.assertEqual(result.returncode, 1)
+        self.assertFalse(out.exists())
+        self.assertIn("must be different", result.stderr)
+
+    def test_broken_or_missing_deck_json(self):
+        result, out = self.build({"a": [BASIC]})
+        (out.parent / "deck.json").write_text("{")
+        result = self.run_build(out.parent)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("deck.json: not valid JSON", result.stderr)
+        (out.parent / "deck.json").write_text("[]")
+        self.assertIn("deck.json: must hold a JSON object",
+                      self.run_build(out.parent).stderr)
+        (out.parent / "deck.json").unlink()
+        result = self.run_build(out.parent)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("deck.json: not found", result.stderr)
+        self.assertNotIn("Traceback", result.stderr)
+
     def test_key_counts_as_the_question(self):
         renamed = {**BASIC, "front": "What is the number one?", "key": "What is one?"}
         result, _ = self.build({"a": [BASIC], "b": [renamed]})
