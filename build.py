@@ -48,7 +48,9 @@ TAIL = ('{{#Extra}}<div class="extra">{{Extra}}</div>{{/Extra}}'
 # Each card type and the fields it uses. The first field is the question:
 # it gives the note its id, unless the card has a "key".
 TYPES = {"basic": ("front", "back"), "cloze": ("text",)}
-UNUSED = {"basic": ("text",), "cloze": ("front", "back")}
+# The fields of the other card types, which a card must leave empty.
+UNUSED = {t: tuple(f for other in TYPES if other != t for f in TYPES[other])
+          for t in TYPES}
 
 # Each kind and the label it shows on the card. "idea" shows no label.
 KIND_LABEL = {"idea": "", "practice": "try it", "story": "his story",
