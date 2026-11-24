@@ -1,0 +1,30 @@
+#!/bin/sh
+# Claude Code runs this after each Write or Edit. If the file is a card
+# file (<deck>/cards/*.json), it builds that deck into a temporary copy.
+# The committed .apkg is not changed. If the build fails, the script
+# prints the problems and exits with code 2, so Claude sees them.
+set -u
+
+file=$(jq -r '.tool_input.file_path // .tool_response.filePath // empty') || exit 0
+case "$file" in
+  */cards/*.json) ;;
+  *) exit 0 ;;
+esac
+deck=$(dirname "$(dirname "$file")")
+[ -f "$deck/deck.json" ] || exit 0
+
+root=$(cd "$(dirname "$0")/../.." && pwd)
+work=$(mktemp -d)
+trap 'rm -rf "$work"' EXIT
+cp -R "$deck" "$work/deck"
+
+# The build runs inside the temporary folder on "deck", so each problem
+# line starts with "deck/". awk puts the real deck folder there instead.
+if ! out=$(cd "$work" && PYTHONDONTWRITEBYTECODE=1 \
+             uv run -q --no-project --with genanki==0.13.1 \
+             python -I "$root/build.py" deck 2>&1); then
+  echo "The test build of $deck failed:" >&2
+  printf '%s\n' "$out" |
+    awk -v d="$deck" 'index($0, "deck/") == 1 { $0 = d substr($0, 5) } { print }' >&2
+  exit 2
+fi
