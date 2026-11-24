@@ -18,11 +18,11 @@ defaults:
 jobs:
   build-check:
     # The desktop runner is NixOS. It has nix, git and a few basic tools, and
-    # each step gets the other tools from nixpkgs with "nix shell".
+    # the check step gets the other tools from nixpkgs with "nix shell".
     runs-on: [self-hosted, desktop]
     timeout-minutes: 20
-    # One fixed nixpkgs commit (13 November 2026) for every step, so a
-    # nixpkgs update cannot change the tools or genanki without a commit here.
+    # One fixed nixpkgs commit (13 November 2026), so a nixpkgs update
+    # cannot change the tools or genanki without a commit here.
     env:
       NIXPKGS: github:NixOS/nixpkgs/d5cc6833999746cffdfe0598f7bc801a57b887a9
     steps:
@@ -32,27 +32,16 @@ jobs:
           mkdir -p "$RUNNER_TEMP/home"
           echo "HOME=$RUNNER_TEMP/home" >> "$GITHUB_ENV"
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - name: Shellcheck the installer
-        run: nix shell "$NIXPKGS#shellcheck" -c shellcheck install-macos.sh
-      - name: Test the card checks in build.py
+      # One nix shell holds shellcheck and a python3 with genanki 0.13.1.
+      # check.sh runs every check. It builds the example deck into a
+      # temporary copy and compares it with the committed deck, so the
+      # committed .apkg is not changed. genanki takes note ids and
+      # modification times from the clock, so two builds never have the same
+      # bytes; the comparison checks all the rest.
+      - name: Run every check
         run: |
-          nix shell --impure --expr \
-            "(builtins.getFlake \"$NIXPKGS\").legacyPackages.x86_64-linux.python3.withPackages (ps: [ ps.genanki ])" \
-            -c python3 -I .github/test-build.py
-      - name: Test the deck comparison
-        run: nix shell "$NIXPKGS#python3" -c python3 -I .github/test-same-deck.py
-      # The build writes over the committed deck, so keep a copy of it first.
-      # genanki comes from the pinned nixpkgs, which has 0.13.1. The README and
-      # build.py pin the same version with "uv run --with genanki==0.13.1".
-      - name: Build the example deck
-        run: |
-          git show HEAD:examples/joe-hudson/joe-hudson.apkg > "$RUNNER_TEMP/committed.apkg"
-          nix shell --impure --expr \
-            "(builtins.getFlake \"$NIXPKGS\").legacyPackages.x86_64-linux.python3.withPackages (ps: [ ps.genanki ])" \
-            -c python3 build.py examples/joe-hudson
-      # genanki takes note ids and modification times from the clock, so two
-      # builds never have the same bytes. The script compares all the rest:
-      # note types, decks, each note's fields and tags, and each card's deck,
-      # template and queue position.
-      - name: Committed deck matches the card files
-        run: nix shell "$NIXPKGS#python3" -c python3 -I .github/same-deck.py "$RUNNER_TEMP/committed.apkg" examples/joe-hudson/joe-hudson.apkg
+          nix shell --impure --expr "
+            let pkgs = (builtins.getFlake \"$NIXPKGS\").legacyPackages.x86_64-linux;
+            in { python = pkgs.python3.withPackages (ps: [ ps.genanki ]);
+                 shellcheck = pkgs.shellcheck; }" \
+            python shellcheck -c bash .github/check.sh
