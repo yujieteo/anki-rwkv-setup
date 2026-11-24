@@ -1,7 +1,7 @@
 """Build an Anki deck (.apkg) from a folder of card files.
 
 Usage:
-    uv run --with genanki python build.py examples/joe-hudson
+    uv run --with genanki==0.13.1 python build.py examples/joe-hudson
 
 The folder holds:
     deck.json     deck name, output file name, note type ids, subdecks

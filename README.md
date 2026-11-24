@@ -209,7 +209,7 @@ deck options.
 6. **Build:**
 
    ```bash
-   uv run --with genanki python build.py path/to/your-deck
+   uv run --with genanki==0.13.1 python build.py path/to/your-deck
    ```
 
 7. **Import** the `.apkg`, and turn on RWKV-P (step 2).
