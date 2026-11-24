@@ -52,8 +52,22 @@ card file is a JSON array of card objects. `build.py` reads every file in
 
 ## Checks
 
-`build.py` checks every card before it writes the `.apkg`. If any card
-fails a check, it prints one line per problem, such as
+`build.py` checks `deck.json` first. It stops with one line per problem,
+such as `deck.json: needs 'basic_model_id', a large whole number that
+never changes`, if:
+
+- `deck.json` is missing, is not valid JSON, or does not hold a JSON
+  object.
+- It has a key that is not in the table above (often a spelling mistake).
+- `name` is missing or empty.
+- `basic_model_id` or `cloze_model_id` is missing, is not a whole number
+  above 0, or the two are the same.
+- An optional text key is there but empty or not text.
+- `output` has a folder in it or does not end in `.apkg`.
+- `subdecks` does not map file names to non-empty subdeck names.
+
+Then `build.py` checks every card before it writes the `.apkg`. If any
+card fails a check, it prints one line per problem, such as
 `cards/essay-1.json[12]: a basic card needs a non-empty 'back'`, and stops
 with exit code 1. It does not write a deck, so the old `.apkg` stays as it
 was. The number after the file name is the card's position in the file,
