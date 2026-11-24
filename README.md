@@ -241,7 +241,8 @@ body when you work with feelings, work with a licensed therapist.
 
 ## Change this repository
 
-The tests are in `.github/`. One command runs all the checks:
+The tests are in `.github/`. One command runs all the checks. It needs
+`shellcheck` on your PATH:
 
 ```bash
 uv run --no-project --with genanki==0.13.1 bash .github/check.sh
