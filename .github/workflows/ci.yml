@@ -37,11 +37,12 @@ jobs:
       # temporary copy and compares it with the committed deck, so the
       # committed .apkg is not changed. genanki takes note ids and
       # modification times from the clock, so two builds never have the same
-      # bytes; the comparison checks all the rest.
+      # bytes; the comparison checks all the rest. The packages are for the
+      # system that runs the job ("\$" keeps bash from reading "${...}").
       - name: Run every check
         run: |
           nix shell --impure --expr "
-            let pkgs = (builtins.getFlake \"$NIXPKGS\").legacyPackages.x86_64-linux;
+            let pkgs = (builtins.getFlake \"$NIXPKGS\").legacyPackages.\${builtins.currentSystem};
             in { python = pkgs.python3.withPackages (ps: [ ps.genanki ]);
                  shellcheck = pkgs.shellcheck; }" \
             python shellcheck -c bash .github/check.sh
