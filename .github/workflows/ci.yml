@@ -38,8 +38,9 @@ jobs:
       - name: Test the deck comparison
         run: nix shell nixpkgs#python3 -c python3 -I .github/test-same-deck.py
       # The build writes over the committed deck, so keep a copy of it first.
-      # genanki comes from nixpkgs (0.13.1, the newest release, which is also
-      # what "uv run --with genanki" in the README gets).
+      # genanki comes from nixpkgs, which has 0.13.1. The README and build.py
+      # pin the same version with "uv run --with genanki==0.13.1". nixpkgs is
+      # not pinned here, so a nixpkgs update can bring a newer genanki.
       - name: Build the example deck
         run: |
           git show HEAD:examples/joe-hudson/joe-hudson.apkg > "$RUNNER_TEMP/committed.apkg"
