@@ -25,9 +25,12 @@ class BuildTest(unittest.TestCase):
         (folder / "cards").mkdir()
         for name, content in cards.items():
             (folder / "cards" / f"{name}.json").write_text(json.dumps(content))
-        result = subprocess.run([sys.executable, str(BUILD), str(folder)],
-                                capture_output=True, text=True)
-        return result, folder / deck["output"]
+        return self.run_build(folder), folder / deck["output"]
+
+    def run_build(self, folder):
+        """Run build.py on a deck folder and return the result."""
+        return subprocess.run([sys.executable, str(BUILD), str(folder)],
+                              capture_output=True, text=True)
 
     def test_good_cards_build(self):
         # Unused fields written as "" (as in the example deck) are fine.
@@ -70,8 +73,7 @@ class BuildTest(unittest.TestCase):
     def test_broken_card_files_are_reported(self):
         result, out = self.build({"a": [BASIC], "b": {"type": "basic"}})
         (out.parent / "cards" / "c.json").write_text("[{")
-        result = subprocess.run([sys.executable, str(BUILD), str(out.parent)],
-                                capture_output=True, text=True)
+        result = self.run_build(out.parent)
         self.assertEqual(result.returncode, 1)
         self.assertFalse(out.exists())
         self.assertIn("b.json: the file must hold a JSON array", result.stderr)
