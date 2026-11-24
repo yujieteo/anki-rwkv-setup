@@ -239,6 +239,24 @@ safety advice as its own cards, and some cards say where research points
 the other way. If you have trauma, or you feel overwhelmed or outside your
 body when you work with feelings, work with a licensed therapist.
 
+## Change this repository
+
+The tests are in `.github/`. One command runs all the checks:
+
+```bash
+uv run --no-project --with genanki==0.13.1 bash .github/check.sh
+```
+
+It builds the example deck into a temporary folder and compares it with
+the committed `joe-hudson.apkg`. `build.py` writes over that committed
+file. So when you change the example cards, build the deck and commit the
+new `.apkg` in the same commit as the card files.
+
+A note's id comes from the deck `name` and the question text. If you
+change `name`, `basic_model_id` or `cloze_model_id` in `deck.json`, or
+reword a question that has no `key`, people who import the new deck get
+duplicate notes, and the review history of those notes starts again.
+
 ## License
 
 The code (`build.py`, `install-macos.sh`) is under the MIT License. See
