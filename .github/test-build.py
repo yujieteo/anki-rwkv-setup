@@ -1,10 +1,13 @@
 """Tests for the card checks in build.py. They need genanki, not Anki."""
 
 import json
+import sqlite3
 import subprocess
 import sys
 import tempfile
 import unittest
+import zipfile
+from contextlib import closing
 from pathlib import Path
 
 BUILD = Path(__file__).resolve().parent.parent / "build.py"
@@ -54,6 +57,7 @@ class BuildTest(unittest.TestCase):
             {**BASIC, "front": "Q5", "key": "  "},
             {"type": "cloze", "text": None},
             {**BASIC, "front": "Q6", "section": "no-page"},
+            {**BASIC, "front": "Q7", "sorce_url": "https://example.org", "colour": ""},
         ]
         result, out = self.build({"a": [BASIC] + bad})
         self.assertEqual(result.returncode, 1)
@@ -62,6 +66,8 @@ class BuildTest(unittest.TestCase):
             self.assertIn(f"a.json[{index}]: ", result.stderr)
         self.assertNotIn("a.json[0]: ", result.stderr)
         self.assertIn(f"{len(bad)} problem(s)", result.stderr)
+        self.assertIn(f"a.json[{len(bad)}]: unknown field(s) ['colour', 'sorce_url']",
+                      result.stderr)
 
     def test_duplicate_question_names_both_cards(self):
         twin = {**BASIC, "front": " what is ONE? ", "back": "Another answer."}
@@ -72,6 +78,7 @@ class BuildTest(unittest.TestCase):
 
     def test_broken_card_files_are_reported(self):
         result, out = self.build({"a": [BASIC], "b": {"type": "basic"}})
+        self.assertEqual(result.returncode, 1)
         (out.parent / "cards" / "c.json").write_text("[{")
         result = self.run_build(out.parent)
         self.assertEqual(result.returncode, 1)
@@ -106,6 +113,7 @@ class BuildTest(unittest.TestCase):
 
     def test_broken_or_missing_deck_json(self):
         result, out = self.build({"a": [BASIC]})
+        self.assertEqual(result.returncode, 0, result.stderr)
         (out.parent / "deck.json").write_text("{")
         result = self.run_build(out.parent)
         self.assertEqual(result.returncode, 1)
@@ -118,6 +126,29 @@ class BuildTest(unittest.TestCase):
         self.assertEqual(result.returncode, 1)
         self.assertIn("deck.json: not found", result.stderr)
         self.assertNotIn("Traceback", result.stderr)
+
+    def test_kind_labels(self):
+        story = {**BASIC, "kind": "story"}
+        result, _ = self.build({"a": [story]}, deck={**DECK, "kind_labels": {"story": "his story"}})
+        self.assertEqual(result.returncode, 0, result.stderr)
+        for labels in [{"joke": "ha"}, {"story": 1}, ["story"]]:
+            result, out = self.build({"a": [story]}, deck={**DECK, "kind_labels": labels})
+            self.assertEqual(result.returncode, 1)
+            self.assertFalse(out.exists())
+            self.assertIn("deck.json: kind_labels must map kinds", result.stderr)
+
+    def test_links_are_escaped(self):
+        deck = {**DECK, "section_url": "https://example.org/a?b=1&c=2"}
+        cards = [{**BASIC, "section": 'x"y'},
+                 {**BASIC, "front": "Q2", "source_url": "https://example.org/?a=1&b=2"}]
+        result, out = self.build({"a": cards}, deck=deck)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        with zipfile.ZipFile(out) as z, tempfile.TemporaryDirectory() as tmp:
+            z.extract("collection.anki2", tmp)
+            with closing(sqlite3.connect(Path(tmp) / "collection.anki2")) as db:
+                fields = " ".join(f for (f,) in db.execute("select flds from notes"))
+        self.assertIn('href="https://example.org/a?b=1&amp;c=2#x&quot;y"', fields)
+        self.assertIn('href="https://example.org/?a=1&amp;b=2"', fields)
 
     def test_key_counts_as_the_question(self):
         renamed = {**BASIC, "front": "What is the number one?", "key": "What is one?"}

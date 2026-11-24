@@ -5,6 +5,7 @@
   "section_label": "Essay",
   "section_tag": "from::essay",
   "source_tag": "from::interview",
+  "kind_labels": {"story": "his story"},
   "basic_model_id": 1763550001,
   "cloze_model_id": 1763550002,
   "subdecks": {

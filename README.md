@@ -97,8 +97,8 @@ Options on the **Joe Hudson** parent deck.
    answers with FSRS, so the two stay consistent.
 6. Under **RWKV → Advanced → Model size**, pick a size. **Big** is the
    most accurate and needs more memory and a slower first build. For a few
-   thousand cards it is small (about 13 MB for 716 cards). **Small** is the
-   default.
+   thousand cards it is small (about 13 MB for the example deck). **Small**
+   is the default.
 7. Under **Display Order**, set **New card gather order** to **Ascending
    position**. The default gathers one subdeck at a time, so the deck's
    priority order would be lost across subdecks.
@@ -260,5 +260,6 @@ duplicate notes, and the review history of those notes starts again.
 
 ## License
 
-The code (`build.py`, `install-macos.sh`) is under the MIT License. See
+The code (`build.py`, `install-macos.sh`, and the scripts in `.github/`
+and `.claude/hooks/`) is under the MIT License. See
 [LICENSE](LICENSE).

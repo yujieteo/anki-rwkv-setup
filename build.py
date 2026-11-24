@@ -54,7 +54,8 @@ UNUSED = {t: tuple(f for other in TYPES if other != t for f in TYPES[other])
           for t in TYPES}
 
 # Each kind and the label it shows on the card. "idea" shows no label.
-KIND_LABEL = {"idea": "", "practice": "try it", "story": "his story",
+# The "kind_labels" map in deck.json can change any of these labels.
+KIND_LABEL = {"idea": "", "practice": "try it", "story": "story",
               "safety": "safety", "evidence": "evidence"}
 PRIORITIES = (1, 2, 3)
 
@@ -62,6 +63,10 @@ PRIORITIES = (1, 2, 3)
 DECK_IDS = ("basic_model_id", "cloze_model_id")
 DECK_TEXT = ("output", "section_url", "section_label", "section_tag",
              "source_tag", "default_subdeck")
+
+# The fields a card may have. Any other field is a spelling mistake.
+CARD_FIELDS = {"type", "context", "front", "back", "text", "extra", "kind",
+               "priority", "section", "source_title", "source_url", "tags", "key"}
 
 
 def models(cfg):
@@ -108,8 +113,8 @@ def source(c, cfg):
     if c.get("section") and section_url:
         label = c["section"].replace("-", " ").capitalize()
         prefix = cfg.get("section_label", "Source")
-        link = (f'<a href="{section_url}#{c["section"]}">'
-                f'{html.escape(prefix)}: {html.escape(label)}</a>')
+        href = html.escape(f'{section_url}#{c["section"]}')
+        link = f'<a href="{href}">{html.escape(prefix)}: {html.escape(label)}</a>'
     elif c.get("source_url"):
         title = html.escape(c.get("source_title") or "Source")
         link = f'<a href="{html.escape(c["source_url"])}">{title}</a>'
@@ -126,7 +131,7 @@ def deck_problems(cfg):
     if not isinstance(cfg, dict):
         return ["must hold a JSON object"]
     out = []
-    unknown = sorted(set(cfg) - {"name", "subdecks", *DECK_IDS, *DECK_TEXT})
+    unknown = sorted(set(cfg) - {"name", "subdecks", "kind_labels", *DECK_IDS, *DECK_TEXT})
     if unknown:
         out.append(f"unknown key(s) {unknown}; check the spelling in docs/card-format.md")
     if not isinstance(cfg.get("name"), str) or not cfg["name"].strip():
@@ -150,6 +155,10 @@ def deck_problems(cfg):
     if not isinstance(subdecks, dict) or not all(
             isinstance(v, str) and v.strip() for v in subdecks.values()):
         out.append("subdecks must map card file names to non-empty subdeck names")
+    labels = cfg.get("kind_labels", {})
+    if not isinstance(labels, dict) or not all(
+            k in KIND_LABEL and isinstance(v, str) for k, v in labels.items()):
+        out.append(f"kind_labels must map kinds from {list(KIND_LABEL)} to label text")
     return out
 
 
@@ -164,6 +173,9 @@ def problems(c, cfg):
     if card_type not in TYPES:
         return [f"type is {card_type!r}; it must be one of {sorted(TYPES)}"]
     out = []
+    unknown = sorted(set(c) - CARD_FIELDS)
+    if unknown:
+        out.append(f"unknown field(s) {unknown}; check the spelling in docs/card-format.md")
     for f in TYPES[card_type]:
         if not isinstance(c.get(f), str) or not c[f].strip():
             out.append(f"a {card_type} card needs a non-empty {f!r}")
@@ -208,6 +220,7 @@ def main(folder):
         sys.exit(f"{len(bad)} problem(s) in deck.json. No deck was written.")
     basic, cloze = models(cfg)
     root = cfg["name"]
+    kind_label = {**KIND_LABEL, **cfg.get("kind_labels", {})}
 
     # Read and check every card. Nothing is written if any card fails.
     cards, errors, first = [], [], {}
@@ -249,7 +262,7 @@ def main(folder):
         tags += [f"kind::{c['kind']}", f"priority::{c['priority']}"]
         link, source_tag = source(c, cfg)
         tags.append(source_tag)
-        kind = KIND_LABEL[c["kind"]]
+        kind = html.escape(kind_label[c["kind"]])
         guid = genanki.guid_for(root, identity(c))
         if c["type"] == "basic":
             model = basic

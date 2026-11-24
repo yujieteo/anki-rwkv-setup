@@ -9,11 +9,12 @@ card file is a JSON array of card objects. `build.py` reads every file in
 | Key | Meaning |
 |---|---|
 | `name` | Top-level deck name. Also names the two note types (`<name> Basic`, `<name> Cloze`). |
-| `output` | File name of the `.apkg` to write, inside the deck folder. |
+| `output` | Optional. File name of the `.apkg` to write, inside the deck folder. The default is `deck.apkg`. |
 | `basic_model_id`, `cloze_model_id` | Fixed numbers for the note types. Pick any two large numbers once and never change them, so that a rebuilt deck updates the old notes. |
 | `section_url` | Optional. A card with a `section` links to `section_url#section`. |
-| `section_label` | Text before the section name in that link, for example `Essay`. |
-| `section_tag`, `source_tag` | Optional tags. A card with a `section` or a `source_url` matching `section_url` gets `section_tag`; other cards get `source_tag`. |
+| `section_label` | Optional. Text before the section name in that link, for example `Essay`. The default is `Source`. |
+| `section_tag`, `source_tag` | Optional tags. A card with a `section` or a `source_url` matching `section_url` gets `section_tag`; other cards get `source_tag`. The defaults are `from::section` and `from::source`. |
+| `kind_labels` | Optional map from a `kind` to the label the card shows, for example `{"story": "his story"}`. Kinds that are not in the map keep the default labels: none for `idea`, then `try it`, `story`, `safety` and `evidence`. An empty label shows nothing. |
 | `subdecks` | Optional map from a card file's name (without `.json`) to a subdeck name. |
 | `default_subdeck` | Subdeck for card files not named in `subdecks`. Leave it out to put them in the top deck. |
 
@@ -43,7 +44,7 @@ card file is a JSON array of card objects. `build.py` reads every file in
 | `front`, `back` | The question and the answer, for `basic`. HTML such as `<br>` and `<b>` is allowed. |
 | `text` | For `cloze`: a sentence with `{{c1::hidden part}}`. Use `c2`, `c3`, ... for overlapping clozes on an ordered list. |
 | `extra` | More detail, shown under the answer. |
-| `kind` | `idea`, `practice`, `story`, `safety` or `evidence`. The last four show a small label on the card. |
+| `kind` | `idea`, `practice`, `story`, `safety` or `evidence`. The last four show a small label on the card (see `kind_labels`). |
 | `priority` | 1, 2 or 3. `build.py` numbers new cards in this order. For Anki to follow it across subdecks, set **New card gather order** to "Ascending position" in Deck Options. |
 | `section` | An anchor id on the page at `section_url`. |
 | `source_title`, `source_url` | Used when there is no `section`: the link shown on the card. |
@@ -65,6 +66,7 @@ never changes`, if:
 - An optional text key is there but empty or not text.
 - `output` has a folder in it or does not end in `.apkg`.
 - `subdecks` does not map file names to non-empty subdeck names.
+- `kind_labels` does not map kinds from the table below to text.
 
 Then `build.py` checks every card before it writes the `.apkg`. If any
 card fails a check, it prints one line per problem, such as
@@ -76,6 +78,8 @@ counting from 0.
 A card fails if:
 
 - `type` is not `basic` or `cloze`.
+- It has a field that is not in the table above (often a spelling
+  mistake, such as `sorce_url`).
 - A `basic` card has no `front` or no `back`, or has `text`.
 - A `cloze` card has no `{{c1::...}}` in `text`, or has `front` or `back`.
 - `kind` or `priority` has a value that is not in the table above.
