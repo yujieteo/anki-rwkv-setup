@@ -114,7 +114,10 @@ def source(c, cfg):
 
 
 def problems(c, cfg):
-    """Return the reasons the card cannot be built (empty if it is fine)."""
+    """Return the reasons the card cannot be built (empty if it is fine).
+
+    main() has already filled in the default kind and priority.
+    """
     if not isinstance(c, dict):
         return ["a card must be a JSON object"]
     card_type = c.get("type")
@@ -130,9 +133,9 @@ def problems(c, cfg):
     text = c.get("text")
     if card_type == "cloze" and isinstance(text, str) and text.strip() and "{{c1::" not in text:
         out.append("a cloze card's text needs {{c1::...}}")
-    if c.get("kind", "idea") not in KIND_LABEL:
+    if c["kind"] not in KIND_LABEL:
         out.append(f"kind is {c['kind']!r}; it must be one of {list(KIND_LABEL)}")
-    p = c.get("priority", 2)
+    p = c["priority"]
     if type(p) is not int or p not in PRIORITIES:
         out.append(f"priority is {p!r}; it must be one of {list(PRIORITIES)}")
     if not isinstance(c.get("tags", []), list):
@@ -171,6 +174,8 @@ def main(folder):
             continue
         for i, c in enumerate(content):
             where = f"{path}[{i}]"
+            if isinstance(c, dict):
+                c = {"kind": "idea", "priority": 2, **c}
             bad = problems(c, cfg)
             if not bad:
                 key = identity(c)
@@ -181,7 +186,7 @@ def main(folder):
                     first[key] = where
             errors += [f"{where}: {reason}" for reason in bad]
             if not bad:
-                cards.append((int(c.get("priority", 2)), path.stem, i, deck, c))
+                cards.append((c["priority"], path.stem, i, deck, c))
     if errors:
         print("\n".join(errors), file=sys.stderr)
         sys.exit(f"{len(errors)} problem(s) in the card files. No deck was written.")
@@ -191,10 +196,10 @@ def main(folder):
     # Without it every new card has position 0 and the order is lost.
     for due, (*_, deck, c) in enumerate(sorted(cards, key=lambda x: x[:3]), start=1):
         tags = [slug(t) for t in c.get("tags", []) if t]
-        tags += [f"kind::{c.get('kind', 'idea')}", f"priority::{c.get('priority', 2)}"]
+        tags += [f"kind::{c['kind']}", f"priority::{c['priority']}"]
         link, source_tag = source(c, cfg)
         tags.append(source_tag)
-        kind = KIND_LABEL[c.get("kind", "idea")]
+        kind = KIND_LABEL[c["kind"]]
         guid = genanki.guid_for(root, identity(c))
         if c["type"] == "basic":
             model = basic
