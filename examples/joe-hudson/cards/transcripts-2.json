@@ -204,12 +204,12 @@
   ]
  },
  {
-  "type": "cloze",
+  "type": "basic",
   "context": "Welcoming emotions",
-  "front": "",
-  "back": "",
-  "text": "Hudson's steps to welcome an emotion: 1. {{c1::See that it cannot oppress you}}. 2. {{c2::Get deeply curious about it in the body}}. 3. {{c3::Play experiments with it and see how it reacts}}. 4. {{c4::Its wisdom then shows itself}}.",
-  "extra": "Jumping straight to loving every emotion usually fails. For step 1 with anger, he suggests dominating it once, alone. Never aim anger at a person without their consent.",
+  "front": "What is Hudson's first step to welcome an emotion that feels like it oppresses you?",
+  "back": "See that it cannot oppress you.",
+  "text": "",
+  "extra": "Jumping straight to loving every emotion usually fails. With anger, he suggests dominating it once, alone. Never aim anger at a person without their consent.",
   "kind": "idea",
   "priority": 2,
   "section": "",
@@ -217,7 +217,62 @@
   "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
   "tags": [
    "welcoming",
-   "resistance"
+   "resistance",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Welcoming emotions",
+  "front": "Welcoming an emotion: once you see it cannot oppress you, what does Hudson say comes next?",
+  "back": "Get deeply curious about it in the body.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "welcoming",
+   "resistance",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Welcoming emotions",
+  "front": "Welcoming an emotion: after you get curious about it, what does Hudson have you do?",
+  "back": "Play experiments with it, and see how it reacts.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "welcoming",
+   "resistance",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Welcoming emotions",
+  "front": "Welcoming an emotion: what does Hudson say shows itself last?",
+  "back": "Its wisdom.",
+  "text": "",
+  "extra": "Example: anger shows you need to draw a boundary.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "",
+  "source_title": "The Art of Making Great Decisions w Joe Hudson (Full episode) - What's the Big Idea 54",
+  "source_url": "https://www.youtube.com/watch?v=3O4BziuQYLU",
+  "tags": [
+   "welcoming",
+   "resistance",
+   "was-list"
   ]
  },
  {

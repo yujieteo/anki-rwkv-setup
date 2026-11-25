@@ -442,11 +442,28 @@
   ]
  },
  {
-  "type": "cloze",
+  "type": "basic",
   "context": "Regret",
-  "front": "",
-  "back": "",
-  "text": "Regret a conversation and you will likely regret the {{c1::day}}; regret the day and you will likely regret the {{c2::year}}, then your {{c3::life}}.",
+  "front": "Hudson: if you regret a conversation, what are you likely to regret next?",
+  "back": "The day.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 3,
+  "section": "",
+  "source_title": "Be yourself and watch your life rearrange | Part 1",
+  "source_url": "https://www.youtube.com/watch?v=yoAxUxvA2LE",
+  "tags": [
+   "regret",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Regret",
+  "front": "Hudson: what does a lifetime of regret come from, in his chain of regret?",
+  "back": "Days of regret.",
+  "text": "",
   "extra": "So the simple rule, he says, is to act in a way that makes you proud.",
   "kind": "idea",
   "priority": 3,
@@ -454,7 +471,8 @@
   "source_title": "Be yourself and watch your life rearrange | Part 1",
   "source_url": "https://www.youtube.com/watch?v=yoAxUxvA2LE",
   "tags": [
-   "regret"
+   "regret",
+   "was-list"
   ]
  },
  {

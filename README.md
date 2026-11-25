@@ -3,7 +3,7 @@
 This repository sets up Anki with **RWKV-P**, the spaced-repetition model
 that leads the [open-spaced-repetition benchmark](https://github.com/open-spaced-repetition/srs-benchmark),
 and shows how to build a deck for it from your own notes. The example is a
-deck of 641 notes (723 cards) on the coaching advice of Joe Hudson.
+deck of 681 notes (700 cards) on the coaching advice of Joe Hudson.
 
 It contains:
 

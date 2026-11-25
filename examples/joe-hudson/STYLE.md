@@ -21,10 +21,13 @@ touches how to learn, the deck follows it too.
 7. **Mnemonics.** Keep his acronyms (VIEW). Do not invent new ones.
 8. **Graphic deletion.** Not used (no images).
 9. **Avoid sets.** Never ask "name all X". A set is hard to recall and has no order.
-10. **Avoid enumerations.** For an ordered list (the six steps), use overlapping
-    cloze: one note with c1..c6, each hiding one step, the rest visible.
-    For an unordered list (the five company principles), make one card per item,
-    asking from the item's name to its meaning or the other way.
+10. **Avoid enumerations.** Do not make a cloze card with three or more
+    blanks. Such cards are hard to recall: each blank shows you the rest of
+    the list, and the items are easy to mix up. For an
+    ordered list (the six steps), make one basic card for each step, and
+    name the step before it in the question. For an unordered list (the
+    five company principles), make one card per item, asking from the
+    item's name to its meaning or the other way.
 11. **Combat interference.** Similar cards must be easy to tell apart. Put the
     distinguishing word in the question (for example the feeling's name).
 12. **Optimize wording.** Short, plain words. Simplified Technical English:

@@ -926,11 +926,11 @@
     ]
   },
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Emotional fluidity",
-    "front": "",
-    "back": "",
-    "text": "Hudson: on the back side of helplessness is {{c1::empowerment}}; of sadness, {{c2::relief}}; of anger, {{c3::clarity}}.",
+    "front": "Hudson: what feeling is on the back side of helplessness?",
+    "back": "Empowerment.",
+    "text": "",
     "extra": "This is why he says you can learn to enjoy even hard feelings.",
     "kind": "idea",
     "priority": 2,
@@ -941,7 +941,48 @@
       "fluidity",
       "anger",
       "sadness",
-      "helplessness"
+      "helplessness",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional fluidity",
+    "front": "Hudson: what feeling is on the back side of sadness?",
+    "back": "Relief.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "fluidity",
+      "anger",
+      "sadness",
+      "helplessness",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Emotional fluidity",
+    "front": "Hudson: what feeling is on the back side of anger?",
+    "back": "Clarity.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "",
+    "source_title": "Joe Hudson: How your Emotions Drive your Success & Fulfillment",
+    "source_url": "https://www.youtube.com/watch?v=FPphsUOpJBs",
+    "tags": [
+      "fluidity",
+      "anger",
+      "sadness",
+      "helplessness",
+      "was-list"
     ]
   },
   {

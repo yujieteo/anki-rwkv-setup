@@ -246,19 +246,105 @@
     ]
   },
   {
-    "type": "cloze",
-    "context": "Golden Algorithm: map one problem that repeats",
-    "front": "",
-    "back": "",
-    "text": "1. {{c1::Name the problem and what happens in it.}}<br>2. {{c2::Name one emotion you may be avoiding.}}<br>3. {{c3::Name what you do to avoid it.}}<br>4. {{c4::Trace how that brings the same emotion back.}}<br>5. {{c5::Look for more emotions.}}<br>6. {{c6::Welcome the emotion.}}",
-    "extra": "Step 5: there is often more than one emotion.",
+    "type": "basic",
+    "context": "Golden Algorithm map",
+    "front": "To map the Golden Algorithm, what do you pick first?",
+    "back": "One problem that repeats, and what happens in it.",
+    "text": "",
+    "extra": "",
     "kind": "idea",
     "priority": 1,
     "section": "the-core-method",
     "source_title": "",
     "source_url": "",
     "tags": [
-      "golden-algorithm"
+      "golden-algorithm",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm map",
+    "front": "Golden Algorithm map: after you name the problem, what do you name?",
+    "back": "One emotion you may be avoiding.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm map",
+    "front": "Golden Algorithm map: after you name the emotion you may be avoiding, what do you name?",
+    "back": "What you do to avoid it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm map",
+    "front": "Golden Algorithm map: once you know how you avoid the emotion, what do you trace?",
+    "back": "How the avoidance brings the same emotion back.",
+    "text": "",
+    "extra": "Example: you skip the gym to dodge guilt, and skipping makes more guilt.",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm map",
+    "front": "Golden Algorithm map: why look for more emotions after you trace the loop?",
+    "back": "There is often more than one.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Golden Algorithm map",
+    "front": "What is the last step of the Golden Algorithm map?",
+    "back": "Welcome the emotion.",
+    "text": "",
+    "extra": "If you welcome it only to make it leave, you are still resisting.",
+    "kind": "idea",
+    "priority": 1,
+    "section": "the-core-method",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "golden-algorithm",
+      "was-list"
     ]
   },
   {
@@ -1295,11 +1381,11 @@
     "key": "Gut level: what teaches your nervous system that you are safe?"
   },
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Horseshoe of emotional growth",
-    "front": "",
-    "back": "",
-    "text": "1. Infants {{c1::feel freely}}.<br>2. Then we {{c2::repress}}.<br>3. Then we {{c3::manage feelings}}.<br>4. Last, we {{c4::return to feeling freely, without taking it all personally}}.",
+    "front": "In Hudson's horseshoe of emotional growth, what comes after infants feel freely?",
+    "back": "We repress our feelings.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -1308,7 +1394,44 @@
     "source_url": "",
     "tags": [
       "horseshoe",
-      "image"
+      "image",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Horseshoe of emotional growth",
+    "front": "In Hudson's horseshoe, what comes after we repress our feelings?",
+    "back": "We manage them.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "horseshoe",
+      "image",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Horseshoe of emotional growth",
+    "front": "At the end of Hudson's horseshoe, how is feeling different from an infant's?",
+    "back": "We feel freely again, without taking it all personally.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "his-principles",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "horseshoe",
+      "image",
+      "was-list"
     ]
   },
   {

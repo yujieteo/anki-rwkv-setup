@@ -116,11 +116,11 @@
   ]
  },
  {
-  "type": "cloze",
-  "context": "Numbness and low mood",
-  "front": "",
-  "back": "",
-  "text": "Hudson maps low mood on four levels: {{c1::harsh self-talk}}, {{c2::held-in anger or sadness}}, {{c3::a body always on watch}}, and {{c4::being cut off from people}}.",
+  "type": "basic",
+  "context": "Low mood: four levels",
+  "front": "Of Hudson's four levels of low mood, which one is in your thoughts?",
+  "back": "Harsh self-talk.",
+  "text": "",
   "extra": "",
   "kind": "idea",
   "priority": 2,
@@ -128,7 +128,59 @@
   "source_title": "",
   "source_url": "",
   "tags": [
-   "low-mood"
+   "low-mood",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Low mood: four levels",
+  "front": "Of Hudson's four levels of low mood, which one is in your feelings?",
+  "back": "Held-in anger or sadness.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Low mood: four levels",
+  "front": "Of Hudson's four levels of low mood, which one is in your body?",
+  "back": "A body always on watch.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Low mood: four levels",
+  "front": "Of Hudson's four levels of low mood, which one is in your relationships?",
+  "back": "Being cut off from people.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "was-list"
   ]
  },
  {
@@ -148,19 +200,71 @@
   ]
  },
  {
-  "type": "cloze",
-  "context": "Numbness and low mood",
-  "front": "",
-  "back": "",
-  "text": "Brett's sequence for numbness: treat {{c1::distraction}} as a fear signal, then {{c2::feel the numbness itself}}, then {{c3::wait for anxiety}}, then {{c4::name the fears}}.",
-  "extra": "Brett is Hudson's co-host.",
+  "type": "basic",
+  "context": "Brett's sequence",
+  "front": "In Brett's sequence for numbness, how do you treat distraction?",
+  "back": "As a fear signal.",
+  "text": "",
+  "extra": "Brett Kistler is Hudson's co-host.",
   "kind": "idea",
   "priority": 2,
   "section": "numbness-and-low-mood",
   "source_title": "",
   "source_url": "",
   "tags": [
-   "low-mood"
+   "low-mood",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Brett's sequence",
+  "front": "Brett's sequence: after you treat distraction as a fear signal, what do you feel?",
+  "back": "The numbness itself.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Brett's sequence",
+  "front": "Brett's sequence: after you feel the numbness, what do you wait for?",
+  "back": "Anxiety.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Brett's sequence",
+  "front": "Brett's sequence: when the anxiety comes, what do you do?",
+  "back": "Name the fears.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "numbness-and-low-mood",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "low-mood",
+   "was-list"
   ]
  },
  {
@@ -700,11 +804,11 @@
   ]
  },
  {
-  "type": "cloze",
-  "context": "Wanting",
-  "front": "",
-  "back": "",
-  "text": "Say a goal four ways: \"I {{c1::should}}\", \"I {{c2::want}}\", \"I {{c3::will}}\" and \"I {{c4::can't wait}}\". Notice the energy in each.",
+  "type": "basic",
+  "context": "Wanting: say it four ways",
+  "front": "Say a goal four ways: which phrase comes after \"I should\"?",
+  "back": "\"I want\".",
+  "text": "",
   "extra": "",
   "kind": "idea",
   "priority": 2,
@@ -713,7 +817,62 @@
   "source_url": "",
   "tags": [
    "wanting",
-   "should"
+   "should",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wanting: say it four ways",
+  "front": "Say a goal four ways: which phrase comes after \"I want\"?",
+  "back": "\"I will\".",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting",
+   "should",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wanting: say it four ways",
+  "front": "Say a goal four ways: which phrase comes after \"I will\"?",
+  "back": "\"I can't wait\".",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting",
+   "should",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Wanting: say it four ways",
+  "front": "When you say a goal four ways, what do you notice?",
+  "back": "The energy in each.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "wanting-and-jealousy",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "wanting",
+   "should",
+   "was-list"
   ]
  },
  {
@@ -798,19 +957,54 @@
   ]
  },
  {
-  "type": "cloze",
-  "context": "Inner voice",
-  "front": "",
-  "back": "",
-  "text": "The 5x5x5: for {{c1::five days}}, write out the voice for {{c2::5 minutes}} a day. For the next five days, try {{c3::5 different replies}} each day. Then look in your journal for where it was {{c4::false or contradicted itself}}.",
-  "extra": "Example replies: ask it to treat you with more respect, or tell it you see it is scared and you are here.",
+  "type": "basic",
+  "context": "Inner voice: the 5x5x5",
+  "front": "5x5x5, first five days: what do you do each day?",
+  "back": "Write out the inner voice for 5 minutes.",
+  "text": "",
+  "extra": "",
   "kind": "idea",
   "priority": 2,
   "section": "problems-these-feelings-cause",
   "source_title": "",
   "source_url": "",
   "tags": [
-   "inner-voice"
+   "inner-voice",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Inner voice: the 5x5x5",
+  "front": "5x5x5, next five days: what do you do each day?",
+  "back": "Try 5 different replies to the voice.",
+  "text": "",
+  "extra": "Examples: ask it to treat you with more respect, or tell it you see it is scared and you are here.",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "inner-voice",
+   "was-list"
+  ]
+ },
+ {
+  "type": "basic",
+  "context": "Inner voice: the 5x5x5",
+  "front": "At the end of the 5x5x5, what do you look for in your journal?",
+  "back": "Where the voice was false or contradicted itself.",
+  "text": "",
+  "extra": "",
+  "kind": "idea",
+  "priority": 2,
+  "section": "problems-these-feelings-cause",
+  "source_title": "",
+  "source_url": "",
+  "tags": [
+   "inner-voice",
+   "was-list"
   ]
  },
  {
