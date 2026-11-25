@@ -170,11 +170,11 @@
     ]
   },
   {
-    "type": "cloze",
-    "context": "Fear: ask what you defend",
-    "front": "",
-    "back": "",
-    "text": "What are you {{c1::defending}}? What is the {{c2::you that you are defending}}? What makes you think it {{c3::can be destroyed}}?",
+    "type": "basic",
+    "context": "Fear",
+    "front": "When fear comes, what first question does Hudson suggest you ask?",
+    "back": "What am I defending?",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -183,7 +183,44 @@
     "source_url": "",
     "tags": [
       "fear",
-      "questions"
+      "questions",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear",
+    "front": "Fear: after \"What am I defending?\", what does Hudson ask next?",
+    "back": "What is the \"me\" that I am defending?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "questions",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Fear",
+    "front": "Fear: what does Hudson ask last, about the self you defend?",
+    "back": "What makes me think it can be destroyed?",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "fear",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "fear",
+      "questions",
+      "was-list"
     ]
   },
   {
@@ -323,11 +360,11 @@
     ]
   },
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Anxiety: the win log",
-    "front": "",
-    "back": "",
-    "text": "For {{c1::one week}}, write down {{c2::each thing that goes right}}. Write {{c3::the first anxious thought that comes after it}}. Look for {{c4::themes}}.",
+    "front": "In the one-week win log for anxiety, what do you write down?",
+    "back": "Each thing that goes right.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -336,23 +373,61 @@
     "source_url": "",
     "tags": [
       "anxiety",
-      "journaling"
+      "journaling",
+      "was-list"
     ]
   },
   {
-    "type": "cloze",
-    "context": "Shame: stop, invite, love",
-    "front": "",
-    "back": "",
-    "text": "Each time shame comes: {{c1::stop}}. {{c2::Invite}} it. {{c3::Love}} it. Tell it that {{c4::it can come back at any time}}. Move when you are ready.",
-    "extra": "Hudson calls this the fastest way through shame.",
+    "type": "basic",
+    "context": "Anxiety: the win log",
+    "front": "Win log: after each thing that goes right, what else do you write?",
+    "back": "The first anxious thought that comes after it.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "journaling",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Anxiety: the win log",
+    "front": "Win log: at the end of the week, what do you look for?",
+    "back": "Themes.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "anxiety-and-worry",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "anxiety",
+      "journaling",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Shame",
+    "front": "Stop, invite, love: after you love the shame, what do you tell it?",
+    "back": "That it can come back at any time.",
+    "text": "",
+    "extra": "Then move when you are ready.",
     "kind": "idea",
     "priority": 2,
     "section": "shame",
     "source_title": "",
     "source_url": "",
     "tags": [
-      "shame"
+      "shame",
+      "was-list"
     ]
   },
   {
@@ -510,11 +585,11 @@
     ]
   },
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Guilt: the upright apology",
-    "front": "",
-    "back": "",
-    "text": "Sit or stand with your {{c1::back straight}}. Say {{c2::what happened}} and {{c3::which part you are responsible for}}. Say that {{c4::it is not how you want to be}}, and that you apologise.",
+    "front": "Upright apology: how do you hold your body?",
+    "back": "With your back straight, sitting or standing.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -523,7 +598,44 @@
     "source_url": "",
     "tags": [
       "guilt",
-      "apology"
+      "apology",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt: the upright apology",
+    "front": "Upright apology: after you say what happened, what do you say?",
+    "back": "Which part you are responsible for.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "apology",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Guilt: the upright apology",
+    "front": "Upright apology: before you apologise, what do you say about what you did?",
+    "back": "That it is not how you want to be.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "guilt",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "guilt",
+      "apology",
+      "was-list"
     ]
   },
   {
@@ -840,23 +952,6 @@
     ]
   },
   {
-    "type": "cloze",
-    "context": "Anger: release steps",
-    "front": "",
-    "back": "",
-    "text": "1. {{c1::Find a safe place}}.<br>2. {{c2::Set a time}}.<br>3. {{c3::Keep part of you outside it}}.<br>4. {{c4::Use the body and voice}}.<br>5. {{c5::Tell your body it is safe}}.<br>6. {{c6::Check that it is done}}.",
-    "extra": "",
-    "kind": "idea",
-    "priority": 2,
-    "section": "anger",
-    "source_title": "",
-    "source_url": "",
-    "tags": [
-      "anger",
-      "release"
-    ]
-  },
-  {
     "type": "basic",
     "context": "Anger: release steps",
     "front": "Anger release, step 1: what counts as a safe place?",
@@ -1136,11 +1231,11 @@
     "key": "Which comes first: releasing the anger, or the talk with the other person?"
   },
   {
-    "type": "cloze",
-    "context": "Anger: ask what it cares about",
-    "front": "",
-    "back": "",
-    "text": "What do I {{c1::care about}} here? What {{c2::line was crossed}}? What {{c3::clarity}} is it looking for?",
+    "type": "basic",
+    "context": "Anger",
+    "front": "Besides what you care about and which line was crossed, what does Hudson ask your anger?",
+    "back": "What clarity it is looking for.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -1149,7 +1244,8 @@
     "source_url": "",
     "tags": [
       "anger",
-      "questions"
+      "questions",
+      "was-list"
     ]
   },
   {
@@ -1293,11 +1389,11 @@
     ]
   },
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Grief: breakup",
-    "front": "",
-    "back": "",
-    "text": "After a breakup, grieve {{c1::the person}}, {{c2::the patterns}} and {{c3::the future you pictured}}.",
+    "front": "After a breakup, besides the person and the patterns, what does Hudson say to grieve?",
+    "back": "The future you pictured.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -1306,15 +1402,34 @@
     "source_url": "",
     "tags": [
       "grief",
-      "breakup"
+      "breakup",
+      "was-list"
     ]
   },
   {
-    "type": "cloze",
+    "type": "basic",
+    "context": "Grief: breakup",
+    "front": "After a breakup, besides the person and the future you pictured, what does Hudson say to grieve?",
+    "back": "The patterns.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "breakup",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
     "context": "Grief: four phases of a breakup",
-    "front": "",
-    "back": "",
-    "text": "1. You mourn {{c1::the person}}.<br>2. You mourn {{c2::what taught you to chase or earn love}}.<br>3. {{c3::The body still cries, with little story left}}.<br>4. You {{c4::miss the heartbreak a little}}.",
+    "front": "Breakup grief: after you mourn the person, what do you mourn?",
+    "back": "What taught you to chase or earn love.",
+    "text": "",
     "extra": "They come in waves.",
     "kind": "idea",
     "priority": 2,
@@ -1323,7 +1438,44 @@
     "source_url": "",
     "tags": [
       "grief",
-      "breakup"
+      "breakup",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: four phases of a breakup",
+    "front": "In the third phase of breakup grief, what is the body still doing?",
+    "back": "Crying, with little story left.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "breakup",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Grief: four phases of a breakup",
+    "front": "What is the last phase of breakup grief?",
+    "back": "You miss the heartbreak a little.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "grief-and-sadness",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "grief",
+      "breakup",
+      "was-list"
     ]
   },
   {
@@ -1687,11 +1839,11 @@
     ]
   },
   {
-    "type": "cloze",
-    "context": "Hurt: forgiveness in three steps",
-    "front": "",
-    "back": "",
-    "text": "Tara Howley's method:<br>1. {{c1::Be with the anger, hurt and fear}}.<br>2. {{c2::Get curious about what wounded them}}.<br>3. {{c3::Find the boundary you need}}.",
+    "type": "basic",
+    "context": "Hurt: forgiveness",
+    "front": "In Tara Howley's forgiveness method, what do you do first?",
+    "back": "Be with the anger, hurt and fear.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -1701,15 +1853,72 @@
     "tags": [
       "hurt",
       "forgiveness",
-      "boundaries"
+      "boundaries",
+      "was-list"
     ]
   },
   {
-    "type": "cloze",
-    "context": "Failure: 50 tries",
-    "front": "",
-    "back": "",
-    "text": "For a goal you keep dodging, write {{c1::50}} ways to try it. Run them {{c2::in order}}. Tick each as {{c3::a win}} and ask {{c4::what you learned}}.",
+    "type": "basic",
+    "context": "Hurt: forgiveness",
+    "front": "Tara Howley's forgiveness: after you are with your anger, hurt and fear, what do you get curious about?",
+    "back": "What wounded the other person.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "hurt",
+      "forgiveness",
+      "boundaries",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Hurt: forgiveness",
+    "front": "What is the last step of Tara Howley's forgiveness method?",
+    "back": "Find the boundary you need.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "hurt-and-rejection",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "hurt",
+      "forgiveness",
+      "boundaries",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure",
+    "front": "For a goal you keep dodging, how many ways to try it does Hudson have you write?",
+    "back": "50.",
+    "text": "",
+    "extra": "Run them in order.",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "goals",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure",
+    "front": "List of 50 tries: whatever happens, how do you mark each try?",
+    "back": "As a win.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -1718,7 +1927,26 @@
     "source_url": "",
     "tags": [
       "failure",
-      "goals"
+      "goals",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Failure",
+    "front": "List of 50 tries: what do you ask after each try?",
+    "back": "What you learned.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "failure-and-disappointment",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "failure",
+      "goals",
+      "was-list"
     ]
   },
   {
@@ -2071,11 +2299,11 @@
     ]
   },
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Overwhelm: clear it between meetings",
-    "front": "",
-    "back": "",
-    "text": "Between meetings, shake for {{c1::2 to 3 minutes}}, yawn {{c2::10 to 20 times}}, or cry for {{c3::a minute or two}}.",
+    "front": "To clear overwhelm between meetings, how long does Hudson suggest you shake?",
+    "back": "2 to 3 minutes.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -2085,7 +2313,46 @@
     "tags": [
       "overwhelm",
       "body",
-      "dose"
+      "dose",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Overwhelm: clear it between meetings",
+    "front": "To clear overwhelm between meetings, how many times does Hudson suggest you yawn?",
+    "back": "10 to 20 times.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "overwhelm",
+      "body",
+      "dose",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Overwhelm: clear it between meetings",
+    "front": "To clear overwhelm between meetings, how long does Hudson suggest you cry?",
+    "back": "A minute or two.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "overwhelm",
+      "body",
+      "dose",
+      "was-list"
     ]
   },
   {
@@ -2106,11 +2373,11 @@
     ]
   },
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Burnout: adrenaline audit",
-    "front": "",
-    "back": "",
-    "text": "1. Notice {{c1::when you run on adrenaline}}.<br>2. Name {{c2::the trigger}}.<br>3. Find a way to {{c3::do the task without it}}.",
+    "front": "Adrenaline audit: what do you notice first?",
+    "back": "When you run on adrenaline.",
+    "text": "",
     "extra": "",
     "kind": "idea",
     "priority": 2,
@@ -2119,7 +2386,44 @@
     "source_url": "",
     "tags": [
       "burnout",
-      "adrenaline"
+      "adrenaline",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Burnout: adrenaline audit",
+    "front": "Adrenaline audit: once you notice you run on adrenaline, what do you name?",
+    "back": "The trigger.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "adrenaline",
+      "was-list"
+    ]
+  },
+  {
+    "type": "basic",
+    "context": "Burnout: adrenaline audit",
+    "front": "Adrenaline audit: after you name the trigger, what do you look for?",
+    "back": "A way to do the task without adrenaline.",
+    "text": "",
+    "extra": "",
+    "kind": "idea",
+    "priority": 2,
+    "section": "overwhelm-and-burnout",
+    "source_title": "",
+    "source_url": "",
+    "tags": [
+      "burnout",
+      "adrenaline",
+      "was-list"
     ]
   },
   {

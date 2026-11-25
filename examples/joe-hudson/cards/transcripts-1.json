@@ -1,18 +1,19 @@
 [
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Emotional Inquiry (guided)",
-    "front": "",
-    "back": "",
-    "text": "Before he calls up the feeling, Hudson has you notice whether anything is being {{c1::resisted}}, whether anything wants to {{c2::protect}}, and whether anything wants something to be {{c3::different}}.",
-    "extra": "He asks these after a minute of rest, with eyes closed. You answer silently.",
+    "front": "In guided Emotional Inquiry, besides whether anything wants to protect or wants something to be different, what does Hudson have you notice?",
+    "back": "Whether anything is being resisted.",
+    "text": "",
+    "extra": "He asks this before you call up the feeling, after a minute of rest, with eyes closed. You answer silently.",
     "kind": "idea",
     "priority": 3,
     "section": "",
     "source_title": "The #1 Emotional Processing Technique For Anyone To Do",
     "source_url": "https://www.youtube.com/watch?v=EOzYU0FtovY",
     "tags": [
-      "emotional-inquiry"
+      "emotional-inquiry",
+      "was-list"
     ]
   },
   {
@@ -623,12 +624,12 @@
     ]
   },
   {
-    "type": "cloze",
+    "type": "basic",
     "context": "Self-reliance",
-    "front": "",
-    "back": "",
-    "text": "For a self-reliant founder, Hudson says feeling helpless signals that you are not {{c1::delegating well}}, not {{c2::letting others help}}, and that a {{c3::false limit}} is narrowing your decisions.",
-    "extra": "He says once people see these signals, they can look forward to the feeling.",
+    "front": "Hudson: why can a self-reliant founder come to look forward to feeling helpless?",
+    "back": "Because the feeling signals what to change.",
+    "text": "",
+    "extra": "The three signals: you are not delegating well, you are not letting others help, and a false limit is narrowing your decisions.",
     "kind": "idea",
     "priority": 3,
     "section": "",
@@ -636,7 +637,8 @@
     "source_url": "https://www.youtube.com/watch?v=bi23y0x-MhA",
     "tags": [
       "self-reliance",
-      "helplessness"
+      "helplessness",
+      "was-list"
     ]
   },
   {

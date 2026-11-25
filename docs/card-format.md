@@ -42,7 +42,7 @@ card file is a JSON array of card objects. `build.py` reads every file in
 | `type` | `basic` (question and answer) or `cloze` (fill in the blank). |
 | `context` | A short cue shown above the question. |
 | `front`, `back` | The question and the answer, for `basic`. HTML such as `<br>` and `<b>` is allowed. |
-| `text` | For `cloze`: a sentence with `{{c1::hidden part}}`. Use `c2`, `c3`, ... for overlapping clozes on an ordered list. |
+| `text` | For `cloze`: a sentence with `{{c1::hidden part}}`. You can add `{{c2::...}}`. For a list of three or more items, make one basic card per item instead of more blanks. |
 | `extra` | More detail, shown under the answer. |
 | `kind` | `idea`, `practice`, `story`, `safety` or `evidence`. The last four show a small label on the card (see `kind_labels`). |
 | `priority` | 1, 2 or 3. `build.py` numbers new cards in this order. For Anki to follow it across subdecks, set **New card gather order** to "Ascending position" in Deck Options. |

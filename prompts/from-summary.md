@@ -11,8 +11,10 @@ the section a card comes from in `section`. Leave `source_title` and
 `source_url` empty. You may read other lines for context only; other
 writers cover them, so do not make cards from them.
 
-Cover every idea in your lines that is worth remembering. Use overlapping
-cloze for ordered lists, and one card per item for unordered lists. Keep
+Cover every idea in your lines that is worth remembering. For a list
+of three or more items, write one basic card per item, and never a cloze
+card with three or more blanks. For an ordered list, name the step before
+in the question. Keep
 every safety caveat as its own card. Add a few practice cards, about one
 per main practice. Ignore lines that only list links or sources.
 
