@@ -82,11 +82,16 @@ Each output file is a JSON array of objects:
   "section": "the-core-method",     // essay anchor id, if from the essay
   "source_title": "",               // transcript title, if from a transcript
   "source_url": "",                 // transcript URL, if from a transcript
-  "tags": ["golden-algorithm"]
+  "tags": ["golden-algorithm"],
+  "key": ""                         // optional: the old question, if reworded
 }
 ```
 
-Rules for fields: `back` is empty for cloze; `text` is empty for basic. Keep
+Rules for fields: `back` is empty for cloze; `text` is empty for basic. The
+build stops if a cloze card has `front` or `back`, if a basic card has `text`,
+or if a card has a field that is not shown above. Leave `key` out, or empty,
+unless you reword the question of a card that people already have: then put
+the old question in `key`, so the card keeps its id and its review history. Keep
 `back` to about 25 words; put more detail in `extra`. Do not copy long passages
 of a transcript: paraphrase, and quote at most a short phrase. Use plain ASCII
 quotes or HTML entities, and escape JSON correctly.
