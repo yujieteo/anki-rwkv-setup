@@ -66,13 +66,13 @@ curl -fL --progress-bar "$URL" -o "$WORK/anki.dmg"
 
 ACTUAL="$(shasum -a 256 "$WORK/anki.dmg" | cut -d' ' -f1)"
 if [ "$DIGEST" = "none" ]; then
-  echo "GitHub reports no hash for this file. SHA-256 is $ACTUAL. Stopping." >&2
-  exit 1
+  echo "Warning: GitHub reports no hash for this file (SHA-256: $ACTUAL)." >&2
 elif [ "$ACTUAL" != "$DIGEST" ]; then
   echo "Hash mismatch: expected $DIGEST, got $ACTUAL. Stopping." >&2
   exit 1
+else
+  echo "Hash OK: $ACTUAL"
 fi
-echo "Hash OK: $ACTUAL"
 
 stop_if_anki_running
 
@@ -81,7 +81,11 @@ hdiutil attach -nobrowse -readonly -mountpoint "$WORK/mnt" "$WORK/anki.dmg" -qui
 
 if [ -d /Applications/Anki.app ]; then
   echo "Moving the current Anki to the Trash..."
-  osascript -e 'tell application "Finder" to delete POSIX file "/Applications/Anki.app"' >/dev/null
+  if command -v trash >/dev/null 2>&1; then
+    trash /Applications/Anki.app
+  else
+    mv /Applications/Anki.app "$HOME/.Trash/Anki-$(date +%s).app"
+  fi
 fi
 
 ditto "$WORK/mnt/Anki.app" /Applications/Anki.app

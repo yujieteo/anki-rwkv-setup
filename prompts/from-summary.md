@@ -19,9 +19,9 @@ every safety caveat as its own card. Add a few practice cards, about one
 per main practice. Ignore lines that only list links or sources.
 
 Write the result as a valid JSON array to <deck folder>/cards/<file name>.json.
-Then check that it parses:
+Then validate the deck:
 
-    python3 -c "import json,sys;print(len(json.load(open(sys.argv[1]))))" <file>
+    uv run --no-project --with genanki python build.py --check <deck folder>
 
 Do not touch any other file.
 

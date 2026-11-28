@@ -3,46 +3,24 @@ on:
   push:
     branches: [main]
   pull_request:
-# The job only reads the repository.
 permissions:
   contents: read
-# A new push to a pull request cancels the run for the older push.
-# Runs on main are never cancelled, so each commit there gets a result.
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
-# The bash shell of Actions stops at the first failing command, also inside a pipe.
 defaults:
   run:
     shell: bash
 jobs:
   build-check:
-    # The desktop runner is NixOS. It has nix, git and a few basic tools, and
-    # the check step gets the other tools from nixpkgs with "nix shell".
-    runs-on: [self-hosted, desktop]
-    timeout-minutes: 20
-    # One fixed nixpkgs commit (13 November 2026), so a nixpkgs update
-    # cannot change the tools or genanki without a commit here.
-    env:
-      NIXPKGS: github:NixOS/nixpkgs/d5cc6833999746cffdfe0598f7bc801a57b887a9
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      # Each job runs as a new user with no home folder. Nix and Python want one.
-      - name: Make a home folder
-        run: |
-          mkdir -p "$RUNNER_TEMP/home"
-          echo "HOME=$RUNNER_TEMP/home" >> "$GITHUB_ENV"
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      # One nix shell holds shellcheck and a python3 with genanki 0.13.1.
-      # check.sh runs every check. It builds the example deck into a
-      # temporary copy and compares it with the committed deck, so the
-      # committed .apkg is not changed. genanki takes note ids and
-      # modification times from the clock, so two builds never have the same
-      # bytes; the comparison checks all the rest. The packages are for the
-      # system that runs the job ("\$" keeps bash from reading "${...}").
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.12'
+      - name: Install genanki
+        run: pip install genanki==0.13.1
       - name: Run every check
-        run: |
-          nix shell --impure --expr "
-            let pkgs = (builtins.getFlake \"$NIXPKGS\").legacyPackages.\${builtins.currentSystem};
-            in { python = pkgs.python3.withPackages (ps: [ ps.genanki ]);
-                 shellcheck = pkgs.shellcheck; }" \
-            python shellcheck -c bash .github/check.sh
+        run: bash .github/check.sh

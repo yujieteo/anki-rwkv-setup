@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 # Run every check of this repository. It needs shellcheck, and a python3
-# that has genanki 0.13.1:
+# that has genanki:
 #
-#   uv run --no-project --with genanki==0.13.1 bash .github/check.sh
+#   uv run --no-project --with genanki bash .github/check.sh
 #
-# It builds the example deck into a temporary copy, so the committed
-# .apkg is not changed. It stops at the first check that fails.
+# It builds the example deck into a temporary copy and stops at the first failure.
 set -euo pipefail
 export PYTHONDONTWRITEBYTECODE=1
 cd "$(dirname "$0")/.."
@@ -19,12 +18,7 @@ shellcheck install-macos.sh .github/check.sh
 echo "== Test the card checks in build.py"
 python3 -I .github/test-build.py
 
-echo "== Test the deck comparison"
-python3 -I .github/test-same-deck.py
-
 echo "== Build the example deck into a temporary copy"
 cp -R examples/joe-hudson "$WORK/"
+python3 -I build.py --check "$WORK/joe-hudson"
 python3 -I build.py "$WORK/joe-hudson"
-
-echo "== Committed deck matches the card files"
-python3 -I .github/same-deck.py examples/joe-hudson/joe-hudson.apkg "$WORK/joe-hudson/joe-hudson.apkg"

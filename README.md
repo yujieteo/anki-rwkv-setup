@@ -10,7 +10,7 @@ It contains:
 - `install-macos.sh`: installs the Anki build that runs RWKV.
 - `build.py`: turns a folder of card files into an `.apkg` deck.
 - `examples/joe-hudson/`: the example deck, its style guide and its card
-  files, plus the built `joe-hudson.apkg`.
+  files (build `joe-hudson.apkg` with `build.py`).
 - `prompts/`: the prompts used to have AI agents write the cards.
 - `docs/card-format.md`: the card file format.
 
@@ -112,11 +112,15 @@ To verify the setup, reopen Options on the parent and its subdecks. They
 should use the dedicated preset if you applied it to all of them. An
 unrelated deck should still show its original preset and scheduler.
 
-## 3. Import the example deck
+## 3. Build and import the example deck
 
-Download [`examples/joe-hudson/joe-hudson.apkg`](examples/joe-hudson/joe-hudson.apkg)
-and double-click it, or use **File → Import** in Anki. Then do step 2 for
-the **Joe Hudson** deck.
+Build the example deck:
+
+```bash
+uv run --no-project --with genanki python build.py examples/joe-hudson
+```
+
+Then double-click `examples/joe-hudson/joe-hudson.apkg` (or use **File → Import** in Anki) and do step 2 for the **Joe Hudson** deck.
 
 The deck has four subdecks: the core method, the feelings, problems and
 evidence, and extra cards from interviews. Each new card has a queue
@@ -245,13 +249,10 @@ The tests are in `.github/`. One command runs all the checks. It needs
 `shellcheck` on your PATH:
 
 ```bash
-uv run --no-project --with genanki==0.13.1 bash .github/check.sh
+uv run --no-project --with genanki bash .github/check.sh
 ```
 
-It builds the example deck into a temporary folder and compares it with
-the committed `joe-hudson.apkg`. `build.py` writes over that committed
-file. So when you change the example cards, build the deck and commit the
-new `.apkg` in the same commit as the card files.
+It lints the shell scripts, runs `build.py` unit tests, and checks and builds the example deck into a temporary folder.
 
 A note's id comes from the deck `name` and the question text. If you
 change `name`, `basic_model_id` or `cloze_model_id` in `deck.json`, or

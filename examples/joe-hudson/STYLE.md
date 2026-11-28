@@ -30,8 +30,8 @@ touches how to learn, the deck follows it too.
     item's name to its meaning or the other way.
 11. **Combat interference.** Similar cards must be easy to tell apart. Put the
     distinguishing word in the question (for example the feeling's name).
-12. **Optimize wording.** Short, plain words. Simplified Technical English:
-    short sentences, active voice, the same word for the same thing.
+12. **Optimize wording.** Short, plain words: clear sentences, active voice,
+    and the same term for the same concept.
 13. **Refer to other memories.** Link a card to an idea already in the deck when
     the source does ("This is the Golden Algorithm applied to money").
 14. **Personalize and give examples.** Keep his concrete examples. Practice cards
@@ -80,23 +80,12 @@ for readers; leave them out of real JSON files):
   "context": "Golden Algorithm",    // short cue, shown above the question
   "front": "What comes back through the way you avoid an emotion?",
   "back": "The same emotion.",      // basic only. Short. HTML <br> allowed
-  "text": "",                       // cloze only: sentence with {{c1::...}}
   "extra": "Example: skipping the gym to dodge guilt makes more guilt.",
   "kind": "idea",                   // idea | practice | story | safety | evidence
   "priority": 1,
   "section": "the-core-method",     // essay anchor id, if from the essay
-  "source_title": "",               // transcript title, if from a transcript
-  "source_url": "",                 // transcript URL, if from a transcript
-  "tags": ["golden-algorithm"],
-  "key": ""                         // optional: the old question, if reworded
+  "tags": ["golden-algorithm"]
 }
 ```
 
-Rules for fields: `front` and `back` are empty for cloze; `text` is empty for basic. The
-build stops if a cloze card has `front` or `back`, if a basic card has `text`,
-or if a card has a field that is not shown above. Leave `key` out, or empty,
-unless you reword the question of a card that people already have: then put
-the old question in `key`, so the card keeps its id and its review history. Keep
-`back` to about 25 words; put more detail in `extra`. Do not copy long passages
-of a transcript: paraphrase, and quote at most a short phrase. Use plain ASCII
-quotes or HTML entities, and escape JSON correctly.
+Rules for fields: omit unused fields (e.g. `text` on basic cards, `front`/`back` on cloze cards, `source_title`/`source_url` when using `section`, and `key` unless you reword an existing card's question so it keeps its id and review history). The build stops if a cloze card has non-empty `front`/`back`, if a basic card has non-empty `text`, or if a card has an unknown field. Keep `back` concise (around 25 words); put more detail in `extra`. Do not copy long passages of a transcript: paraphrase, and quote at most a short phrase. Use standard UTF-8 JSON.

@@ -27,9 +27,9 @@ Transcripts may be auto-generated and contain errors: do not make a card
 from a garbled passage.
 
 Write the result as a valid JSON array to <deck folder>/cards/<file name>.json.
-Then check that it parses:
+Then validate the deck:
 
-    python3 -c "import json,sys;print(len(json.load(open(sys.argv[1]))))" <file>
+    uv run --no-project --with genanki python build.py --check <deck folder>
 
 Do not touch any other file.
 
