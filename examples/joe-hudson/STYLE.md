@@ -46,8 +46,9 @@ touches how to learn, the deck follows it too.
     transcript's title and URL.
 19. **Date stamping.** Not needed for most cards. Use only for a claim that
     changes over time (for example "as of 2025, he coaches ...").
-20. **Prioritize.** `priority` 1 = core method and safety, 2 = per-feeling
-    practices and principles, 3 = extra detail, stories and transcript extras.
+20. **Prioritize.** `priority` 1 = core method and safety, 2 = actionable
+    practices and principles (from the essay or transcripts), 3 = extra detail
+    and stories.
 
 ## Hudson's own advice, applied to the deck
 
@@ -70,7 +71,8 @@ touches how to learn, the deck follows it too.
 
 ## Card format (JSON)
 
-Each output file is a JSON array of objects:
+Each output file is a JSON array of objects (the `//` notes below are comments
+for readers; leave them out of real JSON files):
 
 ```json
 {
@@ -90,7 +92,7 @@ Each output file is a JSON array of objects:
 }
 ```
 
-Rules for fields: `back` is empty for cloze; `text` is empty for basic. The
+Rules for fields: `front` and `back` are empty for cloze; `text` is empty for basic. The
 build stops if a cloze card has `front` or `back`, if a basic card has `text`,
 or if a card has a field that is not shown above. Leave `key` out, or empty,
 unless you reword the question of a card that people already have: then put

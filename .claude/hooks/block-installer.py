@@ -10,7 +10,7 @@ The command counts as running the installer if one of its parts:
     also after sudo, env, exec, nohup and similar commands;
   - gives the script to a shell or to source (bash install-macos.sh,
     sh -x install-macos.sh, . ./install-macos.sh, bash < install-macos.sh);
-  - runs it through "bash -c" or "sh -c";
+  - runs it through "bash -c", "sh -c", "bash -lc" or inside "$(...)";
   - is a shell that reads its input, in a command that names the script
     (cat install-macos.sh | bash).
 "bash -n" and "sh -n" only check the syntax, so they are allowed.
@@ -30,8 +30,10 @@ WRAPPERS = {"sudo", "env", "exec", "nohup", "command", "nice", "time",
             "caffeinate", "xargs", "builtin", "!", "{", "then", "do",
             "else", "if", "while", "until"}
 # Options of a wrapper that take a value (sudo -u root, nice -n 5).
-VALUE_OPTIONS = {"-u", "-g", "-U", "-C", "-h", "-p", "-n", "-D", "-r", "-t"}
+VALUE_OPTIONS = {"-u", "-g", "-U", "-C", "-h", "-p", "-n", "-D", "-r", "-t", "-I", "-L", "-P", "-d"}
+SHELL_VALUE_OPTIONS = {"-o", "+o"}
 SEPARATORS = set(";&|()`")
+MAX_DEPTH = 8
 
 
 def is_script(word):
@@ -55,7 +57,51 @@ def parts(command):
         yield part
 
 
-def runs_installer(command):
+def parse_shell_args(args):
+    """Split shell arguments into (options_before_target, remaining_operands, redir_input)."""
+    options = []
+    operands = []
+    redir_input = []
+    i = 0
+    in_options = True
+    while i < len(args):
+        a = args[i]
+        if a == "<" and i + 1 < len(args):
+            redir_input.append(args[i + 1])
+            i += 2
+            continue
+        if a in ("<", ">"):
+            i += 1
+            continue
+        if in_options:
+            if a == "--":
+                in_options = False
+                i += 1
+                continue
+            if a in SHELL_VALUE_OPTIONS:
+                options.append(a)
+                i += 2
+                continue
+            if (a.startswith("-") or a.startswith("+")) and a not in ("-", "+"):
+                options.append(a)
+                i += 1
+                continue
+            in_options = False
+        operands.append(a)
+        i += 1
+    return options, operands, redir_input
+
+
+def has_short_flag(options, flag):
+    return any(
+        o.startswith("-") and not o.startswith("--") and flag in o[1:]
+        for o in options
+    )
+
+
+def runs_installer(command, depth=0):
+    if depth > MAX_DEPTH:
+        return NAME in command
     try:
         all_parts = list(parts(command))
     except ValueError:
@@ -64,6 +110,12 @@ def runs_installer(command):
         return NAME in command
     for words in all_parts:
         words = list(words)
+        # Check command substitutions inside double-quoted tokens.
+        for token in words:
+            if "$(" in token or "`" in token:
+                inner = token.replace("$(", " ; ").replace("`", " ; ")
+                if runs_installer(inner, depth + 1):
+                    return True
         # Skip variable settings and wrappers with their options.
         while words:
             w = words[0]
@@ -81,33 +133,28 @@ def runs_installer(command):
         first = words[0]
         if is_script(first):
             return True
+        if os.path.basename(first) == "eval":
+            if runs_installer(" ".join(words[1:]), depth + 1):
+                return True
+            continue
         if os.path.basename(first) not in SHELLS:
             continue
-        args = words[1:]
-        options = [a for a in args if a.startswith("-") and a != "-"]
-        if any(o.startswith("-") and not o.startswith("--") and "n" in o[1:]
-               for o in options):
-            continue  # Syntax check only.
-        if "-c" in options or any(o.startswith("-") and "c" in o[1:]
-                                  and not o.startswith("--") for o in options):
-            rest = [a for a in args if not a.startswith("-")]
-            if rest and runs_installer(rest[0]):
+        options, operands, redir_input = parse_shell_args(words[1:])
+        if has_short_flag(options, "n"):
+            continue  # Syntax check only (option appeared before the script).
+        if has_short_flag(options, "c"):
+            if operands and runs_installer(operands[0], depth + 1):
                 return True
             continue
-        if "<" in args:
-            i = args.index("<")
-            if i + 1 < len(args) and is_script(args[i + 1]):
-                return True
-        script = [a for a in args if not a.startswith("-") and a not in "<>"]
+        if any(is_script(target) for target in redir_input):
+            return True
         # "-s" makes the shell read its input; the other words are arguments.
-        reads_input = not script or any(
-            o.startswith("-") and not o.startswith("--") and "s" in o[1:]
-            for o in options)
+        reads_input = not operands or has_short_flag(options, "s")
         if reads_input:
             if NAME in command:
                 return True  # As in "cat install-macos.sh | bash".
             continue
-        if is_script(script[0]):
+        if is_script(operands[0]):
             return True
     return False
 

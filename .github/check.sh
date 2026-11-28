@@ -13,8 +13,11 @@ cd "$(dirname "$0")/.."
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 
-echo "== Shellcheck the installer and this script"
-shellcheck install-macos.sh .github/check.sh
+echo "== Shellcheck the shell scripts"
+shellcheck install-macos.sh .github/check.sh .claude/hooks/test-build.sh
+
+echo "== Test the installer guard hook"
+python3 -I .github/test-block-installer.py
 
 echo "== Test the card checks in build.py"
 python3 -I .github/test-build.py
