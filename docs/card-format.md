@@ -66,7 +66,7 @@ never changes`, if:
 - An optional text key is there but empty or not text.
 - `output` has a folder in it or does not end in `.apkg`.
 - `subdecks` does not map file names to non-empty subdeck names.
-- `kind_labels` does not map kinds from the table below to text.
+- `kind_labels` does not map kinds from the card table above to text.
 
 Then `build.py` checks every card before it writes the `.apkg`. If any
 card fails a check, it prints one line per problem, such as

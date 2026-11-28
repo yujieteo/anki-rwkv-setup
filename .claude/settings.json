@@ -5,8 +5,16 @@
       "Bash(./install-macos.sh *)",
       "Bash(bash install-macos.sh)",
       "Bash(bash install-macos.sh *)",
+      "Bash(bash ./install-macos.sh)",
+      "Bash(bash ./install-macos.sh *)",
       "Bash(sh install-macos.sh)",
-      "Bash(sh install-macos.sh *)"
+      "Bash(sh install-macos.sh *)",
+      "Bash(sh ./install-macos.sh)",
+      "Bash(sh ./install-macos.sh *)",
+      "Bash(zsh install-macos.sh)",
+      "Bash(zsh install-macos.sh *)",
+      "Bash(zsh ./install-macos.sh)",
+      "Bash(zsh ./install-macos.sh *)"
     ]
   },
   "hooks": {
