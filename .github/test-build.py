@@ -36,11 +36,12 @@ class BuildTest(unittest.TestCase):
                               capture_output=True, text=True)
 
     def test_good_cards_build(self):
-        # Unused fields written as "" (as in the example deck) are fine.
+        # Unused fields written as "" (as in the example deck) or null are fine.
         empty = {"front": "", "back": "", "key": "", "section": "", "source_url": ""}
-        result, out = self.build({"a": [BASIC, {**CLOZE, **empty}]})
+        nullable = {**BASIC, "front": "What is two?", "context": None, "extra": None, "tags": ["---", "ok"]}
+        result, out = self.build({"a": [BASIC, {**CLOZE, **empty}, nullable]})
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("2  notes in", result.stdout)
+        self.assertIn("3  notes in", result.stdout)
         self.assertTrue(out.exists())
 
     def test_each_bad_card_is_reported_and_nothing_is_written(self):

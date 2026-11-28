@@ -143,7 +143,8 @@ def deck_problems(cfg):
         elif type(v) is not int or not 0 < v < 2**63:
             out.append(f"{key} is {v!r}; it must be a whole number above 0")
     if (DECK_IDS[0] in cfg and DECK_IDS[1] in cfg
-            and type(cfg[DECK_IDS[0]]) is int and cfg[DECK_IDS[0]] == cfg[DECK_IDS[1]]):
+            and type(cfg[DECK_IDS[0]]) is int and type(cfg[DECK_IDS[1]]) is int
+            and cfg[DECK_IDS[0]] == cfg[DECK_IDS[1]]):
         out.append("basic_model_id and cloze_model_id must be different")
     for key in DECK_TEXT:
         if key in cfg and (not isinstance(cfg[key], str) or not cfg[key].strip()):
@@ -266,7 +267,7 @@ def main(folder):
     # Each new card gets its own queue position (due), priority 1 first.
     # Without it every new card has position 0 and the order is lost.
     for due, (*_, deck, c) in enumerate(sorted(cards, key=lambda x: x[:3]), start=1):
-        tags = [slug(t) for t in c.get("tags", []) if t]
+        tags = [s for t in c.get("tags", []) if (s := slug(t))]
         tags += [f"kind::{c['kind']}", f"priority::{c['priority']}"]
         link, source_tag = source(c, cfg)
         tags.append(source_tag)
@@ -274,10 +275,10 @@ def main(folder):
         guid = genanki.guid_for(root, identity(c))
         if c["type"] == "basic":
             model = basic
-            fields = [c.get("context", ""), c["front"], c["back"], c.get("extra", ""), link, kind]
+            fields = [c.get("context") or "", c["front"], c["back"], c.get("extra") or "", link, kind]
         else:
             model = cloze
-            fields = [c.get("context", ""), c["text"], c.get("extra", ""), link, kind]
+            fields = [c.get("context") or "", c["text"], c.get("extra") or "", link, kind]
         note = genanki.Note(model=model, fields=fields, tags=tags, guid=guid, due=due)
         decks.setdefault(deck, genanki.Deck(deck_id(deck), deck)).add_note(note)
 
