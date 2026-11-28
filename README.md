@@ -260,6 +260,5 @@ duplicate notes, and the review history of those notes starts again.
 
 ## License
 
-The code (`build.py`, `install-macos.sh`, and the scripts in `.github/`
-and `.claude/hooks/`) is under the MIT License. See
-[LICENSE](LICENSE).
+The code (`build.py`, `install-macos.sh`, and the scripts in `.github/`)
+is under the MIT License. See [LICENSE](LICENSE).
