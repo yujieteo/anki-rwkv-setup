@@ -35,6 +35,10 @@ class BlockInstallerTest(unittest.TestCase):
             "bash install-macos.sh -n",
             "bash ./install-macos.sh -n",
             "bash -o nounset install-macos.sh",
+            "bash --rcfile /dev/null install-macos.sh",
+            "bash > /tmp/log install-macos.sh",
+            "bash 2>/dev/null install-macos.sh",
+            'env -S "bash install-macos.sh"',
             "bash -c './install-macos.sh'",
             "bash -lc './install-macos.sh'",
             "bash -c -- './install-macos.sh'",
@@ -58,6 +62,7 @@ class BlockInstallerTest(unittest.TestCase):
             "shellcheck install-macos.sh",
             "cat install-macos.sh",
             "git diff install-macos.sh",
+            "git log -n 1 -- install-macos.sh && echo hi | sh",
             "python3 -I build.py examples/joe-hudson",
         ]
         for cmd in allowed:

@@ -142,7 +142,8 @@ def deck_problems(cfg):
             out.append(f"needs {key!r}, a large whole number that never changes")
         elif type(v) is not int or not 0 < v < 2**63:
             out.append(f"{key} is {v!r}; it must be a whole number above 0")
-    if cfg.get(DECK_IDS[0]) == cfg.get(DECK_IDS[1]) and DECK_IDS[0] in cfg:
+    if (DECK_IDS[0] in cfg and DECK_IDS[1] in cfg
+            and type(cfg[DECK_IDS[0]]) is int and cfg[DECK_IDS[0]] == cfg[DECK_IDS[1]]):
         out.append("basic_model_id and cloze_model_id must be different")
     for key in DECK_TEXT:
         if key in cfg and (not isinstance(cfg[key], str) or not cfg[key].strip()):
@@ -190,12 +191,16 @@ def problems(c, cfg):
     p = c["priority"]
     if type(p) is not int or p not in PRIORITIES:
         out.append(f"priority is {p!r}; it must be one of {list(PRIORITIES)}")
-    if not isinstance(c.get("tags", []), list):
-        out.append("tags must be a list")
+    for f in ("context", "extra", "section", "source_title", "source_url"):
+        if f in c and c[f] is not None and not isinstance(c[f], str):
+            out.append(f"{f} must be text")
+    tags = c.get("tags", [])
+    if not isinstance(tags, list) or not all(isinstance(t, str) for t in tags):
+        out.append("tags must be a list of text")
     key = c.get("key", "")
     if not isinstance(key, str) or (key and not key.strip()):
         out.append("key must be text: the old question, or empty")
-    if c.get("section") and not cfg.get("section_url"):
+    if isinstance(c.get("section"), str) and c["section"] and not cfg.get("section_url"):
         out.append("the card has a section, but deck.json has no section_url")
     return out
 
@@ -223,8 +228,11 @@ def main(folder):
     kind_label = {**KIND_LABEL, **cfg.get("kind_labels", {})}
 
     # Read and check every card. Nothing is written if any card fails.
+    card_files = sorted((folder / "cards").glob("*.json"))
+    if not card_files:
+        sys.exit(f"{folder / 'cards'}: no card files (*.json) found. No deck was written.")
     cards, errors, first = [], [], {}
-    for path in sorted((folder / "cards").glob("*.json")):
+    for path in card_files:
         sub = cfg.get("subdecks", {}).get(path.stem, cfg.get("default_subdeck"))
         deck = f"{root}::{sub}" if sub else root
         try:

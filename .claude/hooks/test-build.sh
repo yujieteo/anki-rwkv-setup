@@ -6,7 +6,7 @@
 # code 2, so Claude sees them.
 set -u
 
-file=$(jq -r '.tool_input.file_path // .tool_response.filePath // empty') || exit 0
+file=$(python3 -I -c 'import json, sys; d = json.load(sys.stdin); print((d.get("tool_input") or {}).get("file_path") or (d.get("tool_response") or {}).get("filePath") or "")') || exit 0
 case "$file" in
   */cards/*.json) deck=$(dirname "$(dirname "$file")") ;;
   */deck.json) deck=$(dirname "$file") ;;
