@@ -54,6 +54,8 @@ class BuildTest(unittest.TestCase):
             {**BASIC, "front": "Q2", "kind": "joke"},
             {**BASIC, "front": "Q3", "priority": "1"},
             {**BASIC, "front": "Q4", "tags": "one-tag"},
+            {**BASIC, "front": "Q4b", "tags": [123]},
+            {**BASIC, "front": "Q4c", "source_url": 42},
             {**BASIC, "front": "Q5", "key": "  "},
             {"type": "cloze", "text": None},
             {**BASIC, "front": "Q6", "section": "no-page"},
